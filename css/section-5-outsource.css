@@ -1,0 +1,69 @@
+.section-5-outsource .container{
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/4, max(10em, 100%/5))));
+}
+
+.container-outsource{
+    min-height: 22.5em;
+    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 37em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em;
+    color: white;
+    border-radius: var(--borderRadius);
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+.gradient{
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
+    background: -webkit-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
+    background: linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    border-radius: var(--borderRadius);
+}
+.container-outsource h3{
+    margin: 0;
+    font-weight:700 ;
+    z-index: 5;
+}
+.container-outsource p{
+    color: white;
+    font-weight: 700;
+    font-size: .8em;
+    z-index: 5;
+}
+.container-outsource .btn{
+    display: none;
+    z-index: 5;
+}
+.container-outsource:nth-child(1)::before{
+    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.png');
+}
+.container-outsource:nth-child(2){
+    background-image: url('../images/Marketing\ Associates.png');
+    background-position-x: -3em;
+}
+.container-outsource:nth-child(3){
+    background-image: url('../images/Executive\ Associates.png');
+}
+.container-outsource:nth-child(4){
+    background-image: url('../images/Inside\ Sales\ Associates.png');
+    background-position-x: -18em;
+}
+
+@media screen and (max-width:575px) {
+    .section-5-outsource .container {
+        grid-template-columns: repeat(auto-fit, minmax(0, min(100%/3, max(10em, 100%/5))));
+    }
+}

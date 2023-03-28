@@ -1,0 +1,33 @@
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.menu--items{
+    gap: 3em;
+}
+
+.menu--items > *{
+    font-weight: 700;
+
+}
+.menu--items .item a{
+    color: white;
+}
+.logo__container img{
+    max-width: 10em;
+
+}
+@media screen and (max-width:575px) {
+    header .container{
+        flex-direction: column;
+    }
+    .logo__container{
+        width: 40%;
+        margin: auto;
+    }
+    .menu__container{
+        display: none;
+    } 
+  
+}

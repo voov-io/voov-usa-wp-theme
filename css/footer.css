@@ -1,0 +1,67 @@
+footer{
+    background-color: var(--colorBlueDark );
+}
+footer .container{
+    background-color: var(--colorBlueDark );
+}
+
+footer > *, footer a{
+ color: white;
+}
+
+footer .logo{
+    width:11em;
+    margin-bottom: 2em;
+}
+
+.stiker-partner{
+    width: 4em;
+}
+
+.logos-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+}
+.info-container{
+    width: 75%;
+}
+.info{
+    grid-template-columns: repeat(auto-fill,minmax(10em,1fr));
+    grid-template-rows: 2fr;
+    justify-items: center;
+    gap: 1em;
+}
+
+.info .btn{
+    display: inline-block;
+    font-size: 0.83em;
+}
+
+.social-container{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.social-container a{
+    margin-left: 1em;
+}
+.copyright p{
+    text-align: center;
+    color: white;
+}
+
+.sub-footer-container ul li{
+    margin-bottom: .7em;
+}
+
+.sub-footer-container ul li a:hover{
+    color: var(--colorYellow);
+}
+@media screen and (max-width:575px) {
+
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

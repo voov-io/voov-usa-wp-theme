@@ -1,0 +1,113 @@
+main{
+
+    position: relative;
+    overflow: hidden;
+}
+main .container{
+   padding-top: 10em;
+   padding-bottom: 0;
+}
+
+.img-container{
+ position: relative;
+}
+.img-container img{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+main .container .copy-container{
+    margin-bottom: 5em;
+}
+main .container .copy-container p{
+    margin-bottom: 1em;
+    
+}
+main .container .copy-container .btn{
+    display: inline-block;
+}
+main .container .copy-container p{
+    margin-bottom: 1em;
+}
+
+main .circle{
+    position: absolute;
+    top: -14em;
+    right: -9em;
+    width: 50em;
+    height: 50em;
+}
+
+main .triangle{
+    position: absolute;
+    bottom: -15em;
+    left: -36.5em;
+    width: 40em;
+    height: 40em;
+    transform: rotate(330deg);
+    z-index: -1;
+}
+
+@media screen and (max-width:1025px) {
+    main .circle {
+
+        top: -20em;
+        right: -12em;
+        width: 47em;
+        height: 47em;
+    }
+    .service-container h2{
+        font-size: 1em;
+    }
+    .service-container p{
+        font-size: .7em;
+        
+    }
+}
+
+@media screen and (max-width:769px) {
+    main .circle {
+        top: -20em;
+        right: -17em;
+    }
+}
+
+@media screen and (max-width:575px) {
+    main .img-container {
+        width: 60%;
+    }
+    main .circle {
+        top: -37em;
+        right: -8em;
+    }
+    main .triangle {
+        left: -37.5em;
+    }
+    main .container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .copy-container{
+        width: 74%;
+    }
+    main .img-container {
+        width: 40%;
+        margin: 0 0 0 auto;
+    }
+}
+
+@media screen and (max-width:426px) {
+    
+    main .img-container img{
+        width: 100%;
+    }
+    main .circle {
+        right: -10em;
+    }
+}
+@media screen and (max-width:321px) {
+    main .circle {
+        right: -13em;
+    }
+}

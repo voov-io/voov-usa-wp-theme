@@ -1,0 +1,57 @@
+
+.section-4-WyVOOV{
+    position: relative;
+    overflow: hidden;
+
+}
+.section-4-WyVOOV .container{
+    grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+}
+.container-solution{
+    border-radius: var(--borderRadius);
+    border: 1px solid black;
+    padding: 1em;
+    min-height:15em;
+    background-color: white;
+    
+}
+
+.container-solution img{
+    width: 50px;
+}
+.container-solution:nth-child(1),.container-solution:nth-child(5){
+    box-shadow: 5px 4px 0px 1px var(--colorGreen);
+    -webkit-box-shadow: 5px 4px 0px 1px var(--colorGreen);
+    -moz-box-shadow: 5px 4px 0px 1px var(--colorGreen);
+}
+.container-solution:nth-child(2),.container-solution:nth-child(6){
+    box-shadow: 5px 4px 0px 1px var(--colorRed);
+    -webkit-box-shadow: 5px 4px 0px 1px var(--colorRed);
+    -moz-box-shadow: 5px 4px 0px 1px var(--colorRed);
+}
+.container-solution:nth-child(3),.container-solution:nth-child(7){
+    box-shadow: 5px 4px 0px 1px var(--colorBluesky);
+    -webkit-box-shadow: 5px 4px 0px 1px var(--colorBluesky);
+    -moz-box-shadow: 5px 4px 0px 1px var(--colorBluesky);
+}
+.container-solution:nth-child(4),.container-solution:nth-child(8){
+    box-shadow: 5px 4px 0px 1px var(--colorYellow);
+    -webkit-box-shadow: 5px 4px 0px 1px var(--colorYellow);
+    -moz-box-shadow: 5px 4px 0px 1px var(--colorYellow);
+}
+
+.section-4-WyVOOV .circle{
+    left: -15%;
+    top: 0;
+}
+.section-4-WyVOOV .triangle{
+    right: -18%;
+    bottom: -18%;
+    transform: rotate(102deg);
+}
+
+@media screen and (max-width:575px) {
+    .service-container{
+        min-width: 100%
+    }
+}

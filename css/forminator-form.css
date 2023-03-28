@@ -1,0 +1,43 @@
+form.forminator-ui{
+
+
+}
+.forminator-response-message.forminator-error{
+
+    background-color: var(--colorYellow);
+    border-radius: var(--borderRadius);
+    padding: 1em;
+
+}
+.forminator-response-message.forminator-show.forminator-success{
+
+    background-color: var(--colorGreen);
+    border-radius: var(--borderRadius);
+    padding: 1em;
+
+}
+
+form .forminator-field .forminator-label{
+    display: none!important;
+}
+
+form .forminator-field .forminator-input{
+    padding: 1em!important;
+    border-radius: 5em!important;
+    margin-left: .5em!important;
+    background-color: white!important;
+}
+
+/*submit button*/
+form .forminator-button-submit{
+    border-radius: var(--borderRadius)!important;
+    background-color: var(--colorRed)!important;
+    padding: 1em 3em!important;
+    font-size: 1em!important;
+    font-weight: 700!important;
+}
+
+.forminator-textarea{
+    border-radius: 15px!important;
+    background-color: white!important;
+}

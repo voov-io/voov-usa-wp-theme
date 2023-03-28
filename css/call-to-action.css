@@ -1,0 +1,43 @@
+.call-to-action{
+    background-image: url('../images/backgrouhnd-banner-cal-to-action.png');
+    min-height: 19em;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+}
+
+.call-to-action h2{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.call-to-action .btn{
+    
+    display: flex;
+    max-width: fit-content;
+    margin-bottom: 1em;
+
+}
+.call-to-action .copy-container p{
+    color:var(--colorRed);
+    font-weight: 700;
+    margin: 0;
+}
+.call-to-action .copy-container img{
+    
+    width: 20px;
+    margin-left: .5em;
+}
+.call-to-action  .img-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+.call-to-action  .img-container img{
+    
+    
+    max-width: 21em;
+    
+}

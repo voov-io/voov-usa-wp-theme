@@ -1,0 +1,19 @@
+.section-3-WeAreYourTrusted .copy-container{
+    width: 60%;
+}
+
+.section-3-WeAreYourTrusted .copy-container p{
+    padding: 3em 0;
+    margin: 0;
+    max-width: 60%;
+}
+
+@media screen and (max-width:575px) {
+    .section-3-WeAreYourTrusted .container{
+        flex-direction: column;
+    }
+    .section-3-WeAreYourTrusted .copy-container, .section-3-WeAreYourTrusted .copy-container p{
+        width: 100%;
+        max-width: 100%;
+    }
+}

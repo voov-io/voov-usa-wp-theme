@@ -1,0 +1,124 @@
+.section-6-How-To-VOOV-Up{
+    position: relative;
+    overflow: hidden;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+.section-6-How-To-VOOV-Up .container{
+    overflow: hidden;
+    grid-template-columns: 1fr .2fr 1fr ;
+    grid-template-rows: repeat(auto-fill);
+    grid-template-areas: ". flag1 child1"
+                         "child2 flag2 ."
+                         ". flag3 child3"
+                         "child4 flag4 .";
+
+                         place-items: center;
+    
+}
+
+.step{
+    max-width: 25em;
+    position: relative;
+}
+.step-copy{
+    padding: 1em;
+}
+.flag-container{
+    position: relative!important;
+    width:4em;
+    height: 30%;
+
+}
+.flag-container span{
+  width: 50px;
+  height: 50px;
+  padding: 1em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+.flag-container.one span{
+    background-color: var(--colorGreen);
+}
+.flag-container.two span{
+    background-color:var(--colorRed)
+}
+.flag-container.three span{
+    background-color:var(--colorBluesky)
+}
+.flag-container.four span{
+    background-color:var(--colorYellow)
+}
+.flag-container hr{
+    width: 20em;
+    transform: rotate(270deg);
+    height: 5px;
+    background: black;
+    border-radius: var(--borderRadius);
+    position: absolute;
+    left: -143px;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+
+}
+
+.step:nth-child(1){
+    grid-area: child1;
+}
+.step:nth-child(2){
+    grid-area: child2;
+
+    text-align: right;
+}
+.step:nth-child(3){
+    grid-area: child3;
+}
+.step:nth-child(4){
+    grid-area: child4;
+    text-align: right;
+}
+.flag-container.one{
+    grid-area:flag1;
+
+}
+
+.flag-container.two{
+    grid-area:flag2;
+
+}
+.flag-container.three{
+    grid-area:flag3;
+
+}
+.flag-container.four{
+    grid-area:flag4;
+
+}
+
+.section-6-How-To-VOOV-Up .triangle{
+    position: absolute;
+    bottom: -67px;
+    right: -22%;
+    transform: rotate(241deg);
+    z-index: -1;
+}
+
+.section-6-How-To-VOOV-Up .circle.red{
+    top: 0;
+    right: -8em;
+}
+
+.section-6-How-To-VOOV-Up .circle.BlueSky{
+    top: 40em;
+    left: -11em;
+}
