@@ -15,6 +15,9 @@
     
 
 }
+table{
+    table-layout: fixed;
+}
 ::-webkit-scrollbar {
     width: 17px;
     background:#dddddd;

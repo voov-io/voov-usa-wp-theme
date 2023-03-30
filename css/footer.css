@@ -28,9 +28,8 @@ footer .logo{
     width: 75%;
 }
 .info{
-    grid-template-columns: repeat(auto-fill,minmax(10em,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(11em,1fr));
     grid-template-rows: 2fr;
-    justify-items: center;
     gap: 1em;
 }
 
@@ -50,7 +49,9 @@ footer .logo{
     text-align: center;
     color: white;
 }
-
+.sub-footer-container ul{
+    padding-left: 0;
+}
 .sub-footer-container ul li{
     margin-bottom: .7em;
 }
@@ -63,5 +64,14 @@ footer .logo{
     footer .container{
         flex-direction: column;
         align-items: center;
+    }
+
+    .info{
+      text-align: center;
+    }
+    
+    .info .btn{
+        width: 100%;
+        text-align: center;
     }
 }

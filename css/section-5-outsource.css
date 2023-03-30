@@ -4,7 +4,7 @@
 
 .container-outsource{
     min-height: 22.5em;
-    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.png');
+    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.webp');
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: 37em;
@@ -48,17 +48,17 @@
     z-index: 5;
 }
 .container-outsource:nth-child(1)::before{
-    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.png');
+    background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.webp');
 }
 .container-outsource:nth-child(2){
-    background-image: url('../images/Marketing\ Associates.png');
+    background-image: url('../images/Marketing\ Associates.webp');
     background-position-x: -3em;
 }
 .container-outsource:nth-child(3){
-    background-image: url('../images/Executive\ Associates.png');
+    background-image: url('../images/Executive\ Associates.webp');
 }
 .container-outsource:nth-child(4){
-    background-image: url('../images/Inside\ Sales\ Associates.png');
+    background-image: url('../images/Inside\ Sales\ Associates.webp');
     background-position-x: -18em;
 }
 

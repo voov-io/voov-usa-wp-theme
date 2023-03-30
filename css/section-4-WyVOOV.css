@@ -13,6 +13,7 @@
     padding: 1em;
     min-height:15em;
     background-color: white;
+    min-width: -webkit-fill-available;
     
 }
 

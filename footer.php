@@ -9,10 +9,10 @@
     <div class="container flex space-between">
         <picture class="logos-container">
             <a href="<?php echo home_url();?>">
-                <img class="logo" src="<?php echo ImagesPath?>/VOOV-Logo-with-tag-line.png.png" alt="VOOV Logo">
+                <img class="logo" src="<?php echo ImagesPath?>/VOOV-Logo-with-tag-line.webp" alt="VOOV Logo">
             </a>
             <a  href="https://www.google.com/partners/agency?id=7817578565" target="_blank">
-                <img class="stiker-partner" src="<?php echo IconsPath?>/Google-Partner-VOOV-io.png"/>
+                <img class="stiker-partner" src="<?php echo IconsPath?>/Google-Partner-VOOV-io.webp"/>
             </a>
         </picture>
         <div class="info-container">
@@ -48,9 +48,9 @@
     </div>
     <div class="sub-footer container">
         <div class="social-container">
-           <a href="http://"><img class="icon" src="<?php echo IconsPath?>/Facebook icon.svg" alt="Facebook VOOV"></a>
-           <a href="http://"><img class="icon" src="<?php echo IconsPath?>/Instagram icon.svg" alt="Facebook VOOV"></a>
-           <a href="http://"><img  class="icon"src="<?php echo IconsPath?>/Youtube icon.svg" alt="Facebook VOOV"></a>
+           <a href="https://www.facebook.com/GotVoov/"><img class="icon" src="<?php echo IconsPath?>/Facebook icon.svg" alt="Facebook VOOV"></a>
+           <a href="https://www.instagram.com/voov_io/"><img class="icon" src="<?php echo IconsPath?>/Instagram icon.svg" alt="Facebook VOOV"></a>
+           <a href="https://www.instagram.com/voov_io/"><img  class="icon"src="<?php echo IconsPath?>/Youtube icon.svg" alt="Facebook VOOV"></a>
         </div>
         <hr>
         <div class="copyright">

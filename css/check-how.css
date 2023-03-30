@@ -1,0 +1,109 @@
+.check-how table{
+    table-layout: fixed;
+}
+.check-how .container{
+    overflow-x:auto
+
+}
+.head-container{
+    margin: 2.5em 0;
+}
+.dropdown-container{
+    cursor: pointer;
+}
+
+.dropdown-summary{
+    background-color: rgba(125,125,125, 5%);
+    border-radius: var(--borderRadius);
+    padding: 1em 0;
+    margin-bottom: 1em;
+    transition: height.5s ease
+}
+
+.dropdown-container table,.check-how table{
+    text-align: center;
+    width: 100%;
+    border-spacing: 0 ;
+}
+
+.dropdown-summary table th, .dropdown-info table td, .check-how .container table th{
+    width: 10%;
+    padding: 1em;
+}
+
+.dropdown-summary table th:first-child, .dropdown-info table tbody tr td:first-child, .check-how .container table th:nth-child(1){
+    width: 15%;
+}
+
+.dropdown-info{
+   
+    display: none;
+    transition: .5s ease; 
+}
+
+.dropdown-info.active{
+    display: block;
+}
+.dropdown-info.inactive{
+    display: none;
+}
+.dropdown-info table td{
+    border-bottom: 1px solid black;
+    
+}
+.dropdown-summary table th:first-child{
+
+    text-align: left;
+}
+
+ table tr td:last-child, .dropdown-summary table th:last-child{
+
+    color: var(--colorGreen);
+}
+
+.highlighter{
+    position: absolute;
+    width: 90%;
+    border: 4px solid var(--colorGreen);
+    height: 2050%;
+    right: 6%;
+    border-radius: var(--borderRadius);
+    max-height: 750%;
+    top: 0;
+}
+
+.highlighter.active{
+    max-height: 1650%;
+}
+.check-how .btn{
+    display: inline-block;
+    width: 35%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width:525px) {
+    .check-how{
+
+     overflow-x: scroll;
+    } 
+    .highlighter {
+        width: 112%;
+        max-height: 580%;
+        right: -6px;
+        
+    }
+    .check-how .btn{
+        width: 90%;
+    }
+
+    .highlighter.active{
+        max-height: 1500%;
+    }
+    .head-container, .dropdown-container{
+        width: 35em;
+
+    }
+    
+}
+

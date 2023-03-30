@@ -1,5 +1,5 @@
 .call-to-action{
-    background-image: url('../images/backgrouhnd-banner-cal-to-action.png');
+    background-image: url('../images/backgrouhnd-banner-cal-to-action.webp');
     min-height: 19em;
     box-sizing: border-box;
     position: relative;
@@ -40,4 +40,10 @@
     
     max-width: 21em;
     
+}
+
+@media screen and (max-width:575px) {
+    .call-to-action .copy-container{
+        width: 65%;
+    }
 }

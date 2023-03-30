@@ -16,12 +16,12 @@
     <?php wp_head(); ?> 
 </head>
 <body  <?php body_class();?>>
-     <header  <?php if(!is_front_page()):?> style="background-color:var(--colorBlueDark)" <?php endif?>>
+     <header   <?php if(!is_front_page()):?> style="background-color:var(--colorBlueDark)" <?php endif?>>
         <div class="container flex space-between">
             <a href="<?php echo home_url();?>">
                 <picture class="logo__container">
-                    <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/VOOVLogo.png">
-                    <img class="logo" src="<?php echo ImagesPath?>/VOOV_NIC_BRANDBOARD-04.png" alt="VOOV Logo">
+                    <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/VOOVLogo.webp">
+                    <img class="logo" src="<?php echo ImagesPath?>/VOOV_NIC_BRANDBOARD-04.webp" alt="VOOV Logo">
                 </picture>
             </a>
             <nav class="menu__container ">
