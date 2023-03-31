@@ -154,26 +154,26 @@
             <article class="container-outsource">
                 <h3>Marketing Fractional Services</h3>
                 <p>Optimize your marketing blueprint</p>
-                <a href="" class="btn BlueSky">More info.</a>
+                <a href="<?php echo home_url();?>/marketing-fractional-services" class="btn BlueSky">More info.</a>
                 <div class="gradient"></div>
             </article>
             <article class="container-outsource">
                 <h3>Marketing <br>Associates</h3>
                 <p>Take Your Real Estate Business To The Next Level!</p>
-                 <a href="" class="btn BlueSky">More info.</a>
+                 <a href="<?php echo home_url();?>/marketing-associates" class="btn BlueSky">More info.</a>
                  <div class="gradient"></div>
                 </article>
             <article class="container-outsource">
                 <h3>Executive <br>Associates</h3>
                 <p>Turn up the efficiency in your operation</p>
                 <div class="gradient"></div> 
-                <a href="" class="btn BlueSky">More info.</a>
+                <a href="<?php echo home_url();?>/executive-associates" class="btn BlueSky">More info.</a>
             </article>
             <article class="container-outsource">
                 <h3>Inside Sales <br>Associates</h3>
                 <p>Strategically build teams and leverage lead-generation</p>
                 <div class="gradient"></div> 
-                <a href="" class="btn BlueSky">More info.</a>
+                <a href="<?php echo home_url();?>/inside-sales-associates" class="btn BlueSky">More info.</a>
             </article>
         </div>
    </section>

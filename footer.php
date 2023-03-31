@@ -11,8 +11,8 @@
             <a href="<?php echo home_url();?>">
                 <img class="logo" src="<?php echo ImagesPath?>/VOOV-Logo-with-tag-line.webp" alt="VOOV Logo">
             </a>
-            <a  href="https://www.google.com/partners/agency?id=7817578565" target="_blank">
-                <img class="stiker-partner" src="<?php echo IconsPath?>/Google-Partner-VOOV-io.webp"/>
+            <a  href="https://www.google.com/partners/agency?id=7817578565" target="_blank" aria-label="Google partner badge" >
+                <img class="stiker-partner" src="<?php echo IconsPath?>/Google-Partner-VOOV-io.webp"  alt="Google partner badge"/>
             </a>
         </picture>
         <div class="info-container">

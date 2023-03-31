@@ -24,3 +24,17 @@ padding-top: 10em;
 .comment-author.vcard{
     width: 20px;
 }
+
+p.article-category a {
+    color: white;
+}
+
+@media screen and (max-width:540px) {
+    .indexpages .container{
+      flex-direction: column;   
+    }
+}
+
+.banner-principal{
+    padding-top: 10em;
+}

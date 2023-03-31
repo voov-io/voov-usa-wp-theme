@@ -16,7 +16,7 @@
 
        ?>
       <!-- Slider -->
-      <section class="banner-principal">
+      <section class="container banner-principal">
         <div class="banner" style="background-image: url('<?php echo $banner; ?>');"></div>
         <div class="overlay-banner"></div>
         <div class="texto-banner">
@@ -76,7 +76,7 @@
       </section> <!-- Slider -->
 
       <section class="blog">
-        <div class="contenedor">
+        <div class="container">
 
           <div class="listado-articulos">
                 <?php if (have_posts() ): while (have_posts()): the_post();?>

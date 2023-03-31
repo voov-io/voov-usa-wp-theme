@@ -1,0 +1,137 @@
+.page-services{
+    /*background-color: #EFEFEF;*/
+    position: relative;
+    overflow: hidden;
+}
+.page-services .container{
+    padding-bottom: 0;
+}
+.copy-head h1{
+    margin-bottom: 0;
+}
+.copy-head > *{
+    text-align: center;
+}
+.copy-head .btn{
+    margin: 0 auto;
+}
+
+.page-services .circle.BlueSky.big{
+    width: 40em;
+    height: 40em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+.page-services .circle.BlueSky{
+    bottom: 10%;
+    right: 10%;
+    width: 10em;
+    height: 10em;
+}
+
+.page-services .circle.red{
+    top: 30%;
+    left: 20%;
+    width: 5em;
+    height: 5em;
+}
+/* about services
+*/
+
+.about-service{
+    background-color: var(--colorGreen);
+}
+
+.about-service > *, .about-service p,.about-service h2{
+    color: white;
+}
+.about-service .container-copy, .about-service .container-img
+.call-to-action-v2 .container-copy, .call-to-action-v2 .container-img
+{
+    width: 40%;
+}
+.about-service  .container.grid{
+    grid-template-columns: repeat(auto-fill, minmax(15%,1fr ));
+
+}
+.sub-container-services, .about-service h3{
+    text-align: center;
+}
+.container-icon{
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    background: white;
+    padding: 1.5em;
+}
+
+.call-to-action-v2 .container{
+    place-items: center;
+}
+
+.call-to-action-v2 h2 {
+    font-size: 1.5em;
+    color: var(--colorlightGrey);
+    margin-bottom:2.5em;
+    text-align: right;
+}
+
+.call-to-action-v2 .btn {
+    display: inline-block;
+}
+
+.btn-container{
+    justify-content: end;   
+}
+.contact-us {
+    background-color: var(--colorBluesky);
+    color: white;
+}
+.contact-us .container-copy{
+    width: 60%;
+}
+.contact-us .container-copy p{
+    color: white;
+
+}
+.contact-us .container-img{
+    width: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.container-img .circle.green{
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: 0;
+}
+
+.container-img .circle.yellow{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+}
+
+#contact-us{
+    width: 75%;
+}
+#contact-us input,#contact-us textarea, ::placeholder,.forminator-checkbox-label{
+    background-color: transparent!important;
+    border-color: white!important;
+    color:white!important
+}
+
+#contact-us .forminator-ui#forminator-module-116.forminator-design--default .forminator-label{
+    display: block!important;
+    color: white;
+    margin-left: .5em;
+    font-size: 1.1em;
+}

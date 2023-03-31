@@ -48,6 +48,10 @@ table{
 
     justify-content: space-between;
 }
+.flex.space-around{
+
+    justify-content: space-around;
+}
 .flex.center{
 
     justify-content: center;
@@ -74,6 +78,7 @@ table{
     border-radius: var(--borderRadius);
     color: white;
     font-weight: 700;
+    transition: .5s all ease-in-out;
     
 }
 
@@ -107,6 +112,9 @@ h1,.title{
     font-weight: 700;
     color: black;
 }
+.title.white{
+    color: white;
+}
 .title.center{
     text-align: center;
 }
@@ -137,16 +145,30 @@ p{
     border-radius: 50%;
     position: absolute;
     z-index: -1;
+    animation: floting 5s alternate  infinite;
 }
 .circle.red{
     
     background-color: var(--colorRed); 
 }
-.circle.BlueSky{
+
+.circle.green{
     
-    background-color: var(--colorBluesky); 
+    background-color: var(--colorGreen); 
 }
 
+.circle.yellow{
+    
+    background-color: var(--colorYellow);
+}
+.circle.BlueSky{
+    
+    background-color: var(--colorBluesky);
+}
+.circle.big{
+    width: 50em;
+    height: 50em;
+}
 .triangle{
     width: 0;
     height: 0;
@@ -154,6 +176,7 @@ p{
     border-width: 13em 20em 13em 0;
     position: absolute;
     z-index: -1;
+    animation: rotate 30s alternate  infinite;
 }
 
 .triangle.green{
@@ -185,7 +208,30 @@ p{
         height: 12em;
     }
 }
+/*animations*/
 
-@media screen and (max-width:575px){
-  
+.btn:hover{
+    transform: scale(1.1);
 }
+
+@keyframes rotate {
+    form{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+@keyframes floting {
+    0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(25px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+

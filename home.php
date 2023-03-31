@@ -6,10 +6,8 @@
 ?>
 <?php get_header(); ?>
 <section class="indexpages">
+  <h1 class="container">Blog posts</h1>
   <div class="container flex center">
-    
-    
-    <h1>Blog posts</h1>
         <?php if (have_posts() ): while (have_posts()): the_post();?>
 
           <article <?php post_class ('article'); ?> id="post-<?php the_ID();?>">

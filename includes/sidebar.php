@@ -18,7 +18,7 @@ function companyname_sidebar(){
     'after_title'   => '</h3>'
     ));
     register_sidebar(array(
-        'name'          => __( 'Widget de contacto', 'slan' ),
+        'name'          => __( 'Widget de lead', 'slan' ),
           'id'            => 'contact-widget',    // ID should be LOWERCASE  ! ! !
           'description'   => __('   This is the widget in the homepage form','slan'),
           'class'         => '',
@@ -37,7 +37,17 @@ function companyname_sidebar(){
           'after_widget'  => '',
           'before_title'  => '',
           'after_title'   => ''
-      ));      
+      )); 
+      register_sidebar(array(
+        'name'          => __( 'Widget de contacto', 'slan' ),
+          'id'            => 'contact-lead-widget',    // ID should be LOWERCASE  ! ! !
+          'description'   => __('   This is the widget in landingpages form','slan'),
+          'class'         => '',
+          'before_widget' => '',
+          'after_widget'  => '',
+          'before_title'  => '',
+          'after_title'   => ''
+      ));   
 
 }
 

@@ -33,7 +33,9 @@
 
 .dropdown-summary table th:first-child, .dropdown-info table tbody tr td:first-child, .check-how .container table th:nth-child(1){
     width: 15%;
+    text-align: left;
 }
+
 
 .dropdown-info{
    
