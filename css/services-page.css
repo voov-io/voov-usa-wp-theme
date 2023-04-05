@@ -85,6 +85,7 @@
     display: flex;
     overflow-x: auto;
     gap: 2em;
+    justify-content: flex-start;
 
 }
 .sub-container-services{
@@ -203,11 +204,8 @@
     left: 0;
     z-index: 5;
 }
-@media screen and (max-width:769px) {
-    .sub-container-services:first-child {
-        margin-left: 30%;
-    }
-}
+
+
 
 @media screen and (max-width:600px) {
     .about-service .container:first-child, .call-to-action-v2 .container, .contact-us .container {
@@ -220,21 +218,15 @@
     .container-copy .btn-container {
         justify-content: center;
     }
-    .sub-container-services:first-child {
-        margin-left: 85%;
-    }
+
 
 }
 
-@media screen and (max-width: 529px){
-    .sub-container-services:first-child {
-        margin-left: 170%;
-    }
-    
+
+
+#btn-readmore{
+    display: none;
 }
-@media screen and (max-width: 320px){
-    .sub-container-services:first-child {
-        margin-left: 230%;
-    }
-    
+#btn-readmore.active{
+    display: inline-block;
 }

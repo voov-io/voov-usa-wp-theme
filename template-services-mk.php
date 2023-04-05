@@ -1,5 +1,5 @@
 <?php
-/*Template name: Services page
+/*Template name: Services page MK
 
 
 @package voovusa
@@ -12,9 +12,9 @@
 <section class="page-services">
     <div class="container">
         <div class="copy-head grid center">
-            <h1 class="title center">MARKETING FRACTIONAL SERVICES</h1>
-            <p class="center">Try our Quick & Cost-Effective Marketing Solutions for Specific Goals.</p>
-            <a href="#contact-us" class="btn Red">LETS CONNECT</a>
+            <h1 class="title center">MARKETING VIRTUAL ASSOCIATE</h1>
+            <p class="center">Reach your Business Goals by Developing a Strategic Marketing Plan that meets your needs, budget and timeline </p>
+            <a href="#contact-us" class="btn Red">START NOW </a>
                 <img class="center" src="<?php echo ImagesPath?>/profesional-marketing-virtual-assiate.png" alt="Marketing virtaul associate guy">
         </div>
     </div>
@@ -25,9 +25,11 @@
 <section class="about-service">
     <div class="container flex space-between">
         <div class="container-copy">
-            <h2 class="title">Solve your Marketing Tasks Quickly with Our Specialized Short-term Services</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+            <h2 class="title">Maximize Your Business Potential with Our Expert Marketing Solutions</h2>
+            <p id="paragraph1">Optimize your marketing plan with PPC campaigns, email systems, SEO strategies, and web development solutions.</p>
+            <p id="paragraph2"></p>
+            <br>
+            <a id="btn-readmore" href="https://voov.io/fractional-marketing-solutions/" class="btn Red btn-read-more">Learn more</a>
         </div>
         <div class="container-img">
             <picture>
@@ -38,51 +40,42 @@
     <h3 class="center">Explore Our Smart Marketing Solutions</h3>
     <div class="container grid center">
         <div class="sub-container-services ">
-            <div  id="socialMedia" class="overlay"></div>
+            <div  id="fractional" class="overlay"></div>
             <picture class="container-icon">
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Social Media<br> Posting</h4>
+            <h4>Fractional <br>Services</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="seo" class="overlay"></div>
+            <div  id="social-media-management" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Search Engine Optimization (SEO).svg" alt="icon social media posting">
             </picture>
-            <h4>Search Engine<br> Optimization (SEO)</h4>
+            <h4>Social Media <br>Management</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="ppc" class="overlay"></div>
+            <div  id="mk-cordination" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Pay per click (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>PPC <br>(Pay per click)</h4>
+            <h4>Marketing  <br>Coordination</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="sem" class="overlay"></div>
+            <div  id="copywriting" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Search Engine <br>Marketing (SEM)</h4>
+            <h4>Copywriting</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="videoeditor" class="overlay"></div>
+            <div  id="GraphicDesign" class="overlay"></div>
             <picture class="container-icon">
-
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Video <br>Editor</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="mkcordinator" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Marketing <br>Coordinator</h4>
+            <h4>Graphic<br> Design</h4>
         </div>
     </div>
 </section>
@@ -107,7 +100,7 @@
     <div class="container flex center">
         <div class="container-copy">
             <h2 class="title white">LET'S CONNECT</h2>
-            <p>Elevate your Success with Our Marketing fractional services</p>
+            <p>Elevate your Success with Our marketing Virtual Associate</p>
             <div id="contact-us">
             <?php if(is_active_sidebar('contact-lead-widget'))
                     

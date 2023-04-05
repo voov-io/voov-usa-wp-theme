@@ -1,5 +1,5 @@
 <?php
-/*Template name: Services page
+/*Template name: Services page Excecute VA
 
 
 @package voovusa
@@ -9,12 +9,13 @@
 
 ?>
 <?php get_header();?>
+
 <section class="page-services">
     <div class="container">
         <div class="copy-head grid center">
-            <h1 class="title center">MARKETING FRACTIONAL SERVICES</h1>
-            <p class="center">Try our Quick & Cost-Effective Marketing Solutions for Specific Goals.</p>
-            <a href="#contact-us" class="btn Red">LETS CONNECT</a>
+            <h1 class="title center">EXECUTIVE VIRTUAL ASSOCIATE</h1>
+            <p class="center">Delegate Essential Executive & Financial Tasks to Maximize your Productivity</p>
+            <a href="#contact-us" class="btn Red">START NOW </a>
                 <img class="center" src="<?php echo ImagesPath?>/profesional-marketing-virtual-assiate.png" alt="Marketing virtaul associate guy">
         </div>
     </div>
@@ -25,9 +26,9 @@
 <section class="about-service">
     <div class="container flex space-between">
         <div class="container-copy">
-            <h2 class="title">Solve your Marketing Tasks Quickly with Our Specialized Short-term Services</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+            <h2 class="title">Optimize your Administrative Duties With Our Specialized Associates</h2>
+            <p id="paragraph1">Solve regular duties like scheduling, reviewing, prioritizing, and answering emails, placing follow-up calls, and organizing documents.</p>
+            <p id="paragraph2">Get a full-time Executive Associate to maximize your time and attend to your daily tasks efficiently. </p>
         </div>
         <div class="container-img">
             <picture>
@@ -35,54 +36,80 @@
             </picture>
         </div>
     </div>
-    <h3 class="center">Explore Our Smart Marketing Solutions</h3>
+    <h3 class="center">Guarantee Your Productivity With Our Specialized Executives Services</h3>
     <div class="container grid center">
         <div class="sub-container-services ">
-            <div  id="socialMedia" class="overlay"></div>
+            <div  id="ExecutiveAssociate" class="overlay"></div>
             <picture class="container-icon">
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Social Media<br> Posting</h4>
+            <h4>Executive<br> Associate</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="seo" class="overlay"></div>
+            <div  id="DataAnalyst" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Search Engine Optimization (SEO).svg" alt="icon social media posting">
             </picture>
-            <h4>Search Engine<br> Optimization (SEO)</h4>
+            <h4>Data<br>Analyst</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="ppc" class="overlay"></div>
+            <div  id="TransactionCoordinator" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Pay per click (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>PPC <br>(Pay per click)</h4>
+            <h4>Transaction<br>Coordinator</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="sem" class="overlay"></div>
+            <div  id="ProjectManager" class="overlay"></div>
             <picture class="container-icon">
 
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Search Engine <br>Marketing (SEM)</h4>
+            <h4>Project Manager</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="videoeditor" class="overlay"></div>
+            <div  id="Bookkeeper" class="overlay"></div>
             <picture class="container-icon">
-
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Video <br>Editor</h4>
+            <h4>Bookkeeper</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="mkcordinator" class="overlay"></div>
+            <div  id="OperationsManager" class="overlay"></div>
             <picture class="container-icon">
-
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
-            <h4>Marketing <br>Coordinator</h4>
+            <h4>Operations<br> Manager</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="PropertyManagementAssociate" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+            </picture>
+            <h4>Property Management <br>Associate</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="LeasingSpecialist" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+            </picture>
+            <h4>Leasing <br>Specialist</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="MaintenanceCoordinator" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+            </picture>
+            <h4>Maintenance <br>Coordinator</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="Bookkeeper" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+            </picture>
+            <h4>Lead <br>Manager</h4>
         </div>
     </div>
 </section>
@@ -107,7 +134,7 @@
     <div class="container flex center">
         <div class="container-copy">
             <h2 class="title white">LET'S CONNECT</h2>
-            <p>Elevate your Success with Our Marketing fractional services</p>
+            <p>Elevate your Success with Our marketing Virtual Associate</p>
             <div id="contact-us">
             <?php if(is_active_sidebar('contact-lead-widget'))
                     
