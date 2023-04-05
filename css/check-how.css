@@ -1,10 +1,7 @@
 .check-how table{
     table-layout: fixed;
 }
-.check-how .container{
-    overflow-x:auto
 
-}
 .head-container{
     margin: 2.5em 0;
 }
@@ -102,7 +99,7 @@
     .highlighter.active{
         max-height: 1500%;
     }
-    .head-container, .dropdown-container{
+    .check-how .head-container, .dropdown-container{
         width: 35em;
 
     }

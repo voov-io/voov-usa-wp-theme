@@ -145,25 +145,29 @@ p{
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    animation: floting 5s alternate  infinite;
+    animation: floating 10s alternate-reverse  infinite;
 }
 .circle.red{
     
-    background-color: var(--colorRed); 
+    background-color: var(--colorRed);
+    animation: floating 5s alternate  infinite;
 }
 
 .circle.green{
     
-    background-color: var(--colorGreen); 
+    background-color: var(--colorGreen);
+    animation: floating 5s alternate  infinite;
 }
 
 .circle.yellow{
     
     background-color: var(--colorYellow);
+    animation: floating 7s alternate  infinite;
 }
 .circle.BlueSky{
     
     background-color: var(--colorBluesky);
+    animation: floating 9s alternate  infinite;
 }
 .circle.big{
     width: 50em;
@@ -223,15 +227,16 @@ p{
     }
 }
 
-@keyframes floting {
+@keyframes floating {
     0% {
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(25px);
+		transform: translatey(clamp(100px, 20px, 50px));
 	}
 	100% {
 		transform: translatey(0px);
 	}
 }
 
+ 

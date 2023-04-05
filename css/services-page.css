@@ -44,20 +44,62 @@
     background-color: var(--colorGreen);
 }
 
+.about-service .container-copy h2{
+   margin-top: 0;
+}
+
 .about-service > *, .about-service p,.about-service h2{
     color: white;
 }
 .about-service .container-copy, .about-service .container-img
 .call-to-action-v2 .container-copy, .call-to-action-v2 .container-img
-{
+{   
+    position: relative!important;
     width: 40%;
 }
-.about-service  .container.grid{
-    grid-template-columns: repeat(auto-fill, minmax(15%,1fr ));
+.call-to-action-v2 .container-copy{
+    position: relative!important;
+}
+.call-to-action-v2 .container-copy .circle.green{
+    width: 3em!important;
+    height: 3em;
+    left: 0;
+    bottom: 0;
+    
+}
 
+.call-to-action-v2 .container .container-img .circle.red{
+    width: 3em;
+    height: 3em;
+    bottom: 15%;
+    left: 8%;
+    z-index: 2;
+}
+.call-to-action-v2 .container .container-img .circle.BlueSky{
+    width: 3em!important;
+    height: 3em;
+    right: 0;
+    bottom: 0;
+}
+.about-service  .container.grid{
+    display: flex;
+    overflow-x: auto;
+    gap: 2em;
+
+}
+.sub-container-services{
+
+    min-height: 14em;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+}
+.sub-container-services:hover{
+    transform: scale(1.1);
 }
 .sub-container-services, .about-service h3{
     text-align: center;
+
 }
 .container-icon{
     display: inline-block;
@@ -126,7 +168,7 @@
 #contact-us input,#contact-us textarea, ::placeholder,.forminator-checkbox-label{
     background-color: transparent!important;
     border-color: white!important;
-    color:white!important
+    
 }
 
 #contact-us .forminator-ui#forminator-module-116.forminator-design--default .forminator-label{
@@ -134,4 +176,65 @@
     color: white;
     margin-left: .5em;
     font-size: 1.1em;
+}
+
+#contact-us .forminator-checkbox-label{
+    color: white!important;
+}
+
+.about-service .container-copy{
+    width: 55%;
+}
+.about-service .container-img{
+    width: 40%;
+}
+
+.sub-container-services h4{
+    max-height: max-content;
+}
+.sub-container-services{
+  position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+@media screen and (max-width:769px) {
+    .sub-container-services:first-child {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-service .container:first-child, .call-to-action-v2 .container, .contact-us .container {
+        flex-direction: column;
+    }
+
+    .about-service .container-copy, .about-service .container-img,.call-to-action-v2 .container-img,.contact-us .container-copy, .contact-us .container-img {
+        width: 100%;
+    }
+    .container-copy .btn-container {
+        justify-content: center;
+    }
+    .sub-container-services:first-child {
+        margin-left: 85%;
+    }
+
+}
+
+@media screen and (max-width: 529px){
+    .sub-container-services:first-child {
+        margin-left: 170%;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .sub-container-services:first-child {
+        margin-left: 230%;
+    }
+    
 }

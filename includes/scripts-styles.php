@@ -28,10 +28,18 @@ add_action('wp_enqueue_scripts','voovusa_theme_styles');
 
 function voovusa_theme_scripts(){
 
-  wp_register_script('code-scripts',themepath.'/js/homepage.js',array('jquery'),'1.5.1',true);
 
+  if(is_page_template( 'template-services.php')):
+    wp_register_script('services',themepath.'/js/services.js',array('jquery'),'1.5.1',true);
+    wp_enqueue_script('services');
+  endif;
+  if(is_front_page()):
+    wp_register_script('homepage',themepath.'/js/homepage.js',array('jquery'),'1.5.1',true);
+    wp_enqueue_script('homepage');
+  endif;
   //Loading scripts
-  wp_enqueue_script('code-scripts');
+  wp_register_script('mobile-menu',themepath.'/js/mobile-menu.js',array('jquery'),'1.5.1',true);
+  wp_enqueue_script('mobile-menu');
   }
 
   add_action('wp_enqueue_scripts','voovusa_theme_scripts');

@@ -17,7 +17,7 @@
                     ?>
             </div>
             <picture class="img-container">
-                <img src="<?php echo ImagesPath?>/Kris Weaver FC NEW 2022 1 (1).webp" alt="">
+                <img  width="640" height="360" src="<?php echo ImagesPath?>/Kris Weaver FC NEW 2022 1 (1).webp" alt="">
             </picture>
         </div>
         <div class="circle BlueSky"></div>
@@ -26,23 +26,31 @@
    <section class="services">
     <div class="container grid center">
         <article class="service-container">
-            <h2>Fractional Marketing <br>Solutions</h2>
-                <p>PPC, SEO, Photo Edition & More</p>
+            <a href="<?php echo home_url();?>/fractional-marketing-solutions/">
+                <h2>Fractional Marketing <br>Solutions</h2>
+                    <p>PPC, SEO, Photo Edition & More</p>
+            </a>
         </article>
         <article class="service-container">
+            <a href="<?php echo home_url();?>/marketing-sspecialist/">
             <h2>Marketing<br>
                 Specialists</h2>
                 <p>Increase Your Brand Awareness</p>
+                 </a>
         </article>
         <article class="service-container">
+            <a href="<?php echo home_url();?>/executive-associates/">
             <h2>Executive <br>
                 Associates</h2>
                 <p>Benefits from Increased Productivity</p>
+                 </a>
         </article>
         <article class="service-container">
+            <a href="<?php echo home_url();?>/inside-sales-services/">
             <h2>Inside Sales<br>
                 Services</h2>
                 <p>Maximize Your Monthly Leads & Sales</p>
+                 </a>
         </article>
     </div>
    </section>
@@ -54,7 +62,7 @@
             <div class="info-container flex">
                 
                 <div class="start-container">
-                    <p>Jeremy Callahan.</p>
+                    <p>Callahan Real Estate Group - Jeremy Callahan</p>
                     <span>★ ★ ★ ★ ★</span>
                 </div>
             </div>
@@ -63,7 +71,7 @@
             <h3><strong>VOOV is our first experience with Virtual Assistance, and it's been fantastic! I feel like they took a lot of time and effort in terms of finding the right match for us. Our Virtual Executive is just part of the team, she works effectively, and even if it´s virtual I feel like she is next to me!</strong></h3>
             <div class="info-container flex">
                 <div class="start-container">
-                    <p>Darcie Burnett</p>
+                    <p>Carolina Realty - Darcie Burnett</p>
                     <span>★ ★ ★ ★ ★</span>
                 </div>
             </div>
@@ -72,7 +80,7 @@
             <h3><strong>The VOOV Executive is our Zillow Flex Manager and is the person in charge of creating Excel reports for agent metrics. He plays a critical role in ensuring the success of our team, and not only that but the performance of our team</strong></h3>
             <div class="info-container flex">
                 <div class="start-container">
-                    <p>Lily Moore Realty</p>
+                    <p>Lily Moore Realty - Skyler Forbus </p>
                     <span>★ ★ ★ ★ ★</span>
                 </div>
             </div>
@@ -84,49 +92,49 @@
         <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
         <div class="container grid center">
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Idea.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Idea.webp" alt="">
                 <h3>Expertise</h3>
                 <p>We have a combined 35 years of experience in the real estate market.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Place.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Place.webp" alt="">
                 <h3>Well-located</h3>
                 <p>Convenient support during North American business hours with a location in Nicaragua.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Building.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Building.webp" alt="">
                 <h3>Work On-site</h3>
                 <p>On-site management and supervision for virtual associates to ensure efficient performance.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Communication.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Communication.webp" alt="">
                 <h3>Great English Pronunciation</h3>
                 <p>Great English pronunciation for effective communication with clients and customers.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Energy.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Energy.webp" alt="">
                 <h3>Electricity Backup</h3>
                 <p>Reliable electricity backup for seamless work.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Cyber security.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Cyber security.webp" alt="">
                 <h3>Cyber Security Insurance</h3>
                 <p>Cyber security insurance to safeguard against potential risks.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Wifi.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Wifi.webp" alt="">
                 <h3>Good Internet Connection</h3>
                 <p>VOOV's virtual associates have access to a strong and reliable internet connection.
                 </p>
             </article>
             <article class="container-solution">
-                <img src="<?php echo IconsPath?>/Presentation.webp" alt="">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Presentation.webp" alt="">
                 <h3>Trained Associates</h3>
                 <p>Comprehensive training provided to virtual associates for exceptional service.
                 </p>
@@ -144,32 +152,32 @@
        </div>
        <picture class="img-container-sect-3">
            <source media="(min-width:650px)" srcset="" sizes="">
-           <img src="<?php echo ImagesPath?>/img- we are your trusted.webp" alt="young profesional women ">
+           <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/img- we are your trusted.webp" alt="young profesional women ">
        </picture>
    </div>
   </section> 
    <section class="section-5-outsource">
        <h2 class="title center">What can you outsource to VOOV?</h2>
         <div class="container grid center">
-            <article class="container-outsource">
+            <article loading="lazy" class="container-outsource">
                 <h3>Marketing Fractional Services</h3>
                 <p>Optimize your marketing blueprint</p>
                 <a href="<?php echo home_url();?>/marketing-fractional-services" class="btn BlueSky">More info.</a>
                 <div class="gradient"></div>
             </article>
-            <article class="container-outsource">
+            <article  loading="lazy" class="container-outsource">
                 <h3>Marketing <br>Associates</h3>
                 <p>Take Your Real Estate Business To The Next Level!</p>
                  <a href="<?php echo home_url();?>/marketing-associates" class="btn BlueSky">More info.</a>
                  <div class="gradient"></div>
                 </article>
-            <article class="container-outsource">
+            <article  loading="lazy" class="container-outsource">
                 <h3>Executive <br>Associates</h3>
                 <p>Turn up the efficiency in your operation</p>
                 <div class="gradient"></div> 
                 <a href="<?php echo home_url();?>/executive-associates" class="btn BlueSky">More info.</a>
             </article>
-            <article class="container-outsource">
+            <article  loading="lazy" class="container-outsource">
                 <h3>Inside Sales <br>Associates</h3>
                 <p>Strategically build teams and leverage lead-generation</p>
                 <div class="gradient"></div> 
@@ -234,10 +242,10 @@
                 <h2>Take Your Real Estate<br> Business To The Next<br> Level!</h2>
                 <a href="#letsconnect" class="btn White">
                     <p>Get Started </p>
-                    <img src="<?php echo IconsPath?>/Arrow 3.svg" alt=""></a>
+                    <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt=""></a>
             </div>
             <picture class="img-container">
-                <img src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="">
+                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="">
             </picture>
         </div>
    </section>
@@ -256,33 +264,33 @@
                 </tr>
                 <tr>
                     <td class="align-left">Specialized in the real estate industry</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
                 <tr>
                     <td class="align-left">Americas-based able to support during North American business hours</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
                 <tr>
                     <td class="align-left">On-site administration and supervision for efficiency</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
                 <tr>
                     <td class="align-left">Cybersecurity insurance</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
                 <tr>
                     <td class="align-left">Strong and reliable internet connection</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
                 <tr>
                     <td class="align-left">Trained associates</td>
-                    <td><img class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
                 </tr>
             
             </table>

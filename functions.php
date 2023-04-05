@@ -6,6 +6,8 @@
 @subpackage packageName
 @since 1.0
 */
+
+
 /** Funtion to get get root URL  */
 define('themepath', get_stylesheet_directory_uri() );
 
@@ -31,4 +33,6 @@ require_once('includes/menus.php');
 add_theme_support('post-thumbnails');
 
 //Defining custon fuction
+
+
 

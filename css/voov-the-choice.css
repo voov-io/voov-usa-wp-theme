@@ -40,9 +40,38 @@
 .voov-the-choice table tr:nth-child(even) {
     background-color:rgba(125, 125, 125, 0.05);
 }
+.voov-the-choice .container .head-container h2{
+    width: 70%;
 
-@media screen and (max-width:575px) {
-    .voov-the-choice{
-        overflow-x: scroll;
+}
+.voov-the-choice .container .head-container p{
+    width:60%;
+
+}
+@media screen and (max-width:500px) {
+    .voov-the-choice .head-container{
+        flex-direction: column;
+    }
+    .voov-the-choice .container .head-container h2{
+        width: 100%;
+    
+    }
+    .voov-the-choice .container .head-container p{
+        width:100%;
+    
+    }
+    .voov-the-choice table th:last-child{
+        font-size: .7em;
+    }
+    .voov-the-choice table th:nth-child(2), .voov-the-choice table th:nth-child(3){
+        width: 30%;
+    }
+    .voov-the-choice table .align-left {
+        padding: 0;
+    }
+    .voov-the-choice table th:nth-child(2){
+        background-color: var(--colorBlueDark);
+        background-image: url('../favicon.png');
+        background-size: contain;
     }
 }

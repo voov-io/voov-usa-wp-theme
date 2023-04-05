@@ -18,18 +18,43 @@ header{
     max-width: 10em;
 
 }
+@media screen and (max-width:806px) {
+
+.menu--items{
+  display: none;
+  position: absolute;
+  flex-direction: column-reverse;
+  top: 25px;
+  right: 0;
+  width: max-content;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -6px 4px 86px -7px rgba(206,206,206,0.75);
+  -webkit-box-shadow: -6px 4px 86px -7px rgba(206,206,206,0.75);
+  -moz-box-shadow: -6px 4px 86px -7px rgba(206,206,206,0.75);
+  z-index: 5;
+  padding: 2em;
+  justify-content: start;
+  border-radius: var(--borderRadius);
+}
+.menu__container{
+  position: relative;
+}
+.menu--items.active{
+  display: flex;
+}
+}
 @media screen and (max-width:575px) {
-    header .container{
-        flex-direction: column;
-    }
+
     .logo__container{
         width: 40%;
         margin: auto;
     }
-    .menu__container{
-        display: none;
-    } 
-  
+     
+    header .item a{
+      color: var(--colorBlueDark)!important;
+
+    }
 }
 /* animations
 */
@@ -43,8 +68,8 @@ header .item {
     background:
       linear-gradient(
         to right,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0)
+        rgba(230, 226, 2, 0),
+        rgba(231, 228, 5, 0)
       ),
       linear-gradient(
         to right,

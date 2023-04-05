@@ -1,5 +1,5 @@
 .section-5-outsource .container{
-    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/4, max(10em, 100%/5))));
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/4, max(15em, 100%/5))));
 }
 
 .container-outsource{
