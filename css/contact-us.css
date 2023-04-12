@@ -1,0 +1,11 @@
+#contact-us > *,#contact-us ::placeholder {
+    color:white!important;
+}
+
+#contact-us .forminator-ui#forminator-module-116.forminator-design--default .forminator-label{
+    display: block!important;
+    color: white!important;
+    margin-left: .5em!important;
+    font-size: 1.1em!important;
+}
+

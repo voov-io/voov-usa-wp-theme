@@ -47,7 +47,17 @@ function companyname_sidebar(){
           'after_widget'  => '',
           'before_title'  => '',
           'after_title'   => ''
-      ));   
+      ));
+      register_sidebar(array(
+        'name'          => __( 'Widget de contacto home page', 'slan' ),
+          'id'            => 'contact-lead-home-widget',    // ID should be LOWERCASE  ! ! !
+          'description'   => __('   This is the widget in homegpage form','slan'),
+          'class'         => '',
+          'before_widget' => '',
+          'after_widget'  => '',
+          'before_title'  => '',
+          'after_title'   => ''
+      )); 
 
 }
 

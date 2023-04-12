@@ -50,7 +50,7 @@
         <div class="social-container">
            <a href="https://www.facebook.com/GotVoov/"><img loading="lazy" width="35" height="35"  class="icon" src="<?php echo IconsPath?>/Facebook icon.svg" alt="Facebook VOOV"></a>
            <a href="https://www.instagram.com/voov_io/"><img loading="lazy" width="35" height="35" class="icon" src="<?php echo IconsPath?>/Instagram icon.svg" alt="Facebook VOOV"></a>
-           <a href="https://www.instagram.com/voov_io/"><img loading="lazy" width="35" height="35"  class="icon"src="<?php echo IconsPath?>/Youtube icon.svg" alt="Facebook VOOV"></a>
+           <a href="https://www.youtube.com/@VOOV_io"><img loading="lazy" width="35" height="35"  class="icon"src="<?php echo IconsPath?>/Youtube icon.svg" alt="Facebook VOOV"></a>
         </div>
         <hr>
         <div class="copyright">

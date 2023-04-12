@@ -29,7 +29,7 @@ add_action('wp_enqueue_scripts','voovusa_theme_styles');
 function voovusa_theme_scripts(){
 
 
-  if(is_page_template( 'template-services.php') || is_page_template( 'template-services-mk.php')|| is_page_template( 'template-services-excecute-va.php')):
+  if(is_page_template( 'template-services.php') || is_page_template( 'template-services-mk.php')|| is_page_template( 'template-services-excecute-va.php')|| is_page_template( 'template-services-inside-sales-associates.php')):
     wp_register_script('services',themepath.'/js/services.js',array('jquery'),'1.5.1',true);
     wp_enqueue_script('services');
   endif;

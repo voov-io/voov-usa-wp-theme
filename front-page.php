@@ -10,14 +10,19 @@
             <div  class="copy-container">
                 <h1>REAL ESTATE<br>
                     STAFFING SOLUTIONS</h1>
-                <p>Elevate your Success with Our Innovative, Industry-Focused Staffing Solutions.</p>
+                <p>Elevate your Success with Our Innovative,<br> Industry-Focused Staffing Solutions.</p>
                     <?php if(is_active_sidebar('contact-widget'))
                     
                         dynamic_sidebar('contact-widget');
                     ?>
             </div>
             <picture class="img-container">
-                <img  width="640" height="360" src="<?php echo ImagesPath?>/Kris Weaver FC NEW 2022 1 (1).webp" alt="">
+                <img  width="640" height="360" src="<?php echo ImagesPath?>/Kris Weaver FC NEW 2022 1 (1).webp" alt="Kris Weaver - Chief Visionary Officer- VOOV & President of  Atlantic Sotheby's International, Virginia Beach">
+                <div class="circlePulso button" id="button-0"></div>
+                <div class="title">
+                    <h2>Kris Weaver</h2>
+                    <p class="typewrite" data-period="4000" data-type='[ "Chief Visionary Officer - VOOV", "President of Atlantic Sothebys International<br>, Virginia Beach"]'>President of  Atlantic Sotheby's International,<br> Virginia Beach</p>
+                </div>
             </picture>
         </div>
         <div class="circle BlueSky"></div>
@@ -87,214 +92,6 @@
         </article>
     </div>
     <div class="triangle yellow"></div>
-   </section>
-   <section class="section-4-WyVOOV">
-        <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
-        <div class="container grid center">
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Idea.webp" alt="">
-                <h3>Expertise</h3>
-                <p>We have a combined 35 years of experience in the real estate market.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Place.webp" alt="">
-                <h3>Well-located</h3>
-                <p>Convenient support during North American business hours with a location in Nicaragua.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Building.webp" alt="">
-                <h3>Work On-site</h3>
-                <p>On-site management and supervision for virtual associates to ensure efficient performance.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Communication.webp" alt="">
-                <h3>Great English Pronunciation</h3>
-                <p>Great English pronunciation for effective communication with clients and customers.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Energy.webp" alt="">
-                <h3>Electricity Backup</h3>
-                <p>Reliable electricity backup for seamless work.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Cyber security.webp" alt="">
-                <h3>Cyber Security Insurance</h3>
-                <p>Cyber security insurance to safeguard against potential risks.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Wifi.webp" alt="">
-                <h3>Good Internet Connection</h3>
-                <p>VOOV's virtual associates have access to a strong and reliable internet connection.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Presentation.webp" alt="">
-                <h3>Trained Associates</h3>
-                <p>Comprehensive training provided to virtual associates for exceptional service.
-                </p>
-            </article>
-        </div>
-        <div class="circle red"></div>
-        <div class="triangle green"></div>
-   </section>
-   <section class="section-3-WeAreYourTrusted">
-    <div class="container flex space-between">
-       <div class="copy-container">
-           <h2 class="title">We Are Your Trusted Real Estate Virtual Services Partner</h2>
-           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as virtual associates gives us the unique ability to grow with you and have no limits when it comes to adding value to your real estate business.</p>
-           <a href="#letsconnect" class="btn yellow">VOOV STORIES</a>
-       </div>
-       <picture class="img-container-sect-3">
-           <source media="(min-width:650px)" srcset="" sizes="">
-           <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/img- we are your trusted.webp" alt="young profesional women ">
-       </picture>
-   </div>
-  </section> 
-   <section class="section-5-outsource">
-       <h2 class="title center">What can you outsource to VOOV?</h2>
-        <div class="container grid center">
-            <article loading="lazy" class="container-outsource">
-                <h3>Marketing Fractional Services</h3>
-                <p>Optimize your marketing blueprint</p>
-                <a href="<?php echo home_url();?>/marketing-fractional-services" class="btn BlueSky">More info.</a>
-                <div class="gradient"></div>
-            </article>
-            <article  loading="lazy" class="container-outsource">
-                <h3>Marketing <br>Associates</h3>
-                <p>Take Your Real Estate Business To The Next Level!</p>
-                 <a href="<?php echo home_url();?>/marketing-associates" class="btn BlueSky">More info.</a>
-                 <div class="gradient"></div>
-                </article>
-            <article  loading="lazy" class="container-outsource">
-                <h3>Executive <br>Associates</h3>
-                <p>Turn up the efficiency in your operation</p>
-                <div class="gradient"></div> 
-                <a href="<?php echo home_url();?>/executive-associates" class="btn BlueSky">More info.</a>
-            </article>
-            <article  loading="lazy" class="container-outsource">
-                <h3>Inside Sales <br>Associates</h3>
-                <p>Strategically build teams and leverage lead-generation</p>
-                <div class="gradient"></div> 
-                <a href="<?php echo home_url();?>/inside-sales-associates" class="btn BlueSky">More info.</a>
-            </article>
-        </div>
-   </section>
-   <section class="section-6-How-To-VOOV-Up">
-       <h2 class="title center">How To VOOV Up
-            </h2>
-       <div class="container grid">
-                <article class="step  flex center">
-                    <div class="step-copy">
-                        <h3>Discovery Call</h3>
-                        <p>Schedule a call with us, and let's talk about all the exciting opportunities that await. We will discuss your needs, expectations, and timeliness and answer any questions that may come up.</p>                
-                    </div>
-                </article>
-                <article class="step  flex center">
-                    <div class="step-copy">
-                        <h3>Find Your Best Addition</h3>
-                        <p>Our experienced recruiters choose a talented candidate who can meet your expectations and fit well in your company. We also provide customized training to help them excel in their roles and become valuable members of your team!
-                        </p>                
-                    </div>
-                </article>
-                <article class="step  flex center">
-                    <div class="step-copy">
-                        <h3>Meet Your New Member</h3>
-                        <p>We set up a meeting between you, the candidate, and team managers to help you determine your compatibility.          </p>                
-                    </div>
-                </article>
-                <article class="step  flex center">
-                    <div class="step-copy">
-                        <h3>Start Delegating</h3>
-                        <p>Once you and your assistant determine that you are a good fit for one another, you can start delegating to unlock the extra time and energy to move your real estate business forward.</p>                
-                    </div>
-                </article>
-                <div class="flag-container one">
-                    <span>1</span>
-                    <hr>
-                </div>
-                <div class="flag-container two">
-                    <span>2</span>
-                    <hr>
-                </div>
-                <div class="flag-container three">
-                    <span>3</span>
-                    <hr>
-                </div>
-                <div class="flag-container four">
-                    <span>4</span>
-                    <hr>
-                </div>
-                
-         </div>
-         <div class="triangle yellow"></div>
-         <div class="circle red"></div>
-         <div class="circle BlueSky"></div>
-   </section>
-   <section class="call-to-action">
-        <div class="container flex space-between">
-            <div class="copy-container">
-                <h2>Take Your Real Estate<br> Business To The Next<br> Level!</h2>
-                <a href="#letsconnect" class="btn White">
-                    <p>Get Started </p>
-                    <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt=""></a>
-            </div>
-            <picture class="img-container">
-                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="">
-            </picture>
-        </div>
-   </section>
-   <section class="voov-the-choice">
-        <div class="container">
-            <div class="head-container flex space-between">
-                <h2>VOOV:<br>
-                    The Choice Above the Rest</h2>
-                <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
-            </div>
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Other virtual <br>outsourcing <br> companies</th>
-                </tr>
-                <tr>
-                    <td class="align-left">Specialized in the real estate industry</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Americas-based able to support during North American business hours</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">On-site administration and supervision for efficiency</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Cybersecurity insurance</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Strong and reliable internet connection</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Trained associates</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-            
-            </table>
-        </div>
    </section>
    <section class="check-how">
     <h2 class="title center">CHECK HOW MUCH YOU SAVE WITH VOOV</h2>
@@ -556,4 +353,241 @@
                 </div>
         </div>
    </section>
+   <section class="section-4-WyVOOV">
+        <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
+        <div class="container grid center">
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Idea.webp" alt="">
+                <h3>Expertise</h3>
+                <p>We have a combined 35 years of experience in the real estate market.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Place.webp" alt="">
+                <h3>Well-located</h3>
+                <p>Convenient support during North American business hours with a location in Nicaragua.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Building.webp" alt="">
+                <h3>Work On-site</h3>
+                <p>On-site management and supervision for virtual associates to ensure efficient performance.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Communication.webp" alt="">
+                <h3>Great English Pronunciation</h3>
+                <p>Great English pronunciation for effective communication with clients and customers.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Energy.webp" alt="">
+                <h3>Electricity Backup</h3>
+                <p>Reliable electricity backup for seamless work.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Cyber security.webp" alt="">
+                <h3>Cyber Security Insurance</h3>
+                <p>Cyber security insurance to safeguard against potential risks.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Wifi.webp" alt="">
+                <h3>Good Internet Connection</h3>
+                <p>VOOV's virtual associates have access to a strong and reliable internet connection.
+                </p>
+            </article>
+            <article class="container-solution">
+                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Presentation.webp" alt="">
+                <h3>Trained Associates</h3>
+                <p>Comprehensive training provided to virtual associates for exceptional service.
+                </p>
+            </article>
+        </div>
+        <div class="circle red"></div>
+        <div class="triangle green"></div>
+   </section>
+   <section class="section-3-WeAreYourTrusted">
+    <div class="container flex space-between">
+       <div class="copy-container">
+           <h2 class="title">We Are Your Trusted Real Estate Virtual Services Partner</h2>
+           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as virtual associates gives us the unique ability to grow with you and have no limits when it comes to adding value to your real estate business.</p>
+           <a href="#letsconnect" class="btn yellow">VOOV STORIES</a>
+       </div>
+       <picture class="img-container-sect-3">
+           <source media="(min-width:650px)" srcset="" sizes="">
+           <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/img- we are your trusted.webp" alt="young profesional women ">
+       </picture>
+   </div>
+  </section> 
+   <section class="section-5-outsource">
+       <h2 class="title center">  outsource to VOOV?</h2>
+        <div class="container flex start">
+            <article loading="lazy" class="container-outsource">
+                <div class="containercopy">
+                    <h3 class="titleservice">Marketing Fractional Services</h3>
+                    <p class="copyservice">Optimize your marketing blueprint with paid ads, email systems, SEO strategies, and web development solutions.</p>
+                    <a href="<?php echo home_url();?>/fractional-marketing-solutions" class="btn BlueSky btnservice">More info.</a>
+                </div>
+                <div class="gradient"></div>
+            </article>
+            <article  loading="lazy" class="container-outsource">
+                <div class="containercopy">
+                    <h3   class="titleservice">Marketing <br>Associates</h3>
+                    <p class="copyservice">Strengthen your market presence by leveraging clever marketing tactics to showcase properties and yourself.</p>
+                    <a href="<?php echo home_url();?>/marketing-associates" class="btn BlueSky btnservice">More info.</a>
+                 </div>
+                 <div class="gradient"></div>
+                </article>
+            <article  loading="lazy" class="container-outsource">
+                <div class="containercopy">
+                    <h3 class="titleservice"> Executive <br>Associates</h3>
+                    <p  class="copyservice">Turn up the efficiency in your operation by delegating executive duties, coordinating transactions, and more. </p>
+                    <a href="<?php echo home_url();?>/executive-associates" class="btn BlueSky btnservice">More info.</a>
+                </div>
+                    <div class="gradient"></div> 
+            </article>
+            <article  loading="lazy" class="container-outsource">
+                <div class="containercopy">
+                    <h3 class="titleservice"> Inside Sales <br>Associates</h3>
+                    <p class="copyservice" >Strategically build teams and leverage lead-generation techniques for maximum conversions.</p>
+                    <a href="<?php echo home_url();?>/inside-sales-service" class="btn BlueSky btnservice">More info.</a>
+                </div>
+                    <div class="gradient"></div> 
+                
+            </article>
+        </div>
+   </section>
+   <section class="section-6-How-To-VOOV-Up">
+       <h2 class="title center">How To VOOV Up
+            </h2>
+       <div class="container grid">
+                <article class="step  flex center">
+                    <div class="step-copy">
+                        <h3>Discovery Call</h3>
+                        <p>Schedule a call with us, and let's talk about all the exciting opportunities that await. We will discuss your needs, expectations, and timeliness and answer any questions that may come up.</p>                
+                    </div>
+                </article>
+                <article class="step  flex center">
+                    <div class="step-copy">
+                        <h3>Find Your Best Addition</h3>
+                        <p>Our experienced recruiters choose a talented candidate who can meet your expectations and fit well in your company. We also provide customized training to help them excel in their roles and become valuable members of your team!
+                        </p>                
+                    </div>
+                </article>
+                <article class="step  flex center">
+                    <div class="step-copy">
+                        <h3>Meet Your New Member</h3>
+                        <p>We set up a meeting between you, the candidate, and team managers to help you determine your compatibility.          </p>                
+                    </div>
+                </article>
+                <article class="step  flex center">
+                    <div class="step-copy">
+                        <h3>Start Delegating</h3>
+                        <p>Once you and your assistant determine that you are a good fit for one another, you can start delegating to unlock the extra time and energy to move your real estate business forward.</p>                
+                    </div>
+                </article>
+                <div class="flag-container one">
+                    <span>1</span>
+                    <hr>
+                </div>
+                <div class="flag-container two">
+                    <span>2</span>
+                    <hr>
+                </div>
+                <div class="flag-container three">
+                    <span>3</span>
+                    <hr>
+                </div>
+                <div class="flag-container four">
+                    <span>4</span>
+                    <hr>
+                </div>
+                
+         </div>
+         <div class="triangle yellow"></div>
+         <div class="circle red"></div>
+         <div class="circle BlueSky"></div>
+   </section>
+   <section class="call-to-action">
+        <div class="container flex space-between">
+            <div class="copy-container">
+                <h2>Take Your Real Estate<br> Business To The Next<br> Level!</h2>
+                <a href="#letsconnect" class="btn White">
+                    <p>Get Started </p>
+                    <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt=""></a>
+            </div>
+            <picture class="img-container">
+                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="">
+            </picture>
+        </div>
+   </section>
+   <section class="voov-the-choice">
+        <div class="container">
+            <div class="head-container flex space-between">
+                <h2>VOOV:<br>
+                    The Choice Above the Rest</h2>
+                <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
+            </div>
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Other virtual <br>outsourcing <br> companies</th>
+                </tr>
+                <tr>
+                    <td class="align-left">Specialized in the real estate industry</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">Americas-based able to support during North American business hours</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">On-site administration and supervision for efficiency</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">Cybersecurity insurance</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">Strong and reliable internet connection</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">Trained associates</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                </tr>
+            
+            </table>
+        </div>
+   </section>
+   <section class="contact-us">
+    <div class="container flex center">
+        <div class="container-copy">
+            <h2 class="title white">LET'S CONNECT</h2>
+            <p>Elevate your Success with Our smart services</p>
+            <div id="contact-us">
+            <?php if(is_active_sidebar('contact-lead-home-widget'))
+                    
+                    dynamic_sidebar('contact-lead-home-widget');
+                ?>
+            </div>
+        </div>
+        <div class="container-img">
+            <img width="532.800" height="626.250" src="<?php echo ImagesPath?>/img contact us.webp" alt="Contact us voov women">
+            <div class="circle green"></div>
+            <div class="circle yellow"></div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer();?>

@@ -1,9 +1,13 @@
 .section-5-outsource .container{
-    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/4, max(15em, 100%/5))));
+    justify-items: flex-start;
+    gap: 2em;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .container-outsource{
     min-height: 22.5em;
+    width:17em;
     background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.webp');
     background-position-x: center;
     background-repeat: no-repeat;
@@ -15,14 +19,55 @@
     color: white;
     border-radius: var(--borderRadius);
     text-align: left;
+    transition: width .5s;
     position: relative;
-    cursor: pointer;
+
+}
+.container-outsource:hover{
+    width: 65em;
+    z-index: 9;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+.container-outsource:hover .titleservice{
+    width: 30%;
+}
+.container-outsource:hover .copyservice{
+
+    width: 70%;
+    height: 3.5em;
+    overflow: visible;
+
+}
+.container-outsource .containercopy{
+    z-index: 5;
+
+}
+.container-outsource:hover .containercopy{
+
+    display: flex;
+    align-items: center;;
+
+}
+.container-outsource:hover .btnservice{
+    display: block;
+    text-align: center;
+    width: 30%;
+
+}
+@media (pointer: coarse) {
+    .container-outsource:hover{
+        width: 70em;
+        z-index: 9;
+    
+    }
 }
 .gradient{
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
-    background: -webkit-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
-    background: linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 55%);
+    background: -moz-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 70%);
+    background: -webkit-linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 70%);
+    background: linear-gradient(357deg, rgba(0,0,0,0.499124649859944) 0%, rgba(255,255,255,0) 70%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
     position: absolute;
     top: 0;
@@ -42,10 +87,16 @@
     font-weight: 700;
     font-size: .8em;
     z-index: 5;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+
 }
 .container-outsource .btn{
     display: none;
     z-index: 5;
+    font-size: 0.7em;
 }
 .container-outsource:nth-child(1)::before{
     background-image: url('../images/Marketing\ Fractional\ Services-\ VOOV.webp');
@@ -61,9 +112,13 @@
     background-image: url('../images/Inside\ Sales\ Associates.webp');
     background-position-x: -18em;
 }
+.container-outsource:nth-child(4):hover{
+    background-position-x: 0;
+    right: 0
+}
 
 @media screen and (max-width:575px) {
-    .section-5-outsource .container {
-        grid-template-columns: repeat(auto-fit, minmax(0, min(100%/3, max(10em, 100%/5))));
+    .section-5-outsource .container-outsource:hover {
+        min-width: 30em;
     }
 }

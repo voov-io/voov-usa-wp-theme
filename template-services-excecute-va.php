@@ -16,7 +16,7 @@
             <h1 class="title center">EXECUTIVE VIRTUAL ASSOCIATE</h1>
             <p class="center">Delegate Essential Executive & Financial Tasks to Maximize your Productivity</p>
             <a href="#contact-us" class="btn Red">START NOW </a>
-                <img class="center" src="<?php echo ImagesPath?>/profesional-marketing-virtual-assiate.png" alt="Marketing virtaul associate guy">
+                <img class="center" src="<?php echo ImagesPath?>/profesional-marketing-virtual-assiate.webp" alt="Marketing virtaul associate guy">
         </div>
     </div>
         <div class="circle red"></div>
@@ -105,7 +105,7 @@
             <h4>Maintenance <br>Coordinator</h4>
         </div>
         <div class="sub-container-services ">
-            <div  id="Bookkeeper" class="overlay"></div>
+            <div  id="LeadManager" class="overlay"></div>
             <picture class="container-icon">
                 <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
             </picture>
@@ -116,7 +116,7 @@
 <section class="call-to-action-v2">
     <div class="container flex space-around">
         <picture class="container-img">
-            <img src="<?php echo ImagesPath?>/img call to action v2.png" alt="profesiontal call to action">
+            <img src="<?php echo ImagesPath?>/img call to action v2.webp" alt="profesiontal call to action">
             <div class="circle red"></div>
             <div class="circle BlueSky"></div>
         </picture>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="container-img">
-            <img src="<?php echo ImagesPath?>/img contact us.png" alt="Contact us voov women">
+            <img src="<?php echo ImagesPath?>/img contact us.webp" alt="Contact us voov women">
             <div class="circle green"></div>
             <div class="circle yellow"></div>
         </div>

@@ -11,13 +11,48 @@ main .container{
 .img-container{
  position: relative;
 }
+.img-container:hover .title{
+    left: -48%;
+    visibility:visible;
+
+}
 .img-container img{
     position: absolute;
     bottom: 0;
     width: 95%;
+    right: 0;
+}
+.img-container .title{
+    position: absolute;
+    background-color: white;
+    border-radius: var(--borderRadius);
+    padding: .5rem 1rem;
+    bottom: 35%;
+    left: 20%;
+    box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);
+    -webkit-box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);
+    -moz-box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);
+    transition: .5s all ease-in-out;
+    transition-delay: 1s, 250ms;
+    z-index: -1;
+    visibility:hidden;
+
+
+}
+
+.img-container .title h2{
+    font-size: 1.7rem;
+    color: var(--colorBlueDark);
+    margin: 0;
+}
+.img-container .title p{
+    font-size: 0.9rem;
+    color: black;
+    margin: 0;
 }
 main .container .copy-container{
     margin-bottom: 5em;
+
 }
 main .container .copy-container p{
     margin-bottom: 1em;
@@ -36,6 +71,7 @@ main .circle{
     right: -9em;
     width: 50em;
     height: 50em;
+    z-index: -2;
 }
 
 main .triangle{
@@ -48,6 +84,41 @@ main .triangle{
     z-index: -1;
 }
 
+main .circlePulso {
+    width: 20px;
+    height: 20px;
+    background: var(--colorYellow);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+  }
+  
+  main .circlePulso::before, .circlePulso::after {
+    content:"";
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 10px solid var(--colorYellow);
+    border-radius:100%;
+    animation: latido linear 3s infinite;
+  }
+  
+  main .circlePulso::after {
+    animation-delay: -1.5s;
+  }
+  
+  @keyframes latido {
+    0% { width:30px; height:30px; border:3px solid rgb(155, 155, 155); }
+    100% { width:70px; height:70px; border:1px solid transparent; }
+  }
+  
+  
 @media screen and (max-width:1025px) {
     main .circle {
 
@@ -89,11 +160,27 @@ main .triangle{
     }
 
     main .copy-container{
-        width: 74%;
+        width: 100%;
     }
     main .img-container {
         width: 55%;
         margin: 0 0 0 auto;
+    }
+    .img-container .title{
+        width: 100vw;
+        z-index: 1;
+    }
+    .img-container:hover .title{
+       
+        left: -95%;
+       
+    }
+    .img-container .title h2{
+        font-size: 1rem;
+    }
+    .img-container .title p{
+        font-size: 0.65rem;
+
     }
 }
 
@@ -111,3 +198,5 @@ main .triangle{
         right: -13em;
     }
 }
+
+  

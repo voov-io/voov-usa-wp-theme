@@ -166,9 +166,10 @@
 #contact-us{
     width: 75%;
 }
-#contact-us input,#contact-us textarea, ::placeholder,.forminator-checkbox-label{
+#contact-us input,#contact-us textarea,#contact-us ::placeholder,.forminator-checkbox-label{
     background-color: transparent!important;
     border-color: white!important;
+    color: white!important;
     
 }
 
@@ -218,6 +219,9 @@
     .container-copy .btn-container {
         justify-content: center;
     }
+    #contact-us{
+        width: 100%;
+    }
 
 
 }
@@ -229,4 +233,56 @@
 }
 #btn-readmore.active{
     display: inline-block;
+}
+
+.service-page  table th:nth-child(5), .service-page  table th:nth-child(4){
+    width: 20%;
+}
+
+.service-page  table th:nth-child(2){
+    background-image: none;
+    background-color: var(--colorGreen);
+    border-radius: var(--borderRadius);
+    margin-left: 1em;
+    border-spacing: 5px 1rem;
+    color: white;
+    border-right: 5px solid white
+}
+.service-page  table th:nth-child(3){
+    background-image: none;
+    background-color: var(--colorRed);
+    border-radius: var(--borderRadius);
+    color: white;
+    border-right: 5px solid white
+}
+.service-page  table th:nth-child(4){
+    background-image: none;
+    background-color: var(--colorBluesky);
+    border-radius: var(--borderRadius);
+    color: white;
+    border-right: 5px solid white
+}
+.service-page  table th:nth-child(5){
+    background-image: none;
+    background-color: var(--colorYellow);
+    border-radius: var(--borderRadius);
+    color: white;
+    border-right: 5px solid white
+}
+
+.service-page  table tr td:nth-child(2){
+    background-color: #EFF6E1;
+    
+}
+.service-page  table tr td:nth-child(3){
+    background-color: #FDE9E4;
+    
+}
+.service-page  table tr td:nth-child(4){
+    background-color: #E0F4FD;
+    
+}
+.service-page  table tr td:nth-child(5){
+    background-color: #FEF5E0;
+    
 }
