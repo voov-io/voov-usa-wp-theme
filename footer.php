@@ -54,7 +54,7 @@
         </div>
         <hr>
         <div class="copyright">
-           <p>© Copyright VOOV 2023 </p>
+           <p>© Copyright VOOV <?php echo get_the_date('Y'); ?></p>
         </div>
     </div>
    </footer>

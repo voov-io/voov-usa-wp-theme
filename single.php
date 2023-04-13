@@ -18,9 +18,9 @@
            ?>
           <?php if (have_posts() ): while ( have_posts() ): the_post(); ?>
       <!-- Banner -->
-      <section class="banner-principal">
+      <section class="container banner-principal">
 
-            <?php if ( has_post_thumbnail() ): ?>
+            <?php if (  has_post_thumbnail() ): ?>
 
             <?php $banner_article = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
 
@@ -40,7 +40,7 @@
       </section> <!-- Banner -->
 
       <section class="blog">
-        <div class="contenedor">
+        <div class="container">
           <div class="listado-articulos">
 
             <article <?php post_class ('article single'); ?> id="post-<?php the_ID();?>">

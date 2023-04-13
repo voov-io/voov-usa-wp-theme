@@ -16,7 +16,7 @@
        ?>
       <?php if (have_posts() ): while ( have_posts() ): the_post(); ?>
   <!-- Banner -->
-  <section class="banner-principal">
+  <section class="container banner-principal">
 
         <?php if ( has_post_thumbnail() ): ?>
 
@@ -38,7 +38,7 @@
   </section> <!-- Banner -->
 
   <section class="predeterminada">
-    <div class="contenedor">
+    <div class="container">
         <article <?php post_class ('pagina'); ?> id="post-<?php the_ID();?>">
               <?php the_content(); ?>
         </article>	<!-- /.article -->
@@ -48,8 +48,6 @@
 
     </div>
   </section> <!-- /Blog -->
-
-
 <?php get_footer(); ?>
 </body>
 </html>

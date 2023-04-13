@@ -1,10 +1,52 @@
-.indexpages{
-padding-top: 10em;
+.indexpages .container{
+    gap:2em;
+    grid-template-columns: repeat(auto-fill,minmax(18em,1fr));
+}
+.indexpages .title{
+    padding: 1em;
+    background-color: var(--colorGreen);
+    color: white;
+    margin-top: 0 ;
+
+}
+.indexpages .container :first-child{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items:center;
+    min-width: 50%;
+
+}
+article:first-child{
+    margin-bottom: 2em;
 }
 
-.indexpages .container{
-    gap:2em
 
+.indexpages .container :first-child .attachment-blog, .indexpages .container :first-child .article-content{
+    width: 50%;
+}
+
+.attachment-blog-size-image{
+    border-radius: var(--borderRadius);
+    min-height: 17em;
+    max-height: 17em;
+    object-fit: cover;
+}
+article:first-child .attachment-blog-size-image{
+    max-height: 27em;
+}
+.indexpages .container :first-child .article-content{
+    padding: 2em;
+}
+.indexpages .container :first-child .article-content h2{
+    font-size: 2.2em;
+
+}
+.article-category > *{
+    text-align: left;
+}
+.article-content h2 a{
+    color: var(--colorBlueDark)!important;
+    font-size: 1.5em;
 }
 .article .article-header .article-category{
     padding: 0.2em 2em;
@@ -25,16 +67,32 @@ padding-top: 10em;
     width: 20px;
 }
 
-p.article-category a {
-    color: white;
+.article-category a {
+    color: var(--colorBluesky);
 }
-
+@media screen and (max-width:699px) {
+    .indexpages .container{
+        gap:2em;
+        grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+    }
+    .indexpages .container :first-child .article-content h2 {
+        font-size: 1.5em;
+    }
+    .indexpages .container :first-child{
+      flex-direction: column;   
+    }
+    .indexpages .container :first-child .attachment-blog, .indexpages .container :first-child .article-content{
+        width: 100%;
+    }
+}
 @media screen and (max-width:540px) {
     .indexpages .container{
       flex-direction: column;   
     }
+
 }
 
-.banner-principal{
-    padding-top: 10em;
+
+.article-date{
+    margin: 0;
 }
