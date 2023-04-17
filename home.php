@@ -12,7 +12,7 @@
           <article <?php post_class ('article'); ?> id="post-<?php the_ID();?>">
             <?php if (! has_post_format('video') && ! has_post_format('audio')) : ?>
                 <?php if (has_post_thumbnail()):?>
-                  <a  href="<?php the_permalink(); ?>">
+                  <a class="container-postimg" href="<?php the_permalink(); ?>">
                       <?php  the_post_thumbnail('blog-size-image');?>
                   </a>
         <?php endif; ?>
@@ -49,4 +49,5 @@
 
     </div>
     </section>
+    <?php get_template_part('template-parts/contact-us'); ?>
 <?php get_footer()?>

@@ -16,14 +16,10 @@
     min-width: 50%;
 
 }
-article:first-child{
+.indexpages article:first-child{
     margin-bottom: 2em;
 }
 
-
-.indexpages .container :first-child .attachment-blog, .indexpages .container :first-child .article-content{
-    width: 50%;
-}
 
 .attachment-blog-size-image{
     border-radius: var(--borderRadius);
@@ -31,7 +27,7 @@ article:first-child{
     max-height: 17em;
     object-fit: cover;
 }
-article:first-child .attachment-blog-size-image{
+.indexpages article:first-child .attachment-blog-size-image{
     max-height: 27em;
 }
 .indexpages .container :first-child .article-content{

@@ -37,7 +37,7 @@
             </a>
         </article>
         <article class="service-container">
-            <a href="<?php echo home_url();?>/marketing-sspecialist/">
+            <a href="<?php echo home_url();?>/marketing-specialist/">
             <h2>Marketing<br>
                 Specialists</h2>
                 <p>Increase Your Brand Awareness</p>
@@ -413,7 +413,7 @@
        <div class="copy-container">
            <h2 class="title">We Are Your Trusted Real Estate Virtual Services Partner</h2>
            <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as virtual associates gives us the unique ability to grow with you and have no limits when it comes to adding value to your real estate business.</p>
-           <a href="#letsconnect" class="btn yellow">VOOV STORIES</a>
+           <a href="#cont1" class="btn yellow">VOOV STORIES</a>
        </div>
        <picture class="img-container-sect-3">
            <source media="(min-width:650px)" srcset="" sizes="">
@@ -436,7 +436,7 @@
                 <div class="containercopy">
                     <h3   class="titleservice">Marketing <br>Associates</h3>
                     <p class="copyservice">Strengthen your market presence by leveraging clever marketing tactics to showcase properties and yourself.</p>
-                    <a href="<?php echo home_url();?>/marketing-associates" class="btn BlueSky btnservice">More info.</a>
+                    <a href="<?php echo home_url();?>/marketing-specialists" class="btn BlueSky btnservice">More info.</a>
                  </div>
                  <div class="gradient"></div>
                 </article>
@@ -570,6 +570,32 @@
             </table>
         </div>
    </section>
+   <section class="testimonial">
+    <div class="container flex center">
+    <div class="copy-container">
+        <h2 class="title">Realtors Who Trusted And VOOV Over</h2>
+        <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
+    </div>
+    <div id="img-container" class="img-container">
+        <div id="cont1" class="cont1">
+            <iframe loading="lazy"  width="100%" height="auto"  src="https://www.youtube.com/embed/TEaPfxIRkX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe loading="lazy"  width="90%" height="auto"  src="https://www.youtube.com/embed/iqrVfYrKyNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe loading="lazy"  width="80%" height="auto" src="https://www.youtube.com/embed/-UtwwdyWJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  loading="lazy"  width="70%" height="auto" src="https://www.youtube.com/embed/0UkG_PYBTZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  loading="lazy"  width="60%" height="auto" src="https://www.youtube.com/embed/mDo9M0vqOUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div id="cont2" class="cont2">
+        </div>
+        </div>
+        <div id="next-btn-testimonials" class="icon-container">
+            <img src="<?php echo IconsPath?>/Arrow 1.svg" alt="arrox  right icon ">
+        </div>
+    </div>
+    <div class="triangle green"></div>
+    <div class="circle red"></div>
+</section>
+
    <section class="contact-us">
     <div class="container flex center">
         <div class="container-copy">

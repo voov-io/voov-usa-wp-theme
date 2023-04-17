@@ -1,5 +1,5 @@
 <?php
-/*Template name: Services page
+/*Template name: Fractional MK Services page
 
 
 @package voovusa
@@ -13,7 +13,8 @@
     <div class="container">
         <div class="copy-head grid center">
             <h1 class="title center">MARKETING FRACTIONAL SERVICES</h1>
-            <p class="center">Try our Quick & Cost-Effective Marketing Solutions for Specific Goals.</p>
+            <p class="center">Boost your marketing strategy and reach success faster!<br>
+                Take advantage of these benefits to optimize your<br> outcomes and drive business growth.</p>
             <a href="#contact-us" class="btn Red">LETS CONNECT</a>
                 <img class="center" src="<?php echo ImagesPath?>/profesional-marketing-virtual-assiate.webp" alt="Marketing virtaul associate guy">
         </div>
@@ -23,27 +24,37 @@
         <div class="circle BlueSky big"></div>
 </section>
 <section class="about-service">
-    <div class="container flex space-between">
-        <div class="container-copy">
-            <h2 class="title">Solve your Marketing Tasks Quickly with Our Specialized Short-term Services</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
-        </div>
-        <div class="container-img">
-            <picture>
-                <img id="img-service" width="100%" height="auto" src="<?php echo ImagesPath?>/bussinnes-guys-working.webp" alt="img related to service">
-            </picture>
-        </div>
-    </div>
-    <h3 class="center">Explore Our Smart Marketing Solutions</h3>
+<h3 class="center">Social Media Fractional Services</h3>
     <div class="container grid center">
         <div class="sub-container-services ">
             <div  id="socialMedia" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Social Media Specialist.svg" alt="icon social media posting">
             </picture>
-            <h4>Social Media<br> Posting</h4>
+            <h4>Social Media<br> Specialist</h4>
         </div>
+        <div class="sub-container-services ">
+            <div  id="Copywriter" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Copywriter.svg" alt="icon social media posting">
+            </picture>
+            <h4>Copywriter</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="ContentCalendar" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Content Calendar.svg" alt="icon social media posting">
+            </picture>
+            <h4>Content <br>Calendar</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="SocialMediaMonitoring" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social Media Monitoring.svg" alt="icon social media posting">
+            </picture>
+            <h4>Social Media <br>Monitoring</h4>
+        </div>
+        <!--
         <div class="sub-container-services ">
             <div  id="seo" class="overlay"></div>
             <picture class="container-icon">
@@ -60,6 +71,7 @@
             </picture>
             <h4>PPC <br>(Pay per click)</h4>
         </div>
+        
         <div class="sub-container-services ">
             <div  id="sem" class="overlay"></div>
             <picture class="container-icon">
@@ -88,7 +100,7 @@
             <div  id="WebDevelopment" class="overlay"></div>
             <picture class="container-icon">
 
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Software developer (Traced).svg" alt="icon social media posting">
             </picture>
             <h4>Web<br>Development</h4>
         </div>
@@ -96,7 +108,7 @@
             <div  id="EmailSystems" class="overlay"></div>
             <picture class="container-icon">
 
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Email (Traced).svg" alt="icon social media posting">
             </picture>
             <h4>Email<br>Systems</h4>
         </div>
@@ -104,9 +116,22 @@
             <div  id="DigitalPhotoTouchUps" class="overlay"></div>
             <picture class="container-icon">
 
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Image editing (Traced).svg" alt="icon social media posting">
             </picture>
             <h4>Digital<br>Photo Touch-Ups</h4>
+        </div>
+        -->
+    </div>
+    <div class="container flex space-between">
+        <div class="container-copy">
+            <h2 id="title" class="title">Social Media Specialist</h2>
+            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
+            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+        </div>
+        <div class="container-img">
+            <picture>
+                <img id="img-service" width="100%" height="auto" src="<?php echo ImagesPath?>/bussinnes-guys-working.webp" alt="img related to service">
+            </picture>
         </div>
     </div>
 </section>
@@ -126,59 +151,13 @@
         </div>
     </div>
 </section>
-        <div class="container">
-            <div class="head-container flex space-between">
-                <h2>VOOV:<br>
-                    The Choice Above the Rest</h2>
-                <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
-            </div>
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Other virtual <br>outsourcing <br> companies</th>
-                </tr>
-                <tr>
-                    <td class="align-left">Specialized in the real estate industry</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Americas-based able to support during North American business hours</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">On-site administration and supervision for efficiency</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Cybersecurity insurance</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Strong and reliable internet connection</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Trained associates</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-            
-            </table>
-        </div>
-   </section>
 <?php get_template_part('template-parts/VOOVTheChoiceAbovetheRest');?>
 <section class="voov-the-choice service-page">
         <div class="container">
             <div class="head-container flex space-between">
                 <h2>VOOV:<br>
-                    The Choice Above the Rest</h2>
-                <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
+                Social Media <br>Management Plans</h2>
+                <p>Our Social Media plans are designed to help you grow your online presence, engage with potential clients, and increase your sales.</p>                
             </div>
             <table>
                 <tr>
@@ -189,50 +168,141 @@
                     <th>Premium<br> $1,250 <br>per month</th>
                 </tr>
                 <tr>
-                    <td class="align-left">Specialized in the real estate industry</td>
+                    <td class="align-left">Social Media Specialist</td>
                     <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
                 </tr>
                 <tr>
-                    <td class="align-left">Americas-based able to support during North American business hours</td>
+                    <td class="align-left">Onboarding Call</td>
                     <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
                 </tr>
                 <tr>
-                    <td class="align-left">On-site administration and supervision for efficiency</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td class="align-left">Social Media Platforms</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>4</td>
                 </tr>
                 <tr>
-                    <td class="align-left">Cybersecurity insurance</td>
+                    <td class="align-left">Original Content Creation</td>
                     <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
                 </tr>
                 <tr>
-                    <td class="align-left">Strong and reliable internet connection</td>
+                    <td class="align-left">Weekly Posts Per Platform</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td class="align-left">Custom Images</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td class="align-left">Stock Images</td>
                     <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
                     
                 </tr>
                 <tr>
-                    <td class="align-left">Trained associates</td>
+                    <td class="align-left">No Setup Fee</td>
                     <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                </tr>
+                <tr>
+                    <td class="align-left">Copywriting / Custom Captioning</td>
                     <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
                     
                 </tr>
-            
+                <tr>
+                    <td class="align-left">Monthly Content Calendar</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Social Media Strategy</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Custom Reels w/ Your Videos</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Monthly Performance Report</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Dedicated Google Chat Channel to Connect With Our Team</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Monthly Strategy Call</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td>30min</td>
+                    <td>60min</td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Page Monitoring & Repsonding</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="align-left">Monthly Blogs</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td class="align-left">Community Outreach</td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
+                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
+                    
+                </tr>
             </table>
         </div>
    </section>

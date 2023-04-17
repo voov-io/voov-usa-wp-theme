@@ -2,12 +2,13 @@ let paragraph1 = document.getElementById('paragraph1');
 let paragraph2 = document.getElementById('paragraph2');
 let img =  document.getElementById("img-service")
 let btnReadmore =  document.getElementById("btn-readmore")
+let title = document.getElementById("title")
 
 
 
 document.addEventListener('click', e =>{
     if (e.target.matches("#socialMedia")) {
- 
+        title.innerHTML = "Social Media Specialist"
         paragraph1.innerHTML = "Increase your audience engagement and attract new leads by staying active on Social Media.";
         paragraph1.classList.toggle('fadeInRight');
         paragraph2.innerHTML = "Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.";
@@ -123,14 +124,41 @@ document.addEventListener('click', e =>{
         paragraph2.classList.toggle('fadeInRight');
         btnReadmore.classList.remove('active');
     }
-    if (e.target.matches("#copywriting")) {
-        paragraph1.innerHTML = "Write attractive marketing and communication copies to persuade readers in different digital formats and platforms.";
-        paragraph2.innerHTML = "Include a full-time Copywriter in your team to optimize your content and create copies for social media, brochures, manuals, E-mail, web, and more.";
+    if (e.target.matches("#Copywriter")) {
+        
+        title.innerHTML = "Copywriter"
+        paragraph1.innerHTML = "We create compelling copy for your website, social media, email marketing, advertisements, and other marketing materials.";
+        paragraph2.innerHTML = "Our specialists provide a research-based copy that resonates with your audience and inspires them to engage with your brand.";
         img.src= templateUrl+"/images/seoforrealstate.webp";
         img.classList.toggle('fadeInTop');
+        title.classList.toggle('fadeInRight');
         paragraph1.classList.toggle('fadeInRight');
         paragraph2.classList.toggle('fadeInRight');
-        btnReadmore.classList.remove('active');
+    
+    }
+    if (e.target.matches("#ContentCalendar")) {
+        
+        title.innerHTML = "Content Calendar"
+        paragraph1.innerHTML = "Designed to help you plan, organize, and schedule your content in advance. ";
+        paragraph2.innerHTML = "Keep your social media content consistent, relevant and timely. Boost engagement, increase brand awareness, and drive conversions.";
+        img.src= templateUrl+"/images/seoforrealstate.webp";
+        img.classList.toggle('fadeInTop');
+        title.classList.toggle('fadeInRight');
+        paragraph1.classList.toggle('fadeInRight');
+        paragraph2.classList.toggle('fadeInRight');
+    
+    }
+    if (e.target.matches("#SocialMediaMonitoring")) {
+        
+        title.innerHTML = "Social Media Monitoring"
+        paragraph1.innerHTML = "We help you monitor your social media accounts and hashtags to gain insights into your audience and identify potential opportunities.";
+        paragraph2.innerHTML = "Receive reports and data-driven recommendations to help you optimize your social media strategy, increase engagement, and improve your brand reputation.";
+        img.src= templateUrl+"/images/seoforrealstate.webp";
+        img.classList.toggle('fadeInTop');
+        title.classList.toggle('fadeInRight');
+        paragraph1.classList.toggle('fadeInRight');
+        paragraph2.classList.toggle('fadeInRight');
+    
     }
     if (e.target.matches("#GraphicDesign")) {
         paragraph1.innerHTML = "Create innovative designs to support your business ideas and improve your brand's image.";

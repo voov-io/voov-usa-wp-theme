@@ -72,12 +72,14 @@ header .item {
   }
   .subitems-container{
     position: absolute;
-    display: none;
     padding:1em;
     background-color: var(--colorYellow);
     border-radius: var(--borderRadius);
     width: max-content;
     left: -70%;
+    transition: all .3s ease;
+    display: none;
+    transform: translateY(-20px);
   }
 
   .subitems-container li{
@@ -91,11 +93,10 @@ header .item {
   .item.withsubitems:hover .subitems-container{
     display: block;
     z-index: 9;
+    transform: translateY(0px);
   }
 
-  .subitem{
 
-  }
   @media screen and (max-width:806px) {
 
     .menu--items{

@@ -9,6 +9,9 @@ let dropdowninfo3 = document.getElementById('dropdown-info3')
 
 let highlighter = document.getElementById('highlighter');
 
+let btnTestimonials = document.getElementById('next-btn-testimonials')
+let testimonialscontainer =  document.getElementById('img-container')
+
 dropdown1.addEventListener('click',(e)=>{
     changeheight()
     dropdowninfo1.classList.toggle('active');
@@ -95,3 +98,17 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+let container2 = document.getElementById('cont2');
+
+btnTestimonials.addEventListener('click', (e) => {
+    let firtElement = document.getElementsByTagName("iframe")[0];
+    let elementRemove = firtElement;
+    firtElement.classList.add("remove")
+    setTimeout(() => {
+        container2.appendChild(elementRemove)
+        
+    }, 500);
+
+
+});

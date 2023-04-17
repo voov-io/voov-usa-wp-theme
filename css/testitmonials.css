@@ -1,0 +1,117 @@
+.testimonial{
+    background-color: var(--colorYellow);
+    border-radius: 0 25em 0 20em;
+    margin-bottom: 5em;
+    position: relative;
+}
+
+.testimonial .container{
+    padding-top: 8em;
+    padding-bottom: 8em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.testimonial .container .img-container{
+    position: relative;
+    height: 20em;
+}   
+.testimonial .copy-container{
+    width: 35%;
+}
+.testimonial .copy-container h2, .testimonial .copy-container p{
+    color: white;
+}
+.testimonial iframe{
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.testimonial .cont1, .testimonial .cont2{
+    position: absolute;
+    height: 20em;
+    width: 100%;
+}
+.testimonial .cont1 iframe:nth-child(1){
+    z-index: 2;
+    width: 100%;
+}
+
+.testimonial .cont2 iframe:nth-child(1){
+    width: 100%;
+    z-index: 1;
+}
+
+.testimonial .cont1 iframe:nth-child(2), .testimonial .cont2 iframe:nth-child(2){
+    left: 13%;
+    top: 5px;
+    width: 92%;
+
+}
+
+
+
+@media screen and (max-width:769px) {
+    .testimonial .container{
+        flex-direction: column;
+    }
+    .testimonial .copy-container,  .testimonial .img-container{
+        width: 100%;
+    }
+}
+
+.icon-container{
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    place-content: center;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.icon-container:hover{
+    transform: scale(1.1);
+}
+
+.icon-container img{
+    width:40%;
+}
+.remove{
+    transition: all .5s ease-in-out;
+    animation: remove .5s;
+
+}
+@keyframes remove {
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(100px);
+        opacity: 0;
+
+    }
+}
+.cont1{
+
+    position: absolute;
+}
+.cont2{
+
+    position: absolute;
+}
+
+.testimonial .circle.red{
+    right: 0;
+    top: 0;
+}
+.testimonial .triangle.green{
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+    left: 0;
+}
