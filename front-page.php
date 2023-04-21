@@ -93,6 +93,32 @@
     </div>
     <div class="triangle yellow"></div>
    </section>
+   <section class="testimonial">
+    <div class="container flex center">
+    <div class="copy-container">
+        <h2 class="title">Realtors Who Trusted And VOOV Over</h2>
+        <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
+    </div>
+    <div id="img-container" class="img-container">
+        <div id="cont1" class="cont1">
+            <iframe loading="lazy"  width="100%" height="auto"  src="https://www.youtube.com/embed/TEaPfxIRkX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe loading="lazy"  width="90%" height="auto"  src="https://www.youtube.com/embed/iqrVfYrKyNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe loading="lazy"  width="80%" height="auto" src="https://www.youtube.com/embed/-UtwwdyWJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  loading="lazy"  width="70%" height="auto" src="https://www.youtube.com/embed/0UkG_PYBTZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  loading="lazy"  width="60%" height="auto" src="https://www.youtube.com/embed/mDo9M0vqOUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div id="cont2" class="cont2">
+        </div>
+        </div>
+        <div id="next-btn-testimonials" class="icon-container">
+            <img src="<?php echo IconsPath?>/Arrow 1.svg" alt="arrox  right icon ">
+        </div>
+    </div>
+    <div class="triangle green"></div>
+    <div class="circle red"></div>
+</section>
+
    <section class="check-how">
     <h2 class="title center">CHECK HOW MUCH YOU SAVE WITH VOOV</h2>
         <div class="container">
@@ -422,7 +448,7 @@
    </div>
   </section> 
    <section class="section-5-outsource">
-       <h2 class="title center">  outsource to VOOV?</h2>
+       <h2 class="title center">  Outsource to VOOV?</h2>
         <div class="container flex start">
             <article loading="lazy" class="container-outsource">
                 <div class="containercopy">
@@ -570,31 +596,6 @@
             </table>
         </div>
    </section>
-   <section class="testimonial">
-    <div class="container flex center">
-    <div class="copy-container">
-        <h2 class="title">Realtors Who Trusted And VOOV Over</h2>
-        <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
-    </div>
-    <div id="img-container" class="img-container">
-        <div id="cont1" class="cont1">
-            <iframe loading="lazy"  width="100%" height="auto"  src="https://www.youtube.com/embed/TEaPfxIRkX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe loading="lazy"  width="90%" height="auto"  src="https://www.youtube.com/embed/iqrVfYrKyNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe loading="lazy"  width="80%" height="auto" src="https://www.youtube.com/embed/-UtwwdyWJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  loading="lazy"  width="70%" height="auto" src="https://www.youtube.com/embed/0UkG_PYBTZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  loading="lazy"  width="60%" height="auto" src="https://www.youtube.com/embed/mDo9M0vqOUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
-        <div id="cont2" class="cont2">
-        </div>
-        </div>
-        <div id="next-btn-testimonials" class="icon-container">
-            <img src="<?php echo IconsPath?>/Arrow 1.svg" alt="arrox  right icon ">
-        </div>
-    </div>
-    <div class="triangle green"></div>
-    <div class="circle red"></div>
-</section>
 
    <section class="contact-us">
     <div class="container flex center">

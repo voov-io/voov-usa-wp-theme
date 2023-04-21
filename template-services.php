@@ -24,7 +24,7 @@
         <div class="circle BlueSky big"></div>
 </section>
 <section class="about-service">
-<h3 class="center">Social Media Fractional Services</h3>
+    <h3 class="center">Social Media Fractional Services</h3>
     <div class="container grid center">
         <div class="sub-container-services ">
             <div  id="socialMedia" class="overlay"></div>
@@ -306,7 +306,59 @@
             </table>
         </div>
    </section>
-<section class="contact-us">
+   <section class="about-service ThreeD">
+    <h3 class="center">2D / 3D Fractional services</h3>
+    <div class="container grid center">
+        <div class="sub-container-services ">
+            <div  id="TouchUps" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social Media Specialist.svg" alt="icon social media posting">
+            </picture>
+            <h4>Digital Photo <br>Touch-Ups</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="3DServices" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Copywriter.svg" alt="icon social media posting">
+            </picture>
+            <h4>3D Services</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="2DServices" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Content Calendar.svg" alt="icon social media posting">
+            </picture>
+            <h4>2D Services</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="Video" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Social Media Monitoring.svg" alt="icon social media posting">
+            </picture>
+            <h4>Video </h4>
+        </div>
+    </div>
+    <div class="container flex space-between">
+        <div class="container-copy">
+            <h2 id="title" class="title">Digital Photo Touch-Ups</h2>
+            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
+            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+        </div>
+        <div class="container-img">
+            <div class="before-after-container">
+                <figure>
+                    <div id="before_after"></div>   
+                    <div class="container-label_beforeAfter">
+                        <p class="label_beforeAfter">Before</p>
+                        <p class="label_beforeAfter">After</p>
+                    </div>
+                </figure>
+                <input oninput="beforeAfter()" onchange="beforeAfter()" type="range" min="0" max="100" value="50" id="before_after_slider" />
+            </div>
+        </div>
+    </div>
+</section>
+   <section class="contact-us">
     <div class="container flex center">
         <div class="container-copy">
             <h2 class="title white">LET'S CONNECT</h2>

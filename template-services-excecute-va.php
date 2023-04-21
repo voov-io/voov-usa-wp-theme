@@ -37,7 +37,7 @@
         </div>
     </div>
     <h3 class="center">Guarantee Your Productivity With Our Specialized Executives Services</h3>
-    <div class="container grid center">
+    <div style="justify-content: left;" class="container grid center">
         <div class="sub-container-services ">
             <div  id="ExecutiveAssociate" class="overlay"></div>
             <picture class="container-icon">

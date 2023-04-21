@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOOV</title>
     <link rel="shortcut icon" href="<?php echo themepath?>/favicon.png" type="image/x-icon">
+    <!-- Proudly developed by Jehaann Manzanares - email me jehaann07carlos@gmail.com-->
         <!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

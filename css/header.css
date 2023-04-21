@@ -127,6 +127,10 @@ header .item {
       left: 0;
       width: 110%;
     }
+    header .item a, .menu--items li{
+      color: var(--colorBlueDark)!important;
+
+    }
     }
     @media screen and (max-width:575px) {
     

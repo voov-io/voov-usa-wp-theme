@@ -124,9 +124,9 @@ document.addEventListener('click', e =>{
         paragraph2.classList.toggle('fadeInRight');
         btnReadmore.classList.remove('active');
     }
-    if (e.target.matches("#Copywriter")) {
+    if (e.target.matches("#copywriting")) {
         
-        title.innerHTML = "Copywriter"
+
         paragraph1.innerHTML = "We create compelling copy for your website, social media, email marketing, advertisements, and other marketing materials.";
         paragraph2.innerHTML = "Our specialists provide a research-based copy that resonates with your audience and inspires them to engage with your brand.";
         img.src= templateUrl+"/images/seoforrealstate.webp";
@@ -341,3 +341,11 @@ document.addEventListener('click', e =>{
     }
 
 })
+
+
+// BEFORE AFTER FUNCTION
+
+function beforeAfter() {
+    document.getElementById("before_after").style.width =
+  document.getElementById("before_after_slider").value + "%";
+}
