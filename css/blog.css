@@ -4,9 +4,9 @@
 }
 .indexpages .title{
     padding: 1em;
-    background-color: var(--colorGreen);
-    color: white;
+    color: black;
     margin-top: 0 ;
+    margin-bottom: 0;
 
 }
 .indexpages .container :first-child{
@@ -34,8 +34,8 @@
     padding: 2em;
 }
 .indexpages .container :first-child .article-content h2{
-    font-size: 2.2em;
-
+    font-size: 2em;
+    margin: 0;
 }
 .article-category > *{
     text-align: left;
@@ -62,9 +62,16 @@
 .comment-author.vcard{
     width: 20px;
 }
-
+.article-category{
+    margin-bottom: 0;
+}
 .article-category a {
     color: var(--colorBluesky);
+}
+
+.article-content h2{
+    font-size: 1em;
+    min-height: 6em;
 }
 @media screen and (max-width:699px) {
     .indexpages .container{
@@ -91,4 +98,19 @@
 
 .article-date{
     margin: 0;
+}
+.banner{
+    height: 35em;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indexpages a{
+    color: var(--colorBluesky);
+}
+
+.container.banner-principal{
+    padding-bottom: 0;
 }

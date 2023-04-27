@@ -16,9 +16,10 @@ header{
 }
 
 .menu--items .item img{ 
-  width: 1em;
+  width: 0.6em;
   vertical-align: middle;
   transition: all .3s ease-in-out;
+  margin-left: 0.5em;
 }
 
 

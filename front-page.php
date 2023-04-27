@@ -9,8 +9,8 @@
         <div class="container flex space-between">
             <div  class="copy-container">
                 <h1>REAL ESTATE<br>
-                    STAFFING SOLUTIONS</h1>
-                <p>Elevate your Success with Our Innovative,<br> Industry-Focused Staffing Solutions.</p>
+                    VIRTUAL STAFFING SOLUTIONS</h1>
+                <p>Elevate your success with our innovative, cost-efficient, industry-focused virtual staffing solutions.</p>
                     <?php if(is_active_sidebar('contact-widget'))
                     
                         dynamic_sidebar('contact-widget');
@@ -21,14 +21,14 @@
                 <div class="circlePulso button" id="button-0"></div>
                 <div class="title">
                     <h2>Kris Weaver</h2>
-                    <p class="typewrite" data-period="4000" data-type='[ "Chief Visionary Officer - VOOV", "President of Atlantic Sothebys International<br>, Virginia Beach"]'>President of  Atlantic Sotheby's International,<br> Virginia Beach</p>
+                    <p class="typewrite"  >Chief Visionary Officer - VOOV<br>President of  Atlantic Sotheby's International,<br>Virginia Beach</p>
                 </div>
             </picture>
         </div>
         <div class="circle BlueSky"></div>
         <div class="triangle green"></div>
     </main>
-   <section class="services">
+   <section id="services" class="services">
     <div class="container grid center">
         <article class="service-container">
             <a href="<?php echo home_url();?>/fractional-marketing-solutions/">
@@ -59,13 +59,14 @@
         </article>
     </div>
    </section>
-   <section class="reviews">
+   <section id="reviews" class="reviews">
        <h2 id="weare" class="title center">What our clients say</h2>
     <div class="container grid space-evenly">
         <article class="review-container">
             <h3><strong>I was looking at metrics for yesterday, using Follow Up Boss, it was a really good day. 223 dials that were out, you connected with 16 people, couple hours of talk time, multiple appointments including a listing for 2 properties. Way to go!</strong></h3>
             <div class="info-container flex">
                 
+                <img src="<?php echo ImagesPath?>/Callahan Real Estate Group - Jeremy Callahan.webp" alt="Callahan Real Estate Group - Jeremy Callahan">
                 <div class="start-container">
                     <p>Callahan Real Estate Group - Jeremy Callahan</p>
                     <span>★ ★ ★ ★ ★</span>
@@ -75,6 +76,7 @@
         <article class="review-container">
             <h3><strong>VOOV is our first experience with Virtual Assistance, and it's been fantastic! I feel like they took a lot of time and effort in terms of finding the right match for us. Our Virtual Executive is just part of the team, she works effectively, and even if it´s virtual I feel like she is next to me!</strong></h3>
             <div class="info-container flex">
+                <img src="<?php echo ImagesPath?>/Carolina Realty - Darcie Burnett.webp" alt="Carolina Realty - Darcie Burnett">
                 <div class="start-container">
                     <p>Carolina Realty - Darcie Burnett</p>
                     <span>★ ★ ★ ★ ★</span>
@@ -84,6 +86,7 @@
         <article class="review-container">
             <h3><strong>The VOOV Executive is our Zillow Flex Manager and is the person in charge of creating Excel reports for agent metrics. He plays a critical role in ensuring the success of our team, and not only that but the performance of our team</strong></h3>
             <div class="info-container flex">
+                <img src="<?php echo ImagesPath?>/Lily Moore Realty - Skyler Forbus.webp" alt="Lily Moore Realty - Skyler Forbus">
                 <div class="start-container">
                     <p>Lily Moore Realty - Skyler Forbus </p>
                     <span>★ ★ ★ ★ ★</span>
@@ -93,10 +96,10 @@
     </div>
     <div class="triangle yellow"></div>
    </section>
-   <section class="testimonial">
+   <section id="testimonials" class="testimonial">
     <div class="container flex center">
     <div class="copy-container">
-        <h2 class="title">Realtors Who Trusted And VOOV Over</h2>
+        <h2 class="title">Realtors® Who Trusted And VOOV Over</h2>
         <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
     </div>
     <div id="img-container" class="img-container">
@@ -119,7 +122,7 @@
     <div class="circle red"></div>
 </section>
 
-   <section class="check-how">
+   <section id="check-how" class="check-how">
     <h2 class="title center">CHECK HOW MUCH YOU SAVE WITH VOOV</h2>
         <div class="container">
         
@@ -142,7 +145,7 @@
                     <div id="dropdown1"  class="dropdown-summary ">
                             <table>
                                 <tr>
-                                    <th>Marketing</th>
+                                    <th> <img id="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Marketing</th>
                                     <th>X</th>
                                     <th>$45,494</th>
                                     <th>$21,100</th>
@@ -226,7 +229,7 @@
                     <div id="dropdown2" class="dropdown-summary">
                             <table > 
                                 <tr>
-                                    <th>Inside Sales</th>
+                                    <th> <img id="icon-dropdown2" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Inside Sales</th>
                                     <th>X</th>
                                     <th>$31,754</th>
                                     <th>$15,992</th>
@@ -302,7 +305,7 @@
                     <div id="dropdown3" class="dropdown-summary">
                             <table>
                                 <tr>
-                                    <th>Executive Associate</th>
+                                    <th><img id="icon-dropdown3" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Executive Associate</th>
                                     <th>X</th>
                                     <th>$40,313</th>
                                     <th>$17,100</th>
@@ -379,7 +382,7 @@
                 </div>
         </div>
    </section>
-   <section class="section-4-WyVOOV">
+   <section id="WyVOOV" class="section-4-WyVOOV">
         <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
         <div class="container grid center">
             <article class="container-solution">
@@ -434,11 +437,11 @@
         <div class="circle red"></div>
         <div class="triangle green"></div>
    </section>
-   <section class="section-3-WeAreYourTrusted">
+   <section id="WeAreYourTrusted" class="section-3-WeAreYourTrusted">
     <div class="container flex space-between">
        <div class="copy-container">
-           <h2 class="title">We Are Your Trusted Real Estate Virtual Services Partner</h2>
-           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as virtual associates gives us the unique ability to grow with you and have no limits when it comes to adding value to your real estate business.</p>
+           <h2 class="title">We Are Your Trusted Real <br>Estate Virtual Services Partner</h2>
+           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as <strong>virtual associates</strong> gives us the unique ability to <strong>grow with you</strong> and have no limits when it comes<strong> to adding value to your real estate business.</strong></p>
            <a href="#cont1" class="btn yellow">VOOV STORIES</a>
        </div>
        <picture class="img-container-sect-3">
@@ -485,48 +488,48 @@
             </article>
         </div>
    </section>
-   <section class="section-6-How-To-VOOV-Up">
+   <section id="HowToVOOVUp" class="section-6-How-To-VOOV-Up">
        <h2 class="title center">How To VOOV Up
             </h2>
        <div class="container grid">
-                <article class="step  flex center">
+                <article class="step  flex center animate">
                     <div class="step-copy">
                         <h3>Discovery Call</h3>
                         <p>Schedule a call with us, and let's talk about all the exciting opportunities that await. We will discuss your needs, expectations, and timeliness and answer any questions that may come up.</p>                
                     </div>
                 </article>
-                <article class="step  flex center">
+                <article class="step  flex center animate">
                     <div class="step-copy">
                         <h3>Find Your Best Addition</h3>
                         <p>Our experienced recruiters choose a talented candidate who can meet your expectations and fit well in your company. We also provide customized training to help them excel in their roles and become valuable members of your team!
                         </p>                
                     </div>
                 </article>
-                <article class="step  flex center">
+                <article class="step  flex center animate">
                     <div class="step-copy">
                         <h3>Meet Your New Member</h3>
                         <p>We set up a meeting between you, the candidate, and team managers to help you determine your compatibility.          </p>                
                     </div>
                 </article>
-                <article class="step  flex center">
+                <article class="step  flex center animate">
                     <div class="step-copy">
                         <h3>Start Delegating</h3>
                         <p>Once you and your assistant determine that you are a good fit for one another, you can start delegating to unlock the extra time and energy to move your real estate business forward.</p>                
                     </div>
                 </article>
-                <div class="flag-container one">
+                <div class="flag-container one ">
                     <span>1</span>
                     <hr>
                 </div>
-                <div class="flag-container two">
+                <div class="flag-container two ">
                     <span>2</span>
                     <hr>
                 </div>
-                <div class="flag-container three">
+                <div class="flag-container three ">
                     <span>3</span>
                     <hr>
                 </div>
-                <div class="flag-container four">
+                <div class="flag-container four ">
                     <span>4</span>
                     <hr>
                 </div>
@@ -549,11 +552,11 @@
             </picture>
         </div>
    </section>
-   <section class="voov-the-choice">
+   <section id="voovthechoice" class="voov-the-choice">
         <div class="container">
             <div class="head-container flex space-between">
                 <h2>VOOV:<br>
-                    The Choice Above the Rest</h2>
+                    The Choice <br>Above the Rest</h2>
                 <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
             </div>
             <table>
@@ -596,7 +599,6 @@
             </table>
         </div>
    </section>
-
    <section class="contact-us">
     <div class="container flex center">
         <div class="container-copy">

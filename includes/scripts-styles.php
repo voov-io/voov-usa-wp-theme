@@ -37,6 +37,14 @@ function voovusa_theme_scripts(){
     wp_register_script('homepage',themepath.'/js/homepage.js',array('jquery'),'1.5.1',true);
     wp_enqueue_script('homepage');
   endif;
+  if(is_singular('post')):
+    wp_register_script('howmuchfuntionality',themepath.'/js/howmuchfuntionality.js',array('jquery'),'1.5.1',true);
+    wp_enqueue_script('howmuchfuntionality');
+  endif;
+  if(is_page(591)):
+    wp_register_script('about-us',themepath.'/js/about-us.js',array('jquery'),'1.5.1',true);
+    wp_enqueue_script('about-us');
+  endif;
   //Loading scripts
   wp_register_script('mobile-menu',themepath.'/js/mobile-menu.js',array('jquery'),'1.5.1',true);
   wp_enqueue_script('mobile-menu');

@@ -1,4 +1,6 @@
-
+.animate{
+   opacity: 0;
+}
 @keyframes fadeInLeft {
     0% {
        opacity: 0;
@@ -58,4 +60,24 @@
     animation-fill-mode:both;
     -webkit-animation-name:fadeInTop;
     animation-name:fadeInTop
+}
+
+@keyframes fadeInBottom {
+   0% {
+      opacity: 0;
+      transform: translateY(80px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+   }
+} 
+
+.fadeInBottom{
+   -webkit-animation-duration:3s;
+   animation-duration:3s;
+   -webkit-animation-fill-mode:both;
+   animation-fill-mode:both;
+   -webkit-animation-name:fadeInBottom;
+   animation-name:fadeInBottom
 }

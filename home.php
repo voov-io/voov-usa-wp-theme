@@ -6,7 +6,7 @@
 ?>
 <?php get_header(); ?>
 <section class="indexpages">
-  <h1 class="title  center">Unlocking the Secrets of Real Estate Success: Insider Tips and Strategies for Maximum Profit!</h1>
+  <h1 style="color:black" class="title  center">Blog</h1>
   <div class="container grid">
         <?php if (have_posts() ): while (have_posts()): the_post();?>
           <article <?php post_class ('article'); ?> id="post-<?php the_ID();?>">

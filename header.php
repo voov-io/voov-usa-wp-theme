@@ -67,7 +67,7 @@
             </a>
             <nav class="menu__container " id="btns__menu">
                 <ul class="menu--items flex ">
-
+                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/about-us">About Us</a></li>
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">

@@ -16,7 +16,18 @@
     margin-bottom: 1em;
     transition: height.5s ease
 }
+.icon-dropdown{
+    width: 10px;
+    height: 100%;
+    vertical-align: bottom;
+    transition: all .3s ease-in-out;
+    vertical-align: baseline;
+    
+}
 
+.icon-dropdown.rotated{
+    transform: rotate(90deg)
+}
 .dropdown-container table,.check-how table{
     text-align: center;
     width: 100%;
@@ -37,11 +48,14 @@
 .dropdown-info{
    
     display: none;
-    transition: .5s ease; 
+    transition: .5s ease all; 
+
+
 }
 
 .dropdown-info.active{
     display: block;
+    animation: fadeIn .5s alternate;
 }
 .dropdown-info.inactive{
     display: none;
@@ -106,3 +120,14 @@
     
 }
 
+@keyframes fadeIn {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}

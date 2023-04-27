@@ -1,6 +1,6 @@
 .voov-the-choice table{
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     border-spacing: 0;
 }
 .voov-the-choice table th:nth-child(2) img{
@@ -16,6 +16,14 @@
 .voov-the-choice table td{
     text-align: center;
 }
+.voov-the-choice table tr td:nth-child(2){
+    background-color:rgba(0, 13, 48, 0.3);
+    border-right: 6px white solid;
+}
+.voov-the-choice table tr td:nth-child(3){
+    background-color:rgba(125, 125, 125, 0.3)
+}
+
 .voov-the-choice table  .align-left{
     text-align: left;
     padding: 2em;
@@ -36,18 +44,25 @@
     width: 20%;
     max-width: 25em;
     min-width: 10em;
-    border: 2px white solid;
+    border-right: 6px white solid;
+    border-radius: 20px;
+    border-bottom: 0;
 }
 .voov-the-choice table tr:nth-child(even) {
     background-color:rgba(125, 125, 125, 0.05);
 }
+.voov-the-choice .head-container{
+    margin-bottom: 0;
+    width: 90%;
+    margin: 0 auto;
+}
 .voov-the-choice .container .head-container h2{
     width: 70%;
-
+    font-size: 1.5em;
 }
 .voov-the-choice .container .head-container p{
     width:60%;
-
+    margin: auto;
 }
 @media screen and (max-width:500px) {
     .voov-the-choice .head-container{
@@ -74,5 +89,10 @@
         background-color: var(--colorBlueDark);
         background-image: url('../favicon.png');
         background-size: contain;
+    }
+    .voov-the-choice table{
+
+        width: 100%;
+
     }
 }

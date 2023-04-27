@@ -34,7 +34,7 @@
 
             <div class="overlay-banner"></div>
             <div class="texto-banner">
-              <h3><?php the_title(); ?></h3>
+              <h1><?php the_title(); ?></h1>
             </div>
 
       </section> <!-- Banner -->
@@ -57,7 +57,7 @@
 
                     <div class="navegacion-articulos">
                         <nav>
-                          <div class="anterior">
+                          <div class="anterior ">
 
                             <?php next_post_link('%link', __('<i class="fa fa-arrow-left" aria-hidden="true"></i> Artículos anterior','slan')); ?>
                           </div>
@@ -69,18 +69,10 @@
                     </div> <!-- /.navegacion-articulos -->
                   <?php endif; ?>
           <?php  endif; ?>
-          <?php if (comments_open() || get_comments_number() ): ?>
-            <div class="comments-container">
-              <?php comments_template('',true); ?>
-            </div>
-          <?php endif; ?>
           </div>  <!-- /listado-articulos -->
-          <?php get_sidebar(); ?>
 
         </div>
       </section> <!-- /Blog -->
-
-
     <?php get_footer(); ?>
   </body>
 </html>

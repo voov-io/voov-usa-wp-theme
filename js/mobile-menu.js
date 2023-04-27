@@ -19,3 +19,25 @@ const menu__container =  document.querySelector(".menu--items");
 
 
   });
+
+  /*Animation with intersaction observer */
+
+const animation_elements = document.querySelectorAll('.animate, .animate-top-down');
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			entry.target.classList.add('fadeInBottom');
+		} else {
+			entry.target.classList.remove('fadeInBottom');
+		}
+	})
+}, {
+	threshold: 0.5
+});
+
+for (let i = 0; i < animation_elements.length; i++) {
+	const el = animation_elements[i];
+
+	observer.observe(el);
+}

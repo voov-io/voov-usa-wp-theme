@@ -2,7 +2,7 @@
 :root{
     font-weight: 400;
     font-size: 18px;
-    --paddingContainer:3em;
+    --paddingContainer:3.22em; 
     --colorYellow:#FAB100;
     --colorBluesky :#009FEF;
     --colorRed:#EE451C;
@@ -35,7 +35,7 @@ table{
     box-sizing: border-box!important;
 }
 .container{
-    max-width:1440px;
+    max-width:1680px;
     margin: 0 auto;
     padding:var(--paddingContainer) ;
 }
@@ -76,7 +76,7 @@ table{
 .btn{
     padding: 1em 3em;
     border-radius: var(--borderRadius);
-    color: white;
+    color: white!important;
     font-weight: 700;
     transition: .5s all ease-in-out;
     
@@ -108,7 +108,7 @@ img{
 }
 /*Titles*/
 h1,.title{
-    font-size: 2.7em;
+    font-size: 2.77em;
     font-weight: 700;
     color: black;
 }
@@ -117,6 +117,7 @@ h1,.title{
 }
 .title.center{
     text-align: center;
+    
 }
 h2{
     font-size: 1.2em;
@@ -239,4 +240,6 @@ p{
 	}
 }
 
- 
+ .cursor{
+    cursor: pointer;
+ }

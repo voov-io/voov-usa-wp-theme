@@ -33,6 +33,7 @@ require_once('includes/menus.php');
 add_theme_support('post-thumbnails');
 
 //Defining custon fuction
-
+//Registering main menu 
+require_once('custom-shortcodes.php');
 
 

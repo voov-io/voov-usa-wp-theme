@@ -11,24 +11,30 @@ let highlighter = document.getElementById('highlighter');
 
 let btnTestimonials = document.getElementById('next-btn-testimonials')
 let testimonialscontainer =  document.getElementById('img-container')
+let iconDrowpdown = document.querySelector('.icon-dropdown');
+let iconDrowpdown2 = document.querySelector('#icon-dropdown2');
+let iconDrowpdown3 = document.querySelector('#icon-dropdown3');
 
 dropdown1.addEventListener('click',(e)=>{
     changeheight()
     dropdowninfo1.classList.toggle('active');
     dropdowninfo2.classList.remove('active');
     dropdowninfo3.classList.remove('active');
+    iconDrowpdown.classList.toggle('rotated')
 })
 dropdown2.addEventListener('click',(e)=>{
     changeheight()
     dropdowninfo2.classList.toggle('active');
     dropdowninfo1.classList.remove('active');
     dropdowninfo3.classList.remove('active');
+    iconDrowpdown2.classList.toggle('rotated')
 })
 dropdown3.addEventListener('click',(e)=>{
     changeheight();
     dropdowninfo3.classList.toggle('active');
     dropdowninfo1.classList.remove('active');
     dropdowninfo2.classList.remove('active');
+    iconDrowpdown3.classList.toggle('rotated')
 })
 
 let changeheight = () => {
@@ -38,8 +44,6 @@ let changeheight = () => {
     highlighter.classList.toggle('active');
     
 } 
-
-
 /*text animation in main title img*/
 
 var TxtType = function(el, toRotate, period) {
