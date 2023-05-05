@@ -5,9 +5,20 @@
 }
 .page-services .container{
     padding-bottom: 0;
+    padding-top: 0;
+}
+.page-services .copy-head.grid{
+    gap: 0;
+}
+.page-services .copy-head img{
+    width: 80%;
 }
 .copy-head h1{
+    margin-top: 0;
     margin-bottom: 0;
+}
+.copy-head p{
+    margin-top: 0;
 }
 .copy-head > *{
     text-align: center;
@@ -17,8 +28,8 @@
 }
 
 .page-services .circle.BlueSky.big{
-    width: 40em;
-    height: 40em;
+    width: 33em;
+    height: 33em;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -47,8 +58,8 @@
 .about-service.ThreeD{
     background-color: var(--colorYellow);
 }
-.about-service .container{
-   padding-bottom: 1em;
+.about-service .item{
+    place-items: center;
 }
 
 .about-service .container-copy h2{
@@ -89,23 +100,51 @@
     bottom: 0;
 }
 .about-service  .container.grid{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14em,1fr));
     overflow-x: auto;
     gap: 2em;
     justify-content: center;
     overflow-y: hidden;
+    padding: 0;
+    place-items: flex-start;
 
 }
 .sub-container-services{
 
-    min-height: 14em;
     transition: .5s all ease-in-out;
     cursor: pointer;
     z-index: 2;
+    width: 100%;
+    padding: .5em;
 }
 .sub-container-services:hover{
-    transform: scale(1.1);
+    background-color: white;
+    border-radius: var(--borderRadius);
+    color: var(--colorGreen);
 }
+.sub-container-services:hover .container-icon{
+    background-color: var(--colorGreen);
+    background-repeat: no-repeat;
+} 
+
+.sub-container-services:first-child:hover .container-icon img{
+    content: url("../icons/Social\ Media\ Specialist\ \(1\).svg");
+   
+}
+.sub-container-services:nth-child(2):hover .container-icon img{
+    content: url("../icons/Content\ Calendar.svg");
+   
+}
+.sub-container-services:nth-child(3):hover .container-icon img{
+    content: url("../icons/Copywriter.svg");
+   
+}
+.sub-container-services:last-child:hover .container-icon img{
+    content: url("../icons/Social\ Media\ Monitoring.svg");
+   
+}
+
 .sub-container-services, .about-service h3{
     text-align: center;
     
@@ -129,6 +168,7 @@
     border-radius: 50%;
     background: white;
     padding: 1.5em;
+    margin-right: 1em;
 }
 
 .call-to-action-v2 .container{
@@ -205,7 +245,9 @@
 }
 
 .about-service .container-copy{
-    width: 50%;
+    width: 30%;
+    margin: auto 0;
+
 }
 .about-service .container-img{
     width: 50%;
@@ -216,6 +258,8 @@
 }
 .sub-container-services{
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .overlay{
     position: absolute;
@@ -499,4 +543,91 @@ tiny, low resolution JPG she found on Ancestry. Necessity taught me some amazing
 .label_beforeAfter{
     padding: .5em;
     background: rgb(0 0 0 / 50%);
+}
+
+.container-copy .container-img{
+    width: 100%;
+}
+
+.about-service.PPC{
+    background-color: var(--colorBluesky);
+}
+.about-service.PPC .sub-container-services:hover {
+    background-color: white;
+}
+.about-service.PPC .sub-container-services:hover .container-icon{
+    background-color: var(--colorBluesky);
+}
+
+.about-service.PPC .sub-container-services h4 {
+    color:white;
+}
+.about-service.PPC .sub-container-services:hover h4 {
+    color: var(--colorBluesky);
+}
+
+.about-service.PPC .sub-container-services:first-child:hover .container-icon img{
+    content: url("../icons/Customized\ strategy\ and\ ad\ copy\ creation\ -white.svg");
+}
+.about-service.PPC .sub-container-services:nth-child(2):hover .container-icon img{
+    content: url("../icons/ContinuesOptimization-white.svg");
+}
+.about-service.PPC .sub-container-services:last-child:hover .container-icon img{
+    content: url("../icons/ResultsReporting-white.svg");
+}
+
+.about-service.ThreeD .sub-container-services h4{
+    color:white;
+}
+.about-service.ThreeD .sub-container-services:hover h4{
+    color: var(--colorYellow);
+}
+.about-service.ThreeD .sub-container-services:hover .container-icon{
+    background-color: var(--colorYellow);
+}
+.about-service.ThreeD .sub-container-services:first-child:hover .container-icon img{
+    content: url("../icons/Digital\ Photo\ Touch-Ups-white.svg");
+}
+.about-service.ThreeD .sub-container-services:nth-child(1):hover .container-icon img{
+    content: url("../icons/3D\ \ Services-white.svg");
+}
+.about-service.ThreeD .sub-container-services:nth-child(3):hover .container-icon img{
+    content: url("../icons/2D\ \ Services-white.svg");
+}
+.about-service.ThreeD .sub-container-services:last-child:hover .container-icon img{
+    content: url("../icons/Virtual\ Staging\ Video-white.svg");
+}
+
+.voov-the-choice.service-page .container .head-container h2{
+    width: 40%;
+}
+
+.voov-the-choice.service-page table tr td:last-child{
+    color: #000;
+}
+.voov-the-choice.service-page table tr td{
+    border-right: 6px white solid;
+}
+.voov-the-choice .container
+{
+ overflow-x: auto;
+}
+.voov-the-choice.service-page table th,.voov-the-choice.service-page table th:last-child{
+    width: 10em!important
+}
+
+.voov-the-choice.service-page table th:nth-child(1) {
+    width: 50%!important
+}
+
+.voov-the-choice.service-page.threeD table th:nth-child(1){
+    width: 70%!important;
+
+}
+.voov-the-choice.service-page.threeD table th:nth-child(2){
+    background-color: var(--colorYellow);
+}
+
+.voov-the-choice.service-page.threeD table tr td:nth-child(2){
+background-color: rgba(250, 177, 0, 0.3);
 }

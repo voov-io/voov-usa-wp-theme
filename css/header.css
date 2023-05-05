@@ -45,9 +45,9 @@ header .item {
       ),
       linear-gradient(
         to right,
-        rgb(255, 255, 255),
-        rgb(255, 255, 255),
-        rgb(255, 255, 255)
+        var(--white),
+        var(--white),
+        var(--white)
     );
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
@@ -77,10 +77,15 @@ header .item {
     background-color: var(--colorYellow);
     border-radius: var(--borderRadius);
     width: max-content;
-    left: -70%;
     transition: all .3s ease;
     display: none;
     transform: translateY(-20px);
+  }
+  .subitems-container.about{
+    left: -1em!important
+  }
+  .subitems-container{
+    left: -100%;
   }
 
   .subitems-container li{

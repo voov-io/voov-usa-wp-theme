@@ -45,6 +45,13 @@
     </script>
 
 </head>
+<?php if(!is_front_page()):?>
+<style>
+    :root{
+        --white:#009FEF
+    }
+</style>
+<?php endif?>
 <body  <?php body_class();?>>
     <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53HX2LZ"
@@ -67,14 +74,19 @@
             </a>
             <nav class="menu__container " id="btns__menu">
                 <ul class="menu--items flex ">
-                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/about-us">About Us</a></li>
+                    <li class="item withsubitems"><a  <?php if(!is_front_page()):?> style="color:black!important;" <?php endif?> href="<?php echo home_url();?>/about-us">About Us <img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle"></a>
+                        <ul class="subitems-container about">
+                            <li><a class="subitem" href="<?php echo home_url();?>/about-us#story">Our story</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/about-us#team">Our team</a></li>
+                        </ul>
+                    </li>
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">
-                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing Solutions</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">Marketing Specialists</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">Marketing</a></li>
                             <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Executive Associates</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/inside-sales-service">Inside Sales Services</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/inside-sales-service">Inside Sales</a></li>
                         </ul>
                     </li>
                     <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Blog</a></li>

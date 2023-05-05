@@ -34,14 +34,14 @@
                <div class="sub-footer-container">
                    <h2>Services</h2>
                    <ul>
-                       <li><a href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing Solutions</a></li>
-                       <li><a href="<?php echo home_url();?>/marketing-specialist">Marketing Specialists</a></li>
+                       <li><a href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing</a></li>
+                       <li><a href="<?php echo home_url();?>/marketing-specialist">Marketing</a></li>
                        <li><a href="<?php echo home_url();?>/executive-associates">Executive Associates</a></li>
-                       <li><a href="<?php echo home_url();?>/inside-sales-service">Inside Sales Services</a></li>
+                       <li><a href="<?php echo home_url();?>/inside-sales-service">Inside Sales</a></li>
                    </ul>
                </div>
                <div class="sub-footer-container">
-                   <a href="<?php echo home_url();?>/contact" class="btn green">GET IN THE VOOV</a>
+                   <a href="<?php echo home_url();?>/contact" class="btn green">Get Started</a>
                </div>
             </div >
         </div>

@@ -12,6 +12,7 @@
     --borderRadius:10px;
     --colorlightGrey:#7D7D7D;
     scroll-behavior: smooth;
+    --white:white
     
 
 }
@@ -52,6 +53,11 @@ table{
 
     justify-content: space-around;
 }
+.flex.space-evenly{
+
+    justify-content: space-evenly;
+}
+
 .flex.center{
 
     justify-content: center;
