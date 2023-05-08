@@ -23,80 +23,76 @@
         <div class="circle BlueSky"></div>
         <div class="circle BlueSky big"></div>
 </section>
-<section class="about-service">
-    <div class="container flex space-between">
-        <div class="container-copy">
-            <h2 class="title">Maximize your Revenue by Partnering with our Sales Specialists</h2>
-            <p id="paragraph1">Create an efficient sales process with a lead generation-oriented associate, and attend your clients’ database while cultivating lasting relationships.</p>
-            <p id="paragraph2">Sales are the most vital aspect of running a successful business. Partner with a full-time Inside Sales Associate and drive cost-effective investment.</p>
-        </div>
+<section class="about-service sales">
+    <h3 class="center">Sales Services</h3>
+
+    <div class="container flex space-evenly">
         <div class="container-img">
-            <picture>
-                <img id="img-service" width="100%" height="auto" src="<?php echo ImagesPath?>/bussinnes-guys-working.webp" alt="img related to service">
-            </picture>
-        </div>
-    </div>
-    <h3 class="center">Guarantee Your Productivity With Our Specialized Inside Sales Associates</h3>
-    <div class="container grid center">
+        <div class="container grid center">
         <div class="sub-container-services ">
-            <div  id="InsideSalesAssociate" class="overlay"></div>
+            <div  id="ISA" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Inside Sales Associate.svg" alt="icon social media posting">
             </picture>
-            <h4>Inside Sales<br> Associate</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="SalesCoordinator" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Search Engine Optimization (SEO).svg" alt="icon social media posting">
-            </picture>
-            <h4>Sales <br>Coordinator</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="Recruiters" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Pay per click (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Recruiters for <br>Real Estate Agents</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="ZillowLeadsProspector" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Zillow Leads Prospector</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="LeadsProspector" class="overlay"></div>
-            <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Leads<br> Prospector</h4>
+            <h4>Inside Sales <br> Associate</h4>
         </div>
         <div class="sub-container-services ">
             <div  id="AppointmentSetter" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Appointment Setter.svg" alt="icon social media posting">
             </picture>
-            <h4>Appointment<br> Setter</h4>
+            <h4>Appointment  <br>Setter</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="SalesCoordinator" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Sales Coordinator.svg" alt="icon social media posting">
+            </picture>
+            <h4>Sales Coordinator</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="Recruiters" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Recruiters for RE Agents.svg" alt="icon social media posting">
+            </picture>
+            <h4>Recruiters <br>for RE Agents</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="LeadsProspectors" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Leads Prospectors.svg" alt="icon social media posting">
+            </picture>
+            <h4>Leads <br> Prospectors</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="CircleProspecting" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Circle Prospecting.svg" alt="icon social media posting">
+            </picture>
+            <h4>Circle  <br> Prospectors</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="ZillowLeadsProspectors" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Zillow Leads Prospector.svg" alt="icon social media posting">
+            </picture>
+            <h4>Zillow <br> Leads Prospector</h4>
         </div>
         <div class="sub-container-services ">
             <div  id="TitleCompanies" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Title Companies.svg" alt="icon social media posting">
             </picture>
-            <h4>Title <br>Companies</h4>
+            <h4>Title  <br> Companies</h4>
         </div>
-        <div class="sub-container-services ">
-            <div  id="CircleProspectors" class="overlay"></div>
-            <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Circle<br>Prospectors</h4>
+    </div>
         </div>
+        <div class="container-copy">
+            <h2 id="title" class="title">Social Media Specialist</h2>
+            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
+            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+        </div>
+        
     </div>
 </section>
 <section class="call-to-action-v2">

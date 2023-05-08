@@ -103,7 +103,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14em,1fr));
     overflow-x: auto;
-    gap: 2em;
+    gap: .5em;
     justify-content: center;
     overflow-y: hidden;
     padding: 0;
@@ -153,7 +153,7 @@
 .about-service h3{
     margin-top: 0;
     padding-top: 2em;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 0;
 
 }
@@ -255,6 +255,7 @@
 
 .sub-container-services h4{
     max-height: max-content;
+    text-align: initial;
 }
 .sub-container-services{
   position: relative;
@@ -630,4 +631,77 @@ tiny, low resolution JPG she found on Ancestry. Necessity taught me some amazing
 
 .voov-the-choice.service-page.threeD table tr td:nth-child(2){
 background-color: rgba(250, 177, 0, 0.3);
+}
+
+.about-service.mk{
+    background-color: var(--colorYellow);
+}
+.about-service.mk .container-img .sub-container-services .container-icon{
+    background-color: white;
+}
+
+.about-service.mk .container-img .sub-container-services h4{
+    color: white;
+}
+
+.about-service.mk .container-img .sub-container-services:hover .container-icon{
+    background-color: var(--colorYellow);
+}
+
+.about-service.mk .container-img .sub-container-services:hover h4{
+    color: var(--colorYellow);
+}
+
+.about-service.mk .sub-container-services:first-child:hover .container-icon img{
+    content: url("../icons/Social\ Media\ Manager-white.svg");
+}
+
+.about-service.mk .sub-container-services:nth-child(2):hover .container-icon img{
+    content: url("../icons/Marketing\ Coordinator-white.svg");
+}
+.about-service.mk .sub-container-services:nth-child(3):hover .container-icon img{
+    content: url("../icons/Graphic\ Designer-white.svg");
+}
+.about-service.mk .sub-container-services:nth-child(4):hover .container-icon img{
+    content: url("../icons/Copywriter-white.svg");
+}
+.about-service.mk .sub-container-services:nth-child(5):hover .container-icon img{
+    content: url("../icons/SEM-white.svg");
+}
+
+.about-service.mk .sub-container-services:nth-child(6):hover .container-icon img{
+    content: url("../icons/Web\ Development-white.svg");
+}
+.about-service.mk .sub-container-services:nth-child(7):hover .container-icon img{
+    content: url("../icons/PPC\ \ \(Pay\ per\ click\)-white.svg");
+}
+.about-service.mk .sub-container-services:last-child:hover .container-icon img{
+    content: url("../icons/Video\ Editor-white.svg");
+}
+
+.about-service.sales .sub-container-services:first-child:hover .container-icon img{
+    content: url("../icons/Inside\ Sales\ Associate-white.svg");
+}
+
+.about-service.sales .sub-container-services:nth-child(2):hover .container-icon img{
+    content: url("../icons/Appointment\ Setter-white.svg");
+}
+.about-service.sales .sub-container-services:nth-child(3):hover .container-icon img{
+    content: url("../icons/Sales\ Coordinator-white.svg");
+}
+.about-service.sales .sub-container-services:nth-child(4):hover .container-icon img{
+    content: url("../icons/Recruiters\ for\ RE\ Agents-white.svg");
+}
+.about-service.sales .sub-container-services:nth-child(5):hover .container-icon img{
+    content: url("../icons/Leads\ Prospectors-white.svg");
+}
+
+.about-service.sales .sub-container-services:nth-child(6):hover .container-icon img{
+    content: url("../icons/Circle\ Prospecting-white.svg");
+}
+.about-service.sales .sub-container-services:nth-child(7):hover .container-icon img{
+    content: url("../icons/Zillow\ Leads\ Prospector-white.svg");
+}
+.about-service.sales .sub-container-services:last-child:hover .container-icon img{
+    content: url("../icons/Title\ Companies-white.svg");
 }

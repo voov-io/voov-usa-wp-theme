@@ -23,7 +23,7 @@ main .container{
     border-radius: var(--borderRadius);
     padding: .5rem 1rem;
     bottom: 35%;
-    left: -48%;
+    left: -40%;
     box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);
     -webkit-box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);
     -moz-box-shadow: -1px 2px 41px -19px rgba(134,134,134,0.75);

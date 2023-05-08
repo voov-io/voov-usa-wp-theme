@@ -23,94 +23,77 @@
         <div class="circle BlueSky"></div>
         <div class="circle BlueSky big"></div>
 </section>
-<section class="about-service">
-    <div class="container flex space-between">
-        <div class="container-copy">
-            <h2 class="title">Optimize your Administrative Duties With Our Specialized Associates</h2>
-            <p id="paragraph1">Solve regular duties like scheduling, reviewing, prioritizing, and answering emails, placing follow-up calls, and organizing documents.</p>
-            <p id="paragraph2">Get a full-time Executive Associate to maximize your time and attend to your daily tasks efficiently. </p>
-        </div>
+<section class="about-service sales">
+    <h3 class="center">Executive Services</h3>
+
+    <div class="container flex space-evenly">
         <div class="container-img">
-            <picture>
-                <img id="img-service" width="100%" height="auto" src="<?php echo ImagesPath?>/bussinnes-guys-working.webp" alt="img related to service">
-            </picture>
-        </div>
-    </div>
-    <h3 class="center">Guarantee Your Productivity With Our Specialized Executives Services</h3>
-    <div style="justify-content: left;" class="container grid center">
-        <div class="sub-container-services ">
-            <div  id="ExecutiveAssociate" class="overlay"></div>
+        <div class="container grid center">
+        <div class="sub-container-services">
+            <div  id="Property-Management" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Inside Sales Associate.svg" alt="icon social media posting">
             </picture>
-            <h4>Executive<br> Associate</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="DataAnalyst" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Search Engine Optimization (SEO).svg" alt="icon social media posting">
-            </picture>
-            <h4>Data<br>Analyst</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="TransactionCoordinator" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Pay per click (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Transaction<br>Coordinator</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="ProjectManager" class="overlay"></div>
-            <picture class="container-icon">
-
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Project Manager</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="Bookkeeper" class="overlay"></div>
-            <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Bookkeeper</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="OperationsManager" class="overlay"></div>
-            <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Operations<br> Manager</h4>
-        </div>
-        <div class="sub-container-services ">
-            <div  id="PropertyManagementAssociate" class="overlay"></div>
-            <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
-            </picture>
-            <h4>Property Management <br>Associate</h4>
+            <h4>Property<br> Management Assistant</h4>
         </div>
         <div class="sub-container-services ">
             <div  id="LeasingSpecialist" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Appointment Setter.svg" alt="icon social media posting">
             </picture>
-            <h4>Leasing <br>Specialist</h4>
+            <h4>Leasing<br>Specialist</h4>
         </div>
         <div class="sub-container-services ">
             <div  id="MaintenanceCoordinator" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Sales Coordinator.svg" alt="icon social media posting">
             </picture>
-            <h4>Maintenance <br>Coordinator</h4>
+            <h4>Maintenance<br> Coordinator</h4>
         </div>
         <div class="sub-container-services ">
             <div  id="LeadManager" class="overlay"></div>
             <picture class="container-icon">
-                <img src="<?php echo IconsPath?>/Social media (Traced).svg" alt="icon social media posting">
+                <img src="<?php echo IconsPath?>/Recruiters for RE Agents.svg" alt="icon social media posting">
             </picture>
-            <h4>Lead <br>Manager</h4>
+            <h4>Lead  <br>Manager</h4>
         </div>
+        <div class="sub-container-services ">
+            <div  id="ExecutiveAssistant" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Leads Prospectors.svg" alt="icon social media posting">
+            </picture>
+            <h4>Executive<br> Assistant</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="OperationsManager" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Circle Prospecting.svg" alt="icon social media posting">
+            </picture>
+            <h4>Operations<br> Manager</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="Bookkeeper" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Zillow Leads Prospector.svg" alt="icon social media posting">
+            </picture>
+            <h4>Bookkeeper</h4>
+        </div>
+        <div class="sub-container-services ">
+            <div  id="ProjectManager" class="overlay"></div>
+            <picture class="container-icon">
+                <img src="<?php echo IconsPath?>/Title Companies.svg" alt="icon social media posting">
+            </picture>
+            <h4>Project<br> Manager</h4>
+        </div>
+    </div>
+        </div>
+        <div class="container-copy">
+            <h2 id="title" class="title">Property Management Associate</h2>
+            <p id="paragraph1">Keep your daily operational tasks highly organized with property focussed administrative strategies. </p>
+            <p id="paragraph2">Associate with a full-time Property Manager optimizes the day-to-day challenges that come with owning a real estate investment property. 
+</p>
+        </div>
+        
     </div>
 </section>
 <section class="call-to-action-v2">

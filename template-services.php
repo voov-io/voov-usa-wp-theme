@@ -267,9 +267,9 @@
     </div>
         </div>
         <div class="container-copy ppc">
-            <h2 id="title" class="title">Social Media Specialist</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+            <h2 id="titleppc" class="title">Customized strategy and ad copy creation</h2>
+            <p id="paragraph1ppc">Achieve PPC success with a customized strategy based on deep data analysis of your target audience. Our specialists identify the optimal keywords, ad formats, placement, and bidding strategy to meet your campaign goals. And, our expertly crafted ad copy speaks directly to your audience, compelling them to take action.</p>
+            <p id="paragraph2ppc">paragraph</p>
         </div>
         
     </div>
@@ -387,9 +387,9 @@
         </div>
     </div>
         <div class="container-copy">
-            <h2 id="title" class="title">Social Media Specialist</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+            <h2 id="titled" class="title">Digital Photo Touch-Ups.</h2>
+            <p id="paragraph1d">Keep your social media content consistent, relevant and timely. Boost engagement, increase brand awareness, and drive conversions.</p>
+            <p id="paragraph2d"></p>
                 <div class="container-img"> 
                     <div class="before-after-container">
                         <figure>
