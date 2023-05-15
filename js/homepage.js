@@ -46,7 +46,7 @@ let changeheight = () => {
 } 
 /*text animation in main title img*/
 
-var TxtType = function(el, toRotate, period) {
+let TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -57,8 +57,8 @@ var TxtType = function(el, toRotate, period) {
 };
 
 TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
+    let i = this.loopNum % this.toRotate.length;
+    let fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -68,8 +68,8 @@ TxtType.prototype.tick = function() {
 
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-    var that = this;
-    var delta = 150 - Math.random() * 100;
+    let that = this;
+    let delta = 150 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -88,31 +88,92 @@ TxtType.prototype.tick = function() {
 };
 
 window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
+    let elements = document.getElementsByClassName('typewrite');
+    for (let i=0; i<elements.length; i++) {
+        let toRotate = elements[i].getAttribute('data-type');
+        let period = elements[i].getAttribute('data-period');
         if (toRotate) {
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
     // INJECT CSS
-    var css = document.createElement("style");
+    let css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
 
-let container2 = document.getElementById('cont2');
+let container1 = document.getElementById('cont1');
+let firtElement = document.getElementsByTagName("iframe")[0];
+let elementRemove;
 
 btnTestimonials.addEventListener('click', (e) => {
-    let firtElement = document.getElementsByTagName("iframe")[0];
-    let elementRemove = firtElement;
-    firtElement.classList.add("remove")
-    setTimeout(() => {
-        container2.appendChild(elementRemove)
+    if (firtElement != undefined) {
+        elementRemove = firtElement;
+        firtElement.classList.add("remove")
+        setTimeout(() => {
+            elementRemove.remove();
+            
+        }, 500);
         
-    }, 500);
-
+    }
+    if (container1.lastElementChild != undefined) {
+        container1.lastElementChild.classList.add("remove")
+        setTimeout(() => {
+            container1.lastElementChild.remove();
+            
+        }, 500);
+    }
+    else{
+        initYouTubeVideos()
+        btnTestimonials.style.display = "none"
+    }
 
 });
+
+  /*
+   * Light YouTube Embeds by @labnol
+   * Credit: https://www.labnol.org/
+   */
+
+  function labnolIframe(div) {
+    let iframe = document.createElement('iframe');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.id + '?autoplay=1');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '1');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+    div.parentNode.replaceChild(iframe, div);
+    btnTestimonials.style.display = "flex"
+  }
+  let TestimonialsList = [
+      {id:"TEaPfxIRkX0",thumbnail:"https://i.ytimg.com/vi/TEaPfxIRkX0/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFkgXShlMA8=&rs=AOn4CLCZyXRmsFgf0EcLsQ82vFUOcEOWzQ"},
+      {id:"iqrVfYrKyNQ",thumbnail:"https://i.ytimg.com/vi/iqrVfYrKyNQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBILxZ8zfC4S8zgJe4M2Dg4f--6WA"},
+      {id:"-UtwwdyWJcA",thumbnail:"https://i.ytimg.com/vi/-UtwwdyWJcA/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gWCgeMA8=&rs=AOn4CLC-CWILTR5bA7M610B6WwoiE51Hmw"},
+      {id:"0UkG_PYBTZ8",thumbnail:"https://i.ytimg.com/vi/0UkG_PYBTZ8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVihDMA8=&rs=AOn4CLBUKZDts_ZjpLbbtXvRhweom_m4Xg"},
+      {id:"mDo9M0vqOUI",thumbnail:"https://i.ytimg.com/vi/mDo9M0vqOUI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFUgWShlMA8=&rs=AOn4CLB3rUHwdHu9Uih2fuOMCyKwikqHew"},
+      {id:"Tg0MgZdSb0Q",thumbnail:"https://i.ytimg.com/vi/Tg0MgZdSb0Q/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWSg8MA8=&rs=AOn4CLD7bBfdsGG49K01QOEEVxRhqg82dQ"},
+      {id:"fMHOIfCyRZg",thumbnail:"https://i.ytimg.com/vi/fMHOIfCyRZg/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihSMA8=&rs=AOn4CLAKpNloXqKN8xWSXlgmFzrWmNMiew"},
+
+  ]
+
+  function initYouTubeVideos() {
+
+    let playerElements = document.getElementsByClassName('youtube-player');
+    for (let n = 0; n < TestimonialsList.length; n++) {
+      //let videoId = playerElements[n].dataset.id;
+      let div = document.createElement('div');
+      div.setAttribute('data-id', TestimonialsList[n].id);
+      let thumbNode = document.createElement('img');
+      thumbNode.src = TestimonialsList[n].thumbnail.replace('ID', TestimonialsList[n].id);
+      div.appendChild(thumbNode);
+      let playButton = document.createElement('div');
+      playButton.setAttribute('class', 'play');
+      div.appendChild(playButton);
+      div.onclick = function () {
+        labnolIframe(this);
+      };
+      playerElements[0].appendChild(div);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', initYouTubeVideos);

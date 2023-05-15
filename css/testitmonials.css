@@ -34,22 +34,19 @@
     height: 20em;
     width: 100%;
 }
-.testimonial .cont1 iframe:nth-child(1){
+.testimonial .cont1{
     z-index: 2;
     width: 100%;
 }
-
-.testimonial .cont2 iframe:nth-child(1){
-    width: 100%;
-    z-index: 1;
+.testimonial .cont1 div {
+display: none!important;
 }
 
-.testimonial .cont1 iframe:nth-child(2), .testimonial .cont2 iframe:nth-child(2){
-    left: 13%;
-    top: 5px;
-    width: 92%;
-
+.testimonial .cont1 div:last-child {
+    display: block!important;
 }
+
+
 
 
 
@@ -71,6 +68,7 @@
     place-content: center;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    display: none;
 }
 
 .icon-container:hover{

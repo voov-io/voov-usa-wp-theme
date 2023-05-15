@@ -104,8 +104,8 @@ document.addEventListener('click', e =>{
     }
     if (e.target.matches("#GraphicDesigner")) {
         title.innerHTML = "Graphic Designer"
-        paragraph1.innerHTML = "Launch and optimize PPC (Pay per click) Campaigns. Track KPIs to evaluate performance and increase better ROI.";
-        paragraph2.innerHTML = "PPC experts, ensure effective budget investment for successful results, they captivate the appropriate audience to maximize the results of a paid advertising campaign online.";
+        paragraph1.innerHTML = "Create innovative designs to support your business ideas and improve your brand's image.";
+        paragraph2.innerHTML = "Get into your team a talented full-time Graphic Designer to create professional graphics for social media, events, and printed material for all your needs in business. ";
         paragraph1.classList.toggle('fadeInRight');
         paragraph2.classList.toggle('fadeInRight');
         
@@ -215,11 +215,35 @@ document.addEventListener('click', e =>{
         
     }
     if (e.target.matches("#DigitalPhotoTouchUps")) {
- 
-        paragraph1.innerHTML = "Elevate your content with stunning Real Estate photography that captivates your audience.";
-        paragraph2.innerHTML = "Photo Editors provides efficient digital image editing according to your expectations.";
-        paragraph1.classList.toggle('fadeInRight');
-        paragraph2.classList.toggle('fadeInRight');
+        titled.innerHTML = "Digital Photo Touch-Ups "
+        paragraph1d.innerHTML = "Eye-catching visuals are essential in capturing your audience's attention and driving engagement, elevate your content with stunning Real Estate photography. ";
+        paragraph2d.innerHTML = "With skilled photo editors, you can enhance the colors, adjust the brightness, contrast, remove blemishes, and much more according to your expectations.<br><br>Impress your clients and drive effective sales now!";
+        paragraph1d.classList.toggle('fadeInRight');
+        paragraph2d.classList.toggle('fadeInRight');
+        
+    }
+    if (e.target.matches("#ThereeDServices")) {
+        titled.innerHTML = "3D Services"
+        paragraph1d.innerHTML = "Market your property in a way that is truly convincing and compelling to those who are looking for their next dream home.";
+        paragraph2d.innerHTML = "With the power of 3D rendering, you can showcase a fully finished space with realistic finishes that will make anyone want to step inside. <br><br>Sell your property faster and for a better price, making it a valuable investment for any property owner.";
+        paragraph1d.classList.toggle('fadeInRight');
+        paragraph2d.classList.toggle('fadeInRight');
+        
+    }
+    if (e.target.matches("#TwoDServices")) {
+        titled.innerHTML = "2D Services"
+        paragraph1d.innerHTML = "Present your architectural plans to potential buyers in a way that is visually appealing and easy to understand.        ";
+        paragraph2d.innerHTML = "Enhance the visual appeal of your hand-drawn or digital plans to make them more accessible to the general public.<br><br>Our team of experts can transform your plans into stunning 2D visual representations that showcase your properties efficiently.";
+        paragraph1d.classList.toggle('fadeInRight');
+        paragraph2d.classList.toggle('fadeInRight');
+        
+    }
+    if (e.target.matches("#VirtualStagingVideo")) {
+        titled.innerHTML = "Virtual Staging Video"
+        paragraph1d.innerHTML = "Our Before & After Staging videos are the perfect way to showcase your properties and leave a lasting impression on potential buyers.";
+        paragraph2d.innerHTML = "With a focus on creating visually stunning videos that combine music, text, sound effects, transitions, and visual effects, our service is designed to make your properties stand out.<br><br>Impress your audience and close deals faster than ever before!        ";
+        paragraph1d.classList.toggle('fadeInRight');
+        paragraph2d.classList.toggle('fadeInRight');
         
     }
     if (e.target.matches("#fractional")) {
@@ -251,6 +275,17 @@ document.addEventListener('click', e =>{
         paragraph2.innerHTML = "Our specialists provide a research-based copy that resonates with your audience and inspires them to engage with your brand.";
         title.innerHTML = "Copywriter"
         title.classList.toggle('fadeInRight');
+        title.classList.toggle('fadeInRight');
+        paragraph1.classList.toggle('fadeInRight');
+        paragraph2.classList.toggle('fadeInRight');
+    
+    }
+    if (e.target.matches("#socialMedia")) {
+        
+        title.innerHTML = "Social Media Specialists"
+        paragraph1.innerHTML = "Increase your audience Engagement and attract new leads by staying active on Social Media";
+        paragraph2.innerHTML = "Social Media Specialists, creates valuable digital content and monitor various marketing channels according to your goals.        ";
+
         title.classList.toggle('fadeInRight');
         paragraph1.classList.toggle('fadeInRight');
         paragraph2.classList.toggle('fadeInRight');
@@ -418,8 +453,8 @@ document.addEventListener('click', e =>{
                 break;
             case "Customizedstrategy":
                 titleppc.innerHTML= "Customized strategy and ad copy creation"
-                paragraph1ppc.innerHTML = "s";
-                paragraph2ppc.innerHTML = "s";
+                paragraph1ppc.innerHTML = "Achieve PPC success with a customized strategy based on deep data analysis of your target audience. ";
+                paragraph2ppc.innerHTML = "Our specialists identify the optimal keywords, ad formats, placement, and bidding strategy to meet your campaign goals such as increasing website traffic, generating leads, or driving sales. <br><br>And, our expertly crafted ad copy speaks directly to your audience, compelling them to take action.";
                 titleppc.classList.toggle('fadeInRight');
                 paragraph1ppc.classList.toggle('fadeInRight');
                 paragraph2ppc.classList.toggle('fadeInRight');
@@ -427,8 +462,8 @@ document.addEventListener('click', e =>{
                 break;
              case "ContinuesOptimization":
                 titleppc.innerHTML= "Continues Optimization"
-                paragraph1ppc.innerHTML = "c";
-                paragraph2ppc.innerHTML = "c";
+                paragraph1ppc.innerHTML = "Refine your targeting and improve your ad performance with continuous optimization to gain a competitive advantage and maximize your ROI.";
+                paragraph2ppc.innerHTML = "By continuously monitoring and adjusting your PPC campaign, you can identify opportunities for optimization, reduce wasted spend, and increase conversions.<br><br>Overall, continuous optimization is critical to the success of a PPC campaign, as it allows you to maximize its effectiveness and achieve your desired results.";
                 titleppc.classList.toggle('fadeInRight');
                 paragraph1ppc.classList.toggle('fadeInRight');
                 paragraph2ppc.classList.toggle('fadeInRight');
@@ -436,8 +471,8 @@ document.addEventListener('click', e =>{
                 break;
              case "ResultsReporting":
                 titleppc.innerHTML= "Results Reporting"
-                paragraph1ppc.innerHTML = "r";
-                paragraph2ppc.innerHTML = "r";
+                paragraph1ppc.innerHTML = "Results reporting allows you to measure the success of the campaign against key performance indicators (KPIs), such as click-through rates (CTRs), conversion rates, and cost per acquisition (CPA).";
+                paragraph2ppc.innerHTML = "This information can help you to identify areas of the campaign that require further attention, such as ad copy or landing page optimization, and adjust your strategy accordingly.<br><br> Additionally, results reporting enables you make informed decisions about future investment. ";
                 title.classList.toggle('fadeInRight');
                 paragraph1ppc.classList.toggle('fadeInRight');
                 paragraph2ppc.classList.toggle('fadeInRight');

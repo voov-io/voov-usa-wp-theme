@@ -103,16 +103,15 @@
         <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
     </div>
     <div id="img-container" class="img-container">
-        <div id="cont1" class="cont1">
+        <div id="cont1" class="cont1 youtube-player">
+            <!-- 
             <iframe loading="lazy"  width="100%" height="auto"  src="https://www.youtube.com/embed/TEaPfxIRkX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe loading="lazy"  width="90%" height="auto"  src="https://www.youtube.com/embed/iqrVfYrKyNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe loading="lazy"  width="80%" height="auto" src="https://www.youtube.com/embed/-UtwwdyWJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe  loading="lazy"  width="70%" height="auto" src="https://www.youtube.com/embed/0UkG_PYBTZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <iframe  loading="lazy"  width="60%" height="auto" src="https://www.youtube.com/embed/mDo9M0vqOUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
-        <div id="cont2" class="cont2">
-        </div>
+            -->
+            </div>
         </div>
         <div id="next-btn-testimonials" class="icon-container">
             <img src="<?php echo IconsPath?>/Arrow 1.svg" alt="arrox  right icon ">

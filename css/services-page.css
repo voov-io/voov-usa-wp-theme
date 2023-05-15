@@ -101,7 +101,7 @@
 }
 .about-service  .container.grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14em,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(16em,1fr));
     overflow-x: auto;
     gap: .5em;
     justify-content: center;
@@ -137,7 +137,7 @@
    
 }
 .sub-container-services:nth-child(3):hover .container-icon img{
-    content: url("../icons/Copywriter.svg");
+    content: url("../icons/Copywriter-white.svg");
    
 }
 .sub-container-services:last-child:hover .container-icon img{
@@ -589,7 +589,7 @@ tiny, low resolution JPG she found on Ancestry. Necessity taught me some amazing
 .about-service.ThreeD .sub-container-services:first-child:hover .container-icon img{
     content: url("../icons/Digital\ Photo\ Touch-Ups-white.svg");
 }
-.about-service.ThreeD .sub-container-services:nth-child(1):hover .container-icon img{
+.about-service.ThreeD .sub-container-services:nth-child(2):hover .container-icon img{
     content: url("../icons/3D\ \ Services-white.svg");
 }
 .about-service.ThreeD .sub-container-services:nth-child(3):hover .container-icon img{
@@ -704,4 +704,28 @@ background-color: rgba(250, 177, 0, 0.3);
 }
 .about-service.sales .sub-container-services:last-child:hover .container-icon img{
     content: url("../icons/Title\ Companies-white.svg");
+}
+
+@media screen and (max-width:575px) {
+    .voov-the-choice.service-page table th{
+        width: 6em!important
+    }
+    
+    .voov-the-choice.service-page table th:nth-child(1), .voov-the-choice.service-page table th:last-child{
+        width: 10em!important
+    }
+    
+    .container-icon{
+
+        width: 6em;
+        height: 6em;
+
+    }
+    .about-service  .container.grid{
+        overflow-x: hidden;
+    }
+
+    .voov-the-choice.service-page .container .head-container h2{
+        width: 100%;
+    }
 }

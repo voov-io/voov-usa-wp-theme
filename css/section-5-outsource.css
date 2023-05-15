@@ -125,4 +125,11 @@
     .section-5-outsource .container-outsource:hover {
         min-width: 30em;
     }
+    .section-5-outsource .container{
+        place-content:flex-start;
+    }
+    .container-outsource{
+        min-width: 17em;
+    }
+    
 }

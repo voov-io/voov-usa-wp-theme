@@ -163,13 +163,14 @@ main .circlePulso {
         width: 100%;
     }
     main .img-container {
-        width: 55%;
+        width: 60%;
         margin: 0 0 0 auto;
+        margin-top:10em
     }
     .img-container .title{
         width: 100vw;
         z-index: 1;
-        left: -95%;
+        left: -75%;
     }
     .img-container .title h2{
         font-size: 1rem;
@@ -187,6 +188,12 @@ main .circlePulso {
     }
     main .circle {
         right: -10em;
+    }
+    main .img-container {
+        width: 80%;
+    }
+    .img-container .title{
+        left: -20px;
     }
 }
 @media screen and (max-width:321px) {

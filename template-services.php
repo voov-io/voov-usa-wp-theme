@@ -268,8 +268,8 @@
         </div>
         <div class="container-copy ppc">
             <h2 id="titleppc" class="title">Customized strategy and ad copy creation</h2>
-            <p id="paragraph1ppc">Achieve PPC success with a customized strategy based on deep data analysis of your target audience. Our specialists identify the optimal keywords, ad formats, placement, and bidding strategy to meet your campaign goals. And, our expertly crafted ad copy speaks directly to your audience, compelling them to take action.</p>
-            <p id="paragraph2ppc">paragraph</p>
+            <p id="paragraph1ppc">Achieve PPC success with a customized strategy based on deep data analysis of your target audience. </p>
+            <p id="paragraph2ppc">Our specialists identify the optimal keywords, ad formats, placement, and bidding strategy to meet your campaign goals such as increasing website traffic, generating leads, or driving sales.<br><br>And, our expertly crafted ad copy speaks directly to your audience, compelling them to take action.</p>
         </div>
         
     </div>
@@ -357,28 +357,28 @@
         <div class="container-img">
             <div class="container grid center">
                 <div class="sub-container-services ">
-                    <div  id="socialMedia" class="overlay"></div>
+                    <div  id="DigitalPhotoTouchUps" class="overlay"></div>
                     <picture class="container-icon">
                         <img src="<?php echo IconsPath?>/Digital Photo Touch-Ups.svg" alt="icon social media posting">
                     </picture>
                     <h4>Digital Photo<br> Speci Touch-Ups.</h4>
                 </div>
                 <div class="sub-container-services ">
-                    <div  id="ContentCalendar" class="overlay"></div>
+                    <div  id="ThereeDServices" class="overlay"></div>
                     <picture class="container-icon">
                         <img src="<?php echo IconsPath?>/3D  Services.svg" alt="icon social media posting">
                     </picture>
                     <h4>3D Services<br>Calendar</h4>
                 </div>
                 <div class="sub-container-services ">
-                    <div  id="Copywriter" class="overlay"></div>
+                    <div  id="TwoDServices" class="overlay"></div>
                     <picture class="container-icon">
                         <img src="<?php echo IconsPath?>/2D  Services.svg" alt="icon social media posting">
                     </picture>
                     <h4>2D Services</h4>
                 </div>
                 <div class="sub-container-services ">
-                    <div  id="SocialMediaMonitoring" class="overlay"></div>
+                    <div  id="VirtualStagingVideo" class="overlay"></div>
                     <picture class="container-icon">
                         <img src="<?php echo IconsPath?>/Virtual Staging Video.svg" alt="icon social media posting">
                     </picture>

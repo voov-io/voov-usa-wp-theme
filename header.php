@@ -14,7 +14,7 @@
     <title>VOOV</title>
     <link rel="shortcut icon" href="<?php echo themepath?>/favicon.png" type="image/x-icon">
     <!-- Proudly developed by Jehaann Manzanares - email me jehaann07carlos@gmail.com-->
-        <!-- Google Tag Manager -->
+       <!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -39,11 +39,13 @@
     src="https://www.facebook.com/tr?id=217068084278854&ev=PageView&noscript=1"
     /></noscript>
 <!-- End Meta Pixel Code -->
-    <?php wp_head(); ?> 
+
     <script type="text/javascript">
         var templateUrl = '<?= get_bloginfo("template_url"); ?>';
     </script>
-
+<!--Mailchimp -->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1a35170dfe5ab57caa141e3c4/12944531c8a6d4ebce2806500.js");</script>        
+        <?php wp_head(); ?> 
 </head>
 <?php if(!is_front_page()):?>
 <style>

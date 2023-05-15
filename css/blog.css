@@ -69,7 +69,7 @@
     color: var(--colorBluesky);
 }
 
-.article-content h2{
+.article-content .title-home{
     font-size: 1em;
     min-height: 6em;
 }
@@ -104,7 +104,7 @@
     width: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
 }
 
 .indexpages a{
@@ -113,4 +113,11 @@
 
 .container.banner-principal{
     padding-bottom: 0;
+}
+.wp-block-heading{
+    font-size: 1.8em;
+    color: var(--colorBluesky);
+}
+.article-content a{
+    color: var(--colorBluesky);
 }

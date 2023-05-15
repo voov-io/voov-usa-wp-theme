@@ -123,7 +123,7 @@
     left: -11em;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 575px) {
     .section-6-How-To-VOOV-Up .container{
 
         grid-template-areas: "flag1 child1 child1"

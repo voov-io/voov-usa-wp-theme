@@ -21,7 +21,7 @@
         <div class="article-content">
             <p class="article-category"><?php the_category(','); ?></p>
             <p class="article-date"><?php the_time(get_option('date_format')); ?></p>
-            <h2> <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?>   </a></h2>
+            <h2 class="title-home"> <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?>   </a></h2>
             <p><?php the_excerpt(); ?></p>
          </div>
     </article>	<!-- /.article -->

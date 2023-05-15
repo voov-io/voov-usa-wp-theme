@@ -88,9 +88,9 @@
     </div>
         </div>
         <div class="container-copy">
-            <h2 id="title" class="title">Social Media Specialist</h2>
-            <p id="paragraph1">Increase your audience engagement and attract new leads by staying active on Social Media.</p>
-            <p id="paragraph2">Social Media Specialists, create valuable digital content and monitor various marketing channels according to your goals.</p>
+            <h2 id="title" class="title">Inside Sales Associate</h2>
+            <p id="paragraph1">Create an efficient sales process with a lead generation-oriented associate, and attend your clients’ database while cultivating lasting relationships.</p>
+            <p id="paragraph2">Ensure potential customers make informed decisions, find the right home or property, and handle all negotiations with prospects.<br><br>Partner with our Inside Sales Associates and drive cost-effective investment in your business!</p>
         </div>
         
     </div>
