@@ -53,21 +53,6 @@
 
   					</article>	<!-- /.article -->
           <?php endwhile; ?>
-                <?php if (get_next_post_link() || get_previous_post_link() ) :?>
-
-                    <div class="navegacion-articulos">
-                        <nav>
-                          <div class="anterior ">
-
-                            <?php next_post_link('%link', __('<i class="fa fa-arrow-left" aria-hidden="true"></i> Artículos anterior','slan')); ?>
-                          </div>
-                          <div class="siguiente">
-
-                            <?php previous_post_link('%link', __('Artículos siguiente <i class="fa fa-arrow-right" aria-hidden="true"></i>','slan')); ?>
-                          </div>
-                        </nav>
-                    </div> <!-- /.navegacion-articulos -->
-                  <?php endif; ?>
           <?php  endif; ?>
           </div>  <!-- /listado-articulos -->
 

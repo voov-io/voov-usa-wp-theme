@@ -121,7 +121,7 @@
     <div class="circle red"></div>
 </section>
 
-   <section id="check-how" class="check-how">
+<section id="check-how" class="check-how">
     <h2 class="title center">CHECK HOW MUCH YOU SAVE WITH VOOV</h2>
         <div class="container">
         
@@ -144,7 +144,7 @@
                     <div id="dropdown1"  class="dropdown-summary ">
                             <table>
                                 <tr>
-                                    <th> <img id="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Marketing</th>
+                                    <th> <img id="icon-dropdown" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Marketing</th>
                                     <th>X</th>
                                     <th>$45,494</th>
                                     <th>$21,100</th>
@@ -228,7 +228,7 @@
                     <div id="dropdown2" class="dropdown-summary">
                             <table > 
                                 <tr>
-                                    <th> <img id="icon-dropdown2" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Inside Sales</th>
+                                    <th> <img id="icon-dropdown2" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Inside Sales</th>
                                     <th>X</th>
                                     <th>$31,754</th>
                                     <th>$15,992</th>
@@ -304,7 +304,7 @@
                     <div id="dropdown3" class="dropdown-summary">
                             <table>
                                 <tr>
-                                    <th><img id="icon-dropdown3" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Executive Associate</th>
+                                    <th><img id="icon-dropdown3" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Executive Associate</th>
                                     <th>X</th>
                                     <th>$40,313</th>
                                     <th>$17,100</th>
@@ -380,8 +380,72 @@
                     <a href="#letsconnect" class="btn green">Save up <br>to $592,164</a>
                 </div>
         </div>
-   </section>
-   <section id="WyVOOV" class="section-4-WyVOOV">
+</section>
+<section class="section-4-WyVOOV">
+        <h2 class="title center">What Type Of Associate Are You Looking To Hire?</h2>
+        <div class="container grid center">
+        <figure>
+            <figcaption class="green">Marketing<br> Positions</figcaption>
+            <ul class="positions-list">
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#SocialMedia">Social Media Manager</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#MarketingCo">Marketing Coordinator</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#GraphicDesi">Graphic Designer</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#Copywriter</">Copywriter</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#SEOSEMSpec">SEO/SEM Specialist</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#WebDev">Web Developer </a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#PPC">PPC (Pay per click) Expert</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#VideoEditor">Video Editor</a></li>
+
+            </ul>
+        </figure>
+        <figure>
+            <figcaption class="red">Fractional Marketing Services </figcaption>
+            <ul class="positions-list">
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Social Media Posting</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">SEO/SEM</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">PPC (Pay per click)</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Video Editor</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">SEO/SEM Specialist</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Marketing Coordinator</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Web Developer</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Email Systems</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Digital Photo Touch-Ups</a></li>
+            </ul>
+        </figure>
+        <figure>
+            <figcaption class="blue">Executive <br>Associates</figcaption>
+            <ul class="positions-list">
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#ExecutiveAssociate">Executive Associate</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#Dataanalyst">Data analyst</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#TransactionCoordinator">Transaction Coordinator</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#ProjectManager">Project Manager</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#Bookkeeper">Bookkeeper</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#OperationsManager">Operations Manager</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#PropertyManager">Property Manager Associate</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#LeasingSpecialist">Leasing Specialist</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#MaintenanceCoordinator">Maintenance Coordinator</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#LeadManager">Lead Manager</a></li>
+            </ul>
+        </figure>
+        <figure>
+            <figcaption class="yellow">Inside Sales <br>Associates</figcaption>
+            <ul class="positions-list">
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#InsideSales">Inside Sales Associate</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#Sales">Sales Coordinator</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#Recruiters">Recruiters for Real Estate Agents</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#ZillowLeadProspector">Zillow Leads Prospector</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#LeadsProspector">Leads Prospector</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#AppointmentSetter">Appointment Setter</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#TitleCompanies">Title Companies</a></li>
+                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#CircleProspectors">Circle Prospectors</a></li>
+
+            </ul>
+        </figure>
+        </div>
+        <div class="triangle green"></div>
+        <div class="circle red"></div>
+</section>
+<section id="WyVOOV" class="section-4-WyVOOV">
         <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
         <div class="container grid center">
             <article class="container-solution">
@@ -435,8 +499,8 @@
         </div>
         <div class="circle red"></div>
         <div class="triangle green"></div>
-   </section>
-   <section id="WeAreYourTrusted" class="section-3-WeAreYourTrusted">
+</section>
+<section id="WeAreYourTrusted" class="section-3-WeAreYourTrusted">
     <div class="container flex space-between">
        <div class="copy-container">
            <h2 class="title">We Are Your Trusted Real <br>Estate Virtual Services Partner</h2>
@@ -448,7 +512,7 @@
            <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/img- we are your trusted.webp" alt="young profesional women ">
        </picture>
    </div>
-  </section> 
+</section> 
    <section class="section-5-outsource">
        <h2 class="title center">  Outsource to VOOV?</h2>
         <div class="container flex start">

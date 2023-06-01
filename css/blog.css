@@ -100,11 +100,12 @@
     margin: 0;
 }
 .banner{
-    height: 35em;
+    height: 25em;
     width: 100%;
-    background-position: top;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: cover;
+    border-radius: 35px;
 }
 
 .indexpages a{
@@ -112,7 +113,12 @@
 }
 
 .container.banner-principal{
-    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-direction: row-reverse;
+	background-color: #E9FFC6;
 }
 .wp-block-heading{
     font-size: 1.8em;
@@ -120,4 +126,24 @@
 }
 .article-content a{
     color: var(--colorBluesky);
+}
+.blog .article-content ul li{
+	list-style: disc!important;
+	color: initial!important;
+}
+
+.blog .container .listado-articulos .article-content{
+    width: 70%;
+    margin: 0 auto;
+}
+.blog .call-to-action{
+    border-radius: 15px
+}
+@media screen and (max-width:769px) {
+    .container.banner-principal{
+        flex-direction: column;
+    }
+    .article-content{
+        width: 100%;
+    }
 }

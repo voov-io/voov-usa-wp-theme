@@ -26,21 +26,6 @@
          </div>
     </article>	<!-- /.article -->
     <?php endwhile; ?>
-    <?php if (get_next_posts_link() || get_previous_posts_link() ) :?>
-
-      <div class="navegacion-articulos">
-          <nav>
-            <div class="anterior">
-
-              <?php next_posts_link(__('<i class="fa fa-arrow-left" aria-hidden="true"></i> Artículos antiguos','slan')); ?>
-            </div>
-            <div class="siguiente">
-
-              <?php previous_posts_link(__('Artículos recientes <i class="fa fa-arrow-right" aria-hidden="true"></i>','slan')); ?>
-            </div>
-          </nav>
-      </div> <!-- /.navegacion-articulos -->
-    <?php endif; ?>
     <?php else:?>
 
     <?php get_template_part('template-parts/content','nopost'); ?>

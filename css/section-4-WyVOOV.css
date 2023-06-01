@@ -6,6 +6,8 @@
 }
 .section-4-WyVOOV .container{
     grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+    place-items: initial;
+
 }
 .container-solution{
     border-radius: var(--borderRadius);
@@ -53,7 +55,37 @@
     bottom: -18%;
     transform: rotate(102deg);
 }
+figcaption{
+    padding: 1rem 3rem; 
+    color: white;
+    border-radius: 15px;
+}
+figcaption.green{
+    background-color: var(--colorGreen);
 
+}
+figcaption.red{
+    background-color: var(--colorRed)!important;
+}
+figcaption.blue{
+    background-color: var(--colorBluesky)!important;
+}
+figcaption.yellow{
+    background-color: var(--colorYellow)!important;
+}
+.positions-list{
+    padding-left: 0;
+}
+.positions-list li{ 
+
+    margin: .5rem;
+}
+.positions-list li a{
+    color: black!important;
+}
+.positions-list li:hover a{
+    color: var(--colorBluesky)!important;
+}
 @media screen and (max-width:575px) {
     .service-container{
         min-width: 100%
