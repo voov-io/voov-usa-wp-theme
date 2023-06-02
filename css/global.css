@@ -44,7 +44,10 @@ table{
 .flex{
     display: flex;
 }
+.flex.flex-start{
 
+    justify-content: flex-start;
+}
 .flex.space-between{
 
     justify-content: space-between;

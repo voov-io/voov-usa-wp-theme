@@ -61,7 +61,29 @@
    </section>
    <section id="reviews" class="reviews">
        <h2 id="weare" class="title center">What our clients say</h2>
-    <div class="container grid space-evenly">
+    <div id="contentscroll" class="container flex flex-start">
+        <article class="review-container">
+            <h3><strong> What I love about VOOV is that we have two meetings a week with my guys Kenneth, Juan, and Vanessa, and all of them are in constant communication every single day. My VAs in VOOV are Inside Sales Associates, they are calling out and prospecting for me, and I know that VOOV offers a bunch of other Virtual services and capabilities.</strong></h3>
+            <div class="info-container flex">
+                
+                <img src="<?php echo ImagesPath?>/Mark Pattison - Porchlight Realty.webp" alt="Mark Pattison - Porchlight Realty">
+                <div class="start-container">
+                    <p>Porchlight Realty - Mark Pattison</p>
+                    <span>★ ★ ★ ★ ★</span>
+                </div>
+            </div>
+        </article>
+        <article class="review-container">
+            <h3><strong> The experience with my VA has been really good, she is super friendly and everybody likes her! My VA initially started reaching out to some of our warm leads, then she started working on transaction coordinating and that's been awesome, and she has been adding more just to be a little more proactive instead of reactive, and I can see great results already!</strong></h3>
+            <div class="info-container flex">
+                
+                <img src="<?php echo ImagesPath?>/Sarah Wood - Coastal View Realty.webp" alt="Sarah Wood - Coastal View Realty">
+                <div class="start-container">
+                    <p>Coastal View Realty - Sarah Wood</p>
+                    <span>★ ★ ★ ★ ★</span>
+                </div>
+            </div>
+        </article>
         <article class="review-container">
             <h3><strong>I was looking at metrics for yesterday, using Follow Up Boss, it was a really good day. 223 dials that were out, you connected with 16 people, couple hours of talk time, multiple appointments including a listing for 2 properties. Way to go!</strong></h3>
             <div class="info-container flex">
@@ -94,6 +116,8 @@
             </div>
         </article>
     </div>
+    <a id="prev" class="prev">❮</a>
+    <a id="next"  class="next">❯</a>
     <div class="triangle yellow"></div>
    </section>
    <section id="testimonials" class="testimonial">
