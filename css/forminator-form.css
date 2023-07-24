@@ -41,3 +41,11 @@ form .forminator-button-submit{
     border-radius: 15px!important;
     background-color: white!important;
 }
+
+.forminator-ui#forminator-module-481.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
+    border-color: #777771;
+    background-color: transparent;
+    padding: .5rem;
+    border-radius: 2rem;
+
+}

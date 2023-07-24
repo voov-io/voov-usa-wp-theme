@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap');
 :root{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     --paddingContainer:3.22em; 
     --colorYellow:#FAB100;
     --colorBluesky :#009FEF;
-    --colorRed:#EE451C;
-    --colorGreen:#78B404;
+    --colorRed:#FF0000;
+    --colorGreen:#58F4A9;
     --colorgrey:#424242;
     --colorBlueDark:#000C30;
-    --borderRadius:10px;
+    --borderRadius:25px;
     --colorlightGrey:#7D7D7D;
     scroll-behavior: smooth;
     --white:white
@@ -66,6 +66,11 @@ table{
     justify-content: center;
 }
 
+.flex.center.center{
+    align-items: center;
+    gap: 2rem;
+}
+
 .grid{
     display:grid;
     gap: 1em;
@@ -83,14 +88,21 @@ table{
 /*Buttons*/
 
 .btn{
-    padding: 1em 3em;
-    border-radius: var(--borderRadius);
+    padding: .6em 2em;
+    border-radius: 50px;
     color: white!important;
     font-weight: 700;
     transition: .5s all ease-in-out;
     
 }
-
+.btn.red-outline{
+    border: 2px solid var(--colorRed);
+    background-color: white;
+    color: black!important;
+}
+.btn.red{
+    background-color:var(--colorRed) ;
+}
 .btn.yellow{
     background-color:var(--colorYellow) ;
 }
@@ -105,7 +117,8 @@ table{
     color: var(--colorRed);
 }
 .btn.green{
-    background-color:var(--colorGreen)
+    background-color:var(--colorGreen);
+    color:#6B1DCE
 }
 
 
@@ -121,6 +134,7 @@ h1,.title{
     font-weight: 700;
     color: black;
 }
+
 .title.white{
     color: white;
 }
@@ -128,13 +142,22 @@ h1,.title{
     text-align: center;
     
 }
+.subtitles{
+    font-size: 2.5rem;
+}
+.center{
+    text-align: center;
+}
 h2{
     font-size: 1.2em;
+    color: black;;
 }
-
+.white{
+    color: white!important;
+}
 p{
     font-size: 1em;
-    color: var(--colorgrey);
+    color: black!important;
     font-weight: 500;
 }
 
@@ -207,6 +230,10 @@ p{
     width: 35px;
     height: 35px;
 }
+.icon.user{
+    width: 106px;
+    height: 106px;
+}
 
 @media screen and (max-width:1025px) {
     :root{
@@ -251,4 +278,25 @@ p{
 
  .cursor{
     cursor: pointer;
+ }
+
+ .align-center{
+    text-align: center;
+ }
+
+ .align-left{
+    text-align: left;
+ }
+
+ .z-index-2{
+    position: relative;
+    z-index: 2;
+ }
+
+ .subtitles{
+    font-size:2.5rem;
+
+ }
+ .subtitles.colorBlack{
+    color: black;
  }

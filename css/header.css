@@ -2,6 +2,7 @@ header{
     position: absolute;
     width: 100%;
     z-index: 2;
+    background-color: white;
 }
 .menu--items{
     gap: 3em;
@@ -11,8 +12,8 @@ header{
     font-weight: 700;
 
 }
-.menu--items .item a{
-    color: white;
+.menu--items .item a,.menu--items .item{
+    color: rgb(0, 0, 0);
 }
 
 .menu--items .item img{ 

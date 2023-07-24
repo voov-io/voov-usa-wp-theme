@@ -1,0 +1,19 @@
+.call-to-action-new{
+    background: linear-gradient(152deg, #6B1DCE 0%, #C01DCE 100%);
+    position: relative;
+}
+
+.title-call{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.back-icon{
+    width: 19.15rem;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    right: 0%;
+    margin: 0 auto;
+    z-index: 1;
+}
