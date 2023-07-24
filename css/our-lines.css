@@ -1,0 +1,63 @@
+.our-lines .lines-container.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(21rem,1fr));
+}
+.line{
+    min-height: 18rem;
+    max-height: 18rem;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+.line:hover .copy-services{
+    top: 20%;
+}
+.our-lines .lines-container h3{
+    font-size: 0.9rem;
+
+}
+.our-lines .lines-container h3, .our-lines .lines-container p{
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    margin-top: -0.5rem;
+}
+.our-lines .lines-container h3.colorGreen, .colorGreen{
+    background-color: var(--colorGreen);
+}
+.our-lines .lines-container h3.colorYellow, .colorYellow{
+    background-color: var(--colorYellow);
+}
+.our-lines .lines-container h3.colorBluesky, .colorBluesky{
+    background-color: var(--colorBluesky);
+}
+
+@media screen and (max-width: 600px) {
+    .line{
+       width: 90vw;
+    } 
+}
+
+.copy-services{
+    top: 85%;
+    position: absolute;
+    transition: all ease 1s;
+    min-height: inherit;
+}
+.backgroundwhite{
+    background-color: white!important ;
+    border-radius: 5px;
+    padding: 0.1rem;
+}
+.colortextGreen{
+    color:var(--colorGreen)!important;
+
+}
+.colortextYellow{
+    color:var(--colorYellow)!important;
+
+}
+.colortextSkyblue{
+    color:var(--colorBluesky)!important;
+
+}

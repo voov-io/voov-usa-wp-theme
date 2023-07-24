@@ -1,5 +1,4 @@
 header{
-    position: absolute;
     width: 100%;
     z-index: 2;
     background-color: white;
@@ -72,6 +71,7 @@ header .item {
 
   .item.withsubitems{
     position: relative;
+    color: black;
   }
   .subitems-container{
     position: absolute;
@@ -106,7 +106,9 @@ header .item {
 
 
   @media screen and (max-width:806px) {
-
+    header .container.flex{
+     flex-direction: initial;
+    }
     .menu--items{
       display: none;
       position: absolute;

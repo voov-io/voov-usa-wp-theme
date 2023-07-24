@@ -1,3 +1,21 @@
+.Our-Clients .grid{
+    grid-template-columns: repeat(auto-fill, minmax(11rem,1fr));
+}
+.Our-Clients img{
+    height: fit-content;
+    width:13rem ;
+    filter: grayscale(100%);
+    transition: all ease-in .1s ;
+}
+.Our-Clients img:hover{
+    filter: grayscale(0%);
+}
+.Our-Clients picture{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
 .testimonial{
     background-color: var(--colorYellow);
     border-radius: 0 25em 0 20em;

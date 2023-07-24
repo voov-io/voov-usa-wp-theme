@@ -5,7 +5,7 @@
 */
 ?>
 <?php get_header();?>
-     <main id="letsconnect">
+<main id="letsconnect">
         <div class="container flex space-between">
             <div  class="copy-container">
                 <h1>We Highlight Your Business To The World Market</h1>

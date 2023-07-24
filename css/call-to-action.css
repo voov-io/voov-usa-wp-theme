@@ -1,13 +1,14 @@
 .call-to-action{
-    background-image: url('../images/backgrouhnd-banner-cal-to-action.webp');
+    border-radius: 0!important;
     min-height: 19em;
     box-sizing: border-box;
     position: relative;
     background-size: cover;
+    background: linear-gradient(163deg, #159CE8 0%, #81CE24 100%);
 }
 
 .call-to-action h2{
-    font-size: 1.5em;
+    font-size: 2rem;
     color: white;
     margin-bottom: 1em;
 }
@@ -29,12 +30,36 @@
     width: 20px;
     margin-left: .5em;
 }
-.call-to-action  .img-container{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 0;
+.call-to-action  .img-container form{
+    display: flex;
+    place-items: center;
+    gap: 1rem;
 }
+.call-to-action  .img-container .forminator-row{
+    width: 100%!important;
+}
+.call-to-action  .img-container .forminator-row.forminator-row-last,main .forminator-row.forminator-row-last{
+    max-width: 30%!important;
+}
+.call-to-action  .img-container .forminator-ui.forminator-custom-form-15.forminator-design--default .forminator-button.forminator-button-submit, main .forminator-ui.forminator-custom-form-15.forminator-design--default .forminator-button.forminator-button-submit{
+    background-color: var(--colorYellow)!important;
+    padding: .8rem!important;
+    border-radius: 5rem!important;
+    transition: all .3s ease-in;
+}
+.call-to-action  .img-container .forminator-ui.forminator-custom-form-15.forminator-design--default .forminator-button.forminator-button-submit:hover{
+    box-shadow: none;
+    transform: scale(1.1);
+}
+.call-to-action  .img-container .forminator-input.forminator-email--field, main .forminator-input.forminator-email--field{
+    background: transparent!important;
+    border-color: white!important;
+
+}
+.call-to-action  .img-container .forminator-input.forminator-email--field::placeholder{
+    color: white!important;
+}
+
 .call-to-action  .img-container img{
     
     

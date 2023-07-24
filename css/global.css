@@ -75,6 +75,10 @@ table{
     display:grid;
     gap: 1em;
 }
+.grid.column-3{
+    grid-template-columns: repeat(auto-fill,minmax(10rem,1fr));
+    width: 60%;
+}
 
 .grid.center{
     place-items: center;
@@ -162,11 +166,11 @@ p{
 }
 
 .copy-container{
-    width: 40%;
+    width: 50%;
 }
 
 .img-container{
-    width: 40%;
+    width: 50%;
 }
 /*Shapes*/
 
@@ -235,6 +239,18 @@ p{
     height: 106px;
 }
 
+.icon.x2{
+    width: 47px;
+    height: 47px;
+}
+@media screen and (max-width:820px){
+    .container.flex{
+        flex-direction: column;
+    }
+    .img-container,.copy-container{
+        width: 100%!important;
+    }
+}
 @media screen and (max-width:1025px) {
     :root{
         --paddingContainer: 1em

@@ -53,10 +53,9 @@
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">
-                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Executive Associates</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/inside-sales-service">Inside Sales</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Real Estate Staffing Solutions</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">MarketingAgency</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Skill Cloud Staffing</a></li>
                         </ul>
                     </li>
                     <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Blog</a></li>
