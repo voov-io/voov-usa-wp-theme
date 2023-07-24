@@ -1,7 +1,11 @@
 <section class="call-to-action">
         <div class="container flex space-between">
             <div class="copy-container">
-                <h2>Take Your Real Estate<br> Business To The Next<br> Level!</h2>
+                <?php 
+                foreach ($args as $value) {    
+                    
+                }?>
+                <h2><?php  echo $value ?></h2>
                 <a href="<?php echo home_url();?>/contact"  class="btn White">
                     <p>Get Started </p>
                     <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt="icon arrow"></a>

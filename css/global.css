@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap');
 :root{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     --paddingContainer:3.22em; 
-    --colorYellow:#FAB100;
-    --colorBluesky :#009FEF;
+    --colorYellow:#E8B900;
+    --colorBluesky :#159CE8;
     --colorRed:#EE451C;
-    --colorGreen:#78B404;
+    --colorGreen:#81CE24;
     --colorgrey:#424242;
     --colorBlueDark:#000C30;
     --borderRadius:10px;
@@ -69,6 +69,10 @@ table{
 .grid{
     display:grid;
     gap: 1em;
+}
+.grid.column-3{
+    grid-template-columns: repeat(auto-fill,minmax(10rem,1fr));
+    width: 60%;
 }
 
 .grid.center{
@@ -139,11 +143,11 @@ p{
 }
 
 .copy-container{
-    width: 40%;
+    width: 50%;
 }
 
 .img-container{
-    width: 40%;
+    width: 50%;
 }
 /*Shapes*/
 
@@ -208,6 +212,18 @@ p{
     height: 35px;
 }
 
+.icon.x2{
+    width: 47px;
+    height: 47px;
+}
+@media screen and (max-width:820px){
+    .container.flex{
+        flex-direction: column;
+    }
+    .img-container,.copy-container{
+        width: 100%!important;
+    }
+}
 @media screen and (max-width:1025px) {
     :root{
         --paddingContainer: 1em
@@ -252,3 +268,7 @@ p{
  .cursor{
     cursor: pointer;
  }
+ .flex.center.center {
+    align-items: center;
+    gap: 2rem;
+}

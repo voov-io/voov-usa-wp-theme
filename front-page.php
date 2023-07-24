@@ -5,531 +5,115 @@
 */
 ?>
 <?php get_header();?>
-     <main id="letsconnect">
+<main id="letsconnect">
         <div class="container flex space-between">
             <div  class="copy-container">
-                <h1>REAL ESTATE<br>
-                    VIRTUAL STAFFING SOLUTIONS</h1>
-                <p>Elevate your success with our innovative, cost-efficient, industry-focused virtual staffing solutions.</p>
+                <h1>VOOV VIRTUAL <br>
+                BUSINESS SOLUTIONS</h1>
+                <p>Elevate your success with our innovative, cost-efficient, customer-focused virtual staffing solutions.</p>
                     <?php if(is_active_sidebar('contact-widget'))
                     
                         dynamic_sidebar('contact-widget');
                     ?>
             </div>
             <picture class="img-container">
-                <img  width="640" height="360" src="<?php echo ImagesPath?>/Kris Weaver FC NEW 2022 1 (1).webp" alt="Kris Weaver - Chief Visionary Officer- VOOV & President of  Atlantic Sotheby's International, Virginia Beach">
-                <div class="circlePulso button" id="button-0"></div>
-                <div class="title">
-                    <h2>Kris Weaver</h2>
-                    <p class="typewrite"  >Chief Visionary Officer - VOOV<br>President of  Atlantic Sotheby's International,<br>Virginia Beach</p>
-                </div>
+                <img  width="640" height="360" src="<?php echo ImagesPath?>/voov group - team members.webp" alt="Kris Weaver - Chief Visionary Officer- VOOV & President of  Atlantic Sotheby's International, Virginia Beach">
             </picture>
         </div>
-        <div class="circle BlueSky"></div>
-        <div class="triangle green"></div>
-    </main>
-   <section id="services" class="services">
+</main>
+<section id="services" class="services">
     <div class="container grid center">
         <article class="service-container">
-            <a href="<?php echo home_url();?>/fractional-marketing-solutions/">
-                <h2>Fractional Marketing <br>Solutions</h2>
-                    <p>PPC, SEO, Photo Edition & More</p>
+            <a class="flex center center" href="<?php echo home_url();?>/real-estate-virtual-staffing">
+                <img class="icon x2" src="<?php echo IconsPath?>/Telemarketing Services.svg" alt="icon service">
+                <h2>Real Estate<br> Staffing Solutions</h2>
             </a>
         </article>
         <article class="service-container">
-            <a href="<?php echo home_url();?>/marketing-specialist/">
-            <h2>Marketing<br>
-                Specialists</h2>
-                <p>Increase Your Brand Awareness</p>
-                 </a>
+            <a class="flex center center" href="<?php echo home_url();?>/marketing-agency">
+                <img class="icon x2" src="<?php echo IconsPath?>/Marketing Services.svg" alt="icon service">
+                <h2>Marketing<br>Agency</h2>
+            </a>
         </article>
         <article class="service-container">
-            <a href="<?php echo home_url();?>/executive-associates/">
-            <h2>Executive <br>
-                Associates</h2>
-                <p>Benefits from Increased Productivity</p>
-                 </a>
-        </article>
-        <article class="service-container">
-            <a href="<?php echo home_url();?>/inside-sales-services/">
-            <h2>Inside Sales<br>
-                Services</h2>
-                <p>Maximize Your Monthly Leads & Sales</p>
-                 </a>
+            <a class="flex center center" href="<?php echo home_url();?>/skill-cloud-staffing">
+                <img class="icon x2" src="<?php echo IconsPath?>/Cloud_1_.svg" alt="icon service">
+                <h2>Skill Cloud<br> Staffing</h2>
+            </a>
         </article>
     </div>
-   </section>
-   <section id="reviews" class="reviews">
-       <h2 id="weare" class="title center">What our clients say</h2>
-    <div id="contentscroll" class="container flex flex-start">
-        <article class="review-container">
-            <h3><strong> What I love about VOOV is that we have two meetings a week with my guys Kenneth, Juan, and Vanessa, and all of them are in constant communication every single day. My VAs in VOOV are Inside Sales Associates, they are calling out and prospecting for me, and I know that VOOV offers a bunch of other Virtual services and capabilities.</strong></h3>
-            <div class="info-container flex">
-                
-                <img src="<?php echo ImagesPath?>/Mark Pattison - Porchlight Realty.webp" alt="Mark Pattison - Porchlight Realty">
-                <div class="start-container">
-                    <p>Porchlight Realty - Mark Pattison</p>
-                    <span>★ ★ ★ ★ ★</span>
-                </div>
-            </div>
-        </article>
-        <article class="review-container">
-            <h3><strong> The experience with my VA has been really good, she is super friendly and everybody likes her! My VA initially started reaching out to some of our warm leads, then she started working on transaction coordinating and that's been awesome, and she has been adding more just to be a little more proactive instead of reactive, and I can see great results already!</strong></h3>
-            <div class="info-container flex">
-                
-                <img src="<?php echo ImagesPath?>/Sarah Wood - Coastal View Realty.webp" alt="Sarah Wood - Coastal View Realty">
-                <div class="start-container">
-                    <p>Coastal View Realty - Sarah Wood</p>
-                    <span>★ ★ ★ ★ ★</span>
-                </div>
-            </div>
-        </article>
-        <article class="review-container">
-            <h3><strong>I was looking at metrics for yesterday, using Follow Up Boss, it was a really good day. 223 dials that were out, you connected with 16 people, couple hours of talk time, multiple appointments including a listing for 2 properties. Way to go!</strong></h3>
-            <div class="info-container flex">
-                
-                <img src="<?php echo ImagesPath?>/Callahan Real Estate Group - Jeremy Callahan.webp" alt="Callahan Real Estate Group - Jeremy Callahan">
-                <div class="start-container">
-                    <p>Callahan Real Estate Group - Jeremy Callahan</p>
-                    <span>★ ★ ★ ★ ★</span>
-                </div>
-            </div>
-        </article>
-        <article class="review-container">
-            <h3><strong>VOOV is our first experience with Virtual Assistance, and it's been fantastic! I feel like they took a lot of time and effort in terms of finding the right match for us. Our Virtual Executive is just part of the team, she works effectively, and even if it´s virtual I feel like she is next to me!</strong></h3>
-            <div class="info-container flex">
-                <img src="<?php echo ImagesPath?>/Carolina Realty - Darcie Burnett.webp" alt="Carolina Realty - Darcie Burnett">
-                <div class="start-container">
-                    <p>Carolina Realty - Darcie Burnett</p>
-                    <span>★ ★ ★ ★ ★</span>
-                </div>
-            </div>
-        </article>
-        <article class="review-container">
-            <h3><strong>The VOOV Executive is our Zillow Flex Manager and is the person in charge of creating Excel reports for agent metrics. He plays a critical role in ensuring the success of our team, and not only that but the performance of our team</strong></h3>
-            <div class="info-container flex">
-                <img src="<?php echo ImagesPath?>/Lily Moore Realty - Skyler Forbus.webp" alt="Lily Moore Realty - Skyler Forbus">
-                <div class="start-container">
-                    <p>Lily Moore Realty - Skyler Forbus </p>
-                    <span>★ ★ ★ ★ ★</span>
-                </div>
-            </div>
-        </article>
-    </div>
-    <a id="prev" class="prev">❮</a>
-    <a id="next"  class="next">❯</a>
-    <div class="triangle yellow"></div>
-   </section>
-   <section id="testimonials" class="testimonial">
-    <div class="container flex center">
-    <div class="copy-container">
-        <h2 class="title">Realtors® Who Trusted And VOOV Over</h2>
-        <p>Our clients' experiences speak volumes! Take a look at what they have to say and learn why VOOV has become the go-to for real estate professionals across the United States.</p>
-    </div>
-    <div id="img-container" class="img-container">
-        <div id="cont1" class="cont1 youtube-player">
-            <!-- 
-            <iframe loading="lazy"  width="100%" height="auto"  src="https://www.youtube.com/embed/TEaPfxIRkX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe loading="lazy"  width="90%" height="auto"  src="https://www.youtube.com/embed/iqrVfYrKyNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe loading="lazy"  width="80%" height="auto" src="https://www.youtube.com/embed/-UtwwdyWJcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  loading="lazy"  width="70%" height="auto" src="https://www.youtube.com/embed/0UkG_PYBTZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  loading="lazy"  width="60%" height="auto" src="https://www.youtube.com/embed/mDo9M0vqOUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            -->
-            </div>
-        </div>
-        <div id="next-btn-testimonials" class="icon-container">
-            <img src="<?php echo IconsPath?>/Arrow 1.svg" alt="arrox  right icon ">
-        </div>
-    </div>
-    <div class="triangle green"></div>
-    <div class="circle red"></div>
-</section>
-
-<section id="check-how" class="check-how">
-    <h2 class="title center">CHECK HOW MUCH YOU SAVE WITH VOOV</h2>
-        <div class="container">
-        
-            <div class="head-container">
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>Other Companies</th>
-                        <th>US Salary</th>
-                        <th>VOOV</th>
-                        <th style="position:relative">
-                        <div  id="highlighter" class="highlighter"></div>
-                        Annual Savings    
-                    </th>
-                    </tr>
-
-                </table>
-            </div>
-                <div class="dropdown-container">
-                    <div id="dropdown1"  class="dropdown-summary ">
-                            <table>
-                                <tr>
-                                    <th> <img id="icon-dropdown" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Marketing</th>
-                                    <th>X</th>
-                                    <th>$45,494</th>
-                                    <th>$21,100</th>
-                                    <th>$292,728</th>
-                                </tr>
-                            </table>
-                    </div>
-                    <div id="dropdown-info1" class="dropdown-info">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Social Media Manager</td>
-                                    <td>$1,825</td>
-                                    <td>$4,000</td>
-                                    <td>$2,100</td>
-                                    <td>$22,800</td>
-                                </tr>
-                                <tr>
-                                    <td>Marketing Coordinator</td>
-                                    <td>$2,400</td>
-                                    <td>$4,500</td>
-                                    <td>$2,500</td>
-                                    <td>$24,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Graphic Designer</td>
-                                    <td>$2,600</td>
-                                    <td>$4,127</td>
-                                    <td>$1,900</td>
-                                    <td>$26,724</td>
-                                </tr>
-                                <tr>
-                                    <td>Copywriter</td>
-                                    <td>Not Offering</td>
-                                    <td>$5,076</td>
-                                    <td>$2,100</td>
-                                    <td>$35,712</td>
-                                </tr>
-                                <tr>
-                                    <td>Search Engine Optimization (SEO)</td>
-                                    <td>Not Offering</td>
-                                    <td>$5,047</td>
-                                    <td>$2,500</td>
-                                    <td>$30,564</td>
-                                </tr>
-
-                                <tr>
-                                    <td>Search Engine Marketing (SEM)</td>
-                                    <td>Not Offering</td>
-                                    <td>$5,599</td>
-                                    <td>$2,500</td>
-                                    <td>$37,188</td>
-                                </tr>
-                                <tr>
-                                    <td>Web Developer</td>
-                                    <td>Not Offering</td>
-                                    <td>$6,319</td>
-                                    <td>$2,500</td>
-                                    <td>$45,828</td>
-                                </tr>
-                                <tr>
-                                    <td>Pay per click (PPC)</td>
-                                    <td>Not Offering</td>
-                                    <td>$6,228</td>
-                                    <td>$2,500</td>
-                                    <td>$44,736</td>
-                                </tr>
-                                <tr>
-                                    <td>Video Editor</td>
-                                    <td>Not Offering</td>
-                                    <td>$4,598</td>
-                                    <td>$2,500</td>
-                                    <td>$25,176</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-                <div  class="dropdown-container">
-                    <div id="dropdown2" class="dropdown-summary">
-                            <table > 
-                                <tr>
-                                    <th> <img id="icon-dropdown2" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Inside Sales</th>
-                                    <th>X</th>
-                                    <th>$31,754</th>
-                                    <th>$15,992</th>
-                                    <th>$189,144</th>
-                                </tr>
-                            </table>
-                    </div>
-                    <div id="dropdown-info2" class="dropdown-info">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Inside Sales Associates</td>
-                                    <td>$2,080</td>
-                                    <td>$3,739</td>
-                                    <td>$1,999</td>
-                                    <td>$20,880</td>
-                                </tr>
-                                <tr>
-                                    <td>Appointment Setter</td>
-                                    <td>Not Offering</td>
-                                    <td>$2,655 </td>
-                                    <td>$1,999</td>
-                                    <td>$7,872</td>
-                                </tr>
-                                <tr>
-                                    <td>Sales Coordinator</td>
-                                    <td>Not Offering</td>
-                                    <td>$3,515</td>
-                                    <td>$1,999</td>
-                                    <td>$18,192</td>
-                                </tr>
-                                <tr>
-                                    <td>Recruiters for RE Agents</td>
-                                    <td>Not Offering</td>
-                                    <td>$5,780</td>
-                                    <td>$1,999</td>
-                                    <td>$45,372</td>
-                                </tr>
-                                <tr>
-                                    <td>Leads Prospectors</td>
-                                    <td>Not Offering</td>
-                                    <td>$2,363</td>
-                                    <td>$1,999</td>
-                                    <td>$4,368</td>
-                                </tr>
-                                <tr>
-                                    <td>Circle Prospecting</td>
-                                    <td>Not Offering</td>
-                                    <td>$3,825</td>
-                                    <td>$1,999</td>
-                                    <td>$21,912</td>
-                                </tr>
-                                <tr>
-                                    <td>Zillow Leads Prospector</td>
-                                    <td>Not Offering</td>
-                                    <td>$5,711</td>
-                                    <td>$1,999</td>
-                                    <td>$44,544</td>
-                                </tr>
-                                <tr>
-                                    <td>Title Companies</td>
-                                    <td>$Not Offering</td>
-                                    <td>$4,166</td>
-                                    <td>$1,999</td>
-                                    <td>$26,004</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-                <div class="dropdown-container">
-                    <div id="dropdown3" class="dropdown-summary">
-                            <table>
-                                <tr>
-                                    <th><img id="icon-dropdown3" alt="icon-dropdown" class="icon-dropdown" src="<?php echo IconsPath?>/triangle.svg"></img> Executive Associate</th>
-                                    <th>X</th>
-                                    <th>$40,313</th>
-                                    <th>$17,100</th>
-                                    <th>$278,556</th>
-                                </tr>
-                            </table>
-                    </div>
-                    <div id="dropdown-info3" class="dropdown-info">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Property Management Associate</td>
-                                    <td>$1,920</td>
-                                    <td>$3,079 </td>
-                                    <td>$1,850</td>
-                                    <td>$14,748</td>
-                                </tr>
-                                <tr>
-                                    <td>Leasing Specialist</td>
-                                    <td>$1,920</td>
-                                    <td>$4,170</td>
-                                    <td>$1,850</td>
-                                    <td>$27,840</td>
-                                </tr>
-                                <tr>
-                                    <td>Maintenance Coordinator</td>
-                                    <td>$1,920</td>
-                                    <td>$3,521</td>
-                                    <td>$1,850</td>
-                                    <td>$20,052</td>
-                                </tr>
-                                <tr>
-                                    <td>Lead Manager</td>
-                                    <td>$1,920</td>
-                                    <td>$3,917</td>
-                                    <td>$1,850</td>
-                                    <td>$24,804</td>
-                                </tr>
-                                <tr>
-                                    <td>Executive Associate</td>
-                                    <td>$1,920</td>
-                                    <td>$4,618</td>
-                                    <td>$1,850</td>
-                                    <td>$33,216</td>
-                                </tr>
-                                <tr>
-                                    <td>Operations Manager</td>
-                                    <td>$1,920</td>
-                                    <td>$7,781</td>
-                                    <td>$1,850</td>
-                                    <td>$71,172</td>
-                                </tr>
-                                <tr>
-                                    <td>Bookkeeper</td>
-                                    <td>Not Offering</td>
-                                    <td>$3,565</td>
-                                    <td>$2,300</td>
-                                    <td>$15,180</td>
-                                </tr>
-                                <tr>
-                                    <td>Project Manager</td>
-                                    <td>$1,920</td>
-                                    <td>$6,605</td>
-                                    <td>$1,850</td>
-                                    <td>$57,060</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="container flex center">
-
-                    <a href="#letsconnect" class="btn green">Save up <br>to $592,164</a>
-                </div>
-        </div>
-</section>
-<section class="section-4-WyVOOV">
-        <h2 class="title center">What Type Of Associate Are You Looking To Hire?</h2>
-        <div class="container grid center">
-        <figure>
-            <figcaption class="green">Marketing<br> Positions</figcaption>
-            <ul class="positions-list">
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#SocialMedia">Social Media Manager</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#MarketingCo">Marketing Coordinator</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#GraphicDesi">Graphic Designer</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#Copywriter</">Copywriter</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#SEOSEMSpec">SEO/SEM Specialist</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#WebDev">Web Developer </a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#PPC">PPC (Pay per click) Expert</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-marketing-positions/#VideoEditor">Video Editor</a></li>
-
-            </ul>
-        </figure>
-        <figure>
-            <figcaption class="red">Fractional Marketing Services </figcaption>
-            <ul class="positions-list">
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Social Media Posting</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">SEO/SEM</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">PPC (Pay per click)</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Video Editor</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">SEO/SEM Specialist</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Marketing Coordinator</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Web Developer</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Email Systems</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-fractional-marketing-services/">Digital Photo Touch-Ups</a></li>
-            </ul>
-        </figure>
-        <figure>
-            <figcaption class="blue">Executive <br>Associates</figcaption>
-            <ul class="positions-list">
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#ExecutiveAssociate">Executive Associate</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#Dataanalyst">Data analyst</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#TransactionCoordinator">Transaction Coordinator</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#ProjectManager">Project Manager</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#Bookkeeper">Bookkeeper</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#OperationsManager">Operations Manager</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#PropertyManager">Property Manager Associate</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#LeasingSpecialist">Leasing Specialist</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#MaintenanceCoordinator">Maintenance Coordinator</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-executive-associates/#LeadManager">Lead Manager</a></li>
-            </ul>
-        </figure>
-        <figure>
-            <figcaption class="yellow">Inside Sales <br>Associates</figcaption>
-            <ul class="positions-list">
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#InsideSales">Inside Sales Associate</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#Sales">Sales Coordinator</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#Recruiters">Recruiters for Real Estate Agents</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#ZillowLeadProspector">Zillow Leads Prospector</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#LeadsProspector">Leads Prospector</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#AppointmentSetter">Appointment Setter</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#TitleCompanies">Title Companies</a></li>
-                <li><a href="https://voov.io/what-type-of-associate-are-you-looking-to-hire-inside-sales-associates/#CircleProspectors">Circle Prospectors</a></li>
-
-            </ul>
-        </figure>
-        </div>
-        <div class="triangle green"></div>
-        <div class="circle red"></div>
-</section>
-<section id="WyVOOV" class="section-4-WyVOOV">
-        <h2 class="title center">Why VOOV Is Your Real Estate <br>Businesses Virtual Solution</h2>
-        <div class="container grid center">
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Idea.webp" alt="">
-                <h3>Expertise</h3>
-                <p>We have a combined 35 years of experience in the real estate market.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Place.webp" alt="">
-                <h3>Well-located</h3>
-                <p>Convenient support during North American business hours with a location in Nicaragua.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Building.webp" alt="">
-                <h3>Work On-site</h3>
-                <p>On-site management and supervision for virtual associates to ensure efficient performance.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Communication.webp" alt="">
-                <h3>Great English Pronunciation</h3>
-                <p>Great English pronunciation for effective communication with clients and customers.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Energy.webp" alt="">
-                <h3>Electricity Backup</h3>
-                <p>Reliable electricity backup for seamless work.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Cyber security.webp" alt="">
-                <h3>Cyber Security Insurance</h3>
-                <p>Cyber security insurance to safeguard against potential risks.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Wifi.webp" alt="">
-                <h3>Good Internet Connection</h3>
-                <p>VOOV's virtual associates have access to a strong and reliable internet connection.
-                </p>
-            </article>
-            <article class="container-solution">
-                <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Presentation.webp" alt="">
-                <h3>Trained Associates</h3>
-                <p>Comprehensive training provided to virtual associates for exceptional service.
-                </p>
-            </article>
-        </div>
-        <div class="circle red"></div>
-        <div class="triangle green"></div>
 </section>
 <section id="WeAreYourTrusted" class="section-3-WeAreYourTrusted">
+        <div class="container flex space-between">
+        <div class="copy-container">
+            <h2 class="title">What is VOOV?</h2>
+            <p>VOOV is a virtual business solutions company founded in 2020 by Kris Weaver (CVO), Sergio Tiffer (CEO), and Ahmed Martinez (HR Director) with Headquarters in Virginia Beach, VA, and Operations in Nicaragua, Central America.<br><br>
+                We bring 20+ years of virtual staffing experience and top notch solutions to clients from USA and Latin America.</strong></p>
+          
+        </div>
+        <picture class="img-container-sect-3">
+            <source media="(min-width:650px)" srcset="" sizes="">
+            <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/What is VOOV Group.webp" alt="young profesional women ">
+        </picture>
+    </div>
+</section>
+<section class="our-lines">
+    <div class="container">
+        <h2 class="title">Our Lines of Businesses</h2>
+        <div class="lines-container grid">
+            <article class="line">
+                <img src="<?php echo ImagesPath?>/REAL ESTATE VIRTUAL STAFFING SOLUTIONS.webp" alt="voov - VIRTUAL MARKETING AGENCY">
+                <div class="copy-services colorGreen">
+                    <h3 class="title colorGreen">REAL ESTATE VIRTUAL STAFFING SOLUTIONS</h3>
+                    <p class="white">Find new ways to grow middle-size to large real estate companies through upscale, virtual staffing in marketing, administrative and inside sales services.<br>
+                    <a href="http://" class="backgroundwhite colortextGreen"><strong>More info</strong></a>
+                </p> 
+                </div>
+            </article>
+            <article class="line">
+            <img src="<?php echo ImagesPath?>/voov - VIRTUAL MARKETING AGENCY (1).webp" alt="voov - VIRTUAL MARKETING AGENCY">
+               
+                <div class="copy-services colorYellow">
+                    <h3 class="title colorYellow">VIRTUAL MARKETING AGENCY</h3>
+                    <p class="white">Get Marketing services to increase your brand awareness, drive web traffic, enhance engagement and improve sales. Plus we offer great Content Syndication services (Subscription Marketing).<br>
+                    <a href="http://" class="backgroundwhite colortextYellow"><strong>More info</strong></a>
+                </p>
+                </div>
+            </article>
+            <article class="line">
+            <img src="<?php echo ImagesPath?>/SKILLCLOUD - VIRTUAL STAFFING (1).webp" alt="voov - VIRTUAL MARKETING AGENCY">
+                
+                <div class="copy-services colorBluesky">
+                <h3 class="title colorBluesky">SKILLCLOUD VIRTUAL STAFFING</h3>
+                    <p class="white">Discover the most affordable way to grow your business through work-from-home staffing services. This service is ideal for smaller companies in real estate or other service industries that need a scalable remote workforce.
+<br>
+                    <a href="http://" class="backgroundwhite colortextSkyblue"><strong>More info</strong></a>
+                </p>
+                </div>
+            </article>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="call-to-action">
+        <div class="container flex space-between">
+            <div class="copy-container">
+                <h2>Don’t forget to subscribe to <br>our Newsletter. It’s Free!</h2>
+            </div>
+            <div class="img-container">
+            <?php if(is_active_sidebar('newsletter-widget'))
+                    
+                    dynamic_sidebar('newsletter-widget');
+                ?>
+            </div>
+        </div>
+</section>
+<section id="WeAreYourTrusted" class="section-3-WeAreYourTrusted lineargradiend">
     <div class="container flex space-between">
        <div class="copy-container">
-           <h2 class="title">We Are Your Trusted Real <br>Estate Virtual Services Partner</h2>
-           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as <strong>virtual associates</strong> gives us the unique ability to <strong>grow with you</strong> and have no limits when it comes<strong> to adding value to your real estate business.</strong></p>
-           <a href="#cont1" class="btn yellow">VOOV STORIES</a>
+           <h2 class="title">We Are Your Business Virtual<br> Services Partner</h2>
+           <p>More than virtual assistants, we are professionals with a modern twist. Our expertise as virtual associates gives us the unique ability to grow with you and have no limits when it comes to adding value to your business.</strong></p>
+           <a href="#cont1" class="btn yellow">LETS CONNECT</a>
        </div>
        <picture class="img-container-sect-3">
            <source media="(min-width:650px)" srcset="" sizes="">
@@ -537,173 +121,16 @@
        </picture>
    </div>
 </section> 
-   <section class="section-5-outsource">
-       <h2 class="title center">  Outsource to VOOV?</h2>
-        <div class="container flex start">
-            <article loading="lazy" class="container-outsource">
-                <div class="containercopy">
-                    <h3 class="titleservice">Marketing Fractional Services</h3>
-                    <p class="copyservice">Optimize your marketing blueprint with paid ads, email systems, SEO strategies, and web development solutions.</p>
-                    <a href="<?php echo home_url();?>/fractional-marketing-solutions" class="btn BlueSky btnservice">More info.</a>
-                </div>
-                <div class="gradient"></div>
-            </article>
-            <article  loading="lazy" class="container-outsource">
-                <div class="containercopy">
-                    <h3   class="titleservice">Marketing <br>Associates</h3>
-                    <p class="copyservice">Strengthen your market presence by leveraging clever marketing tactics to showcase properties and yourself.</p>
-                    <a href="<?php echo home_url();?>/marketing-specialists" class="btn BlueSky btnservice">More info.</a>
-                 </div>
-                 <div class="gradient"></div>
-                </article>
-            <article  loading="lazy" class="container-outsource">
-                <div class="containercopy">
-                    <h3 class="titleservice"> Executive <br>Associates</h3>
-                    <p  class="copyservice">Turn up the efficiency in your operation by delegating executive duties, coordinating transactions, and more. </p>
-                    <a href="<?php echo home_url();?>/executive-associates" class="btn BlueSky btnservice">More info.</a>
-                </div>
-                    <div class="gradient"></div> 
-            </article>
-            <article  loading="lazy" class="container-outsource">
-                <div class="containercopy">
-                    <h3 class="titleservice"> Inside Sales <br>Associates</h3>
-                    <p class="copyservice" >Strategically build teams and leverage lead-generation techniques for maximum conversions.</p>
-                    <a href="<?php echo home_url();?>/inside-sales-service" class="btn BlueSky btnservice">More info.</a>
-                </div>
-                    <div class="gradient"></div> 
-                
-            </article>
-        </div>
-   </section>
-   <section id="HowToVOOVUp" class="section-6-How-To-VOOV-Up">
-       <h2 class="title center">How To VOOV Up
-            </h2>
-       <div class="container grid">
-                <article class="step  flex center animate">
-                    <div class="step-copy">
-                        <h3>Discovery Call</h3>
-                        <p>Schedule a call with us, and let's talk about all the exciting opportunities that await. We will discuss your needs, expectations, and timeliness and answer any questions that may come up.</p>                
-                    </div>
-                </article>
-                <article class="step  flex center animate">
-                    <div class="step-copy">
-                        <h3>Find Your Best Addition</h3>
-                        <p>Our experienced recruiters choose a talented candidate who can meet your expectations and fit well in your company. We also provide customized training to help them excel in their roles and become valuable members of your team!
-                        </p>                
-                    </div>
-                </article>
-                <article class="step  flex center animate">
-                    <div class="step-copy">
-                        <h3>Meet Your New Member</h3>
-                        <p>We set up a meeting between you, the candidate, and team managers to help you determine your compatibility.          </p>                
-                    </div>
-                </article>
-                <article class="step  flex center animate">
-                    <div class="step-copy">
-                        <h3>Start Delegating</h3>
-                        <p>Once you and your assistant determine that you are a good fit for one another, you can start delegating to unlock the extra time and energy to move your real estate business forward.</p>                
-                    </div>
-                </article>
-                <div class="flag-container one ">
-                    <span>1</span>
-                    <hr>
-                </div>
-                <div class="flag-container two ">
-                    <span>2</span>
-                    <hr>
-                </div>
-                <div class="flag-container three ">
-                    <span>3</span>
-                    <hr>
-                </div>
-                <div class="flag-container four ">
-                    <span>4</span>
-                    <hr>
-                </div>
-                
-         </div>
-         <div class="triangle yellow"></div>
-         <div class="circle red"></div>
-         <div class="circle BlueSky"></div>
-   </section>
-   <section class="call-to-action">
-        <div class="container flex space-between">
-            <div class="copy-container">
-                <h2>Take Your Real Estate<br> Business To The Next<br> Level!</h2>
-                <a href="#letsconnect" class="btn White">
-                    <p>Get Started </p>
-                    <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt=""></a>
-            </div>
-            <picture class="img-container">
-                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="">
-            </picture>
-        </div>
-   </section>
-   <section id="voovthechoice" class="voov-the-choice">
-        <div class="container">
-            <div class="head-container flex space-between">
-                <h2>VOOV:<br>
-                    The Choice <br>Above the Rest</h2>
-                <p>As VOOV is revolutionizing the competition, check out how we bring unprecedented innovation and excitement to the field.</p>                
-            </div>
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Other virtual <br>outsourcing <br> companies</th>
-                </tr>
-                <tr>
-                    <td class="align-left">Specialized in the real estate industry</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Americas-based able to support during North American business hours</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">On-site administration and supervision for efficiency</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Cybersecurity insurance</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Strong and reliable internet connection</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-                <tr>
-                    <td class="align-left">Trained associates</td>
-                    <td><img width="30" height="30" loading="lazy" class="icon" src="<?php echo IconsPath?>/Check mark.webp" alt="icon check"></td>
-                    <td><img width="30" height="30" loading="lazy" class="icon " src="<?php echo IconsPath?>/Error.webp" alt="icon error"></td>
-                </tr>
-            
-            </table>
-        </div>
-   </section>
-   <section class="contact-us">
-    <div class="container flex center">
-        <div class="container-copy">
-            <h2 class="title white">LET'S CONNECT</h2>
-            <p>Elevate your Success with Our smart services</p>
-            <div id="contact-us">
-            <?php if(is_active_sidebar('contact-lead-home-widget'))
-                    
-                    dynamic_sidebar('contact-lead-home-widget');
-                ?>
-            </div>
-        </div>
-        <div class="container-img">
-            <img width="532.800" height="626.250" src="<?php echo ImagesPath?>/img contact us.webp" alt="Contact us voov women">
-            <div class="circle green"></div>
-            <div class="circle yellow"></div>
-        </div>
+<section class="Our-Clients">
+    <div class="container">
+        <h2 class="title">Our Clients</h2>
+        <p>Our clients are middle-size and large companies in different industries or niche markets, such as technology, real estate agencies, title companies, insurance firms, escrow financial services, mortgage firms, construction, and more.  We serve clients across the United States and Latin America.</p>
+        <picture class="grid">
+            <img src="<?php echo ImagesPath?>/Rocket-title-logo.webp" alt="Rocket title logo">
+            <img src="<?php echo ImagesPath?>/805s-escrow-logo.webp" alt="805 escrow logo">
+            <img src="<?php echo ImagesPath?>/Atlantic-sothebys.webp" alt="Atlantic sothebys logo">
+            <img src="<?php echo ImagesPath?>/Units-logo.webp" alt="Units logo">
+        </picture>
     </div>
 </section>
-
 <?php get_footer();?>

@@ -41,3 +41,11 @@ form .forminator-button-submit{
     border-radius: 15px!important;
     background-color: white!important;
 }
+@media screen and (max-width:600px ) {
+    .forminator-ui.forminator-custom-form{
+        flex-direction: column!important;
+    }
+    .et-db #et-boc .et_pb_module .forminator-ui.forminator-custom-form[data-design=default] .forminator-button, .forminator-ui.forminator-custom-form[data-design=default] .forminator-button{
+        min-width:200px!important;
+    }
+}

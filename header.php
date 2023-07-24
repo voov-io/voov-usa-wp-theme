@@ -14,38 +14,7 @@
     <title>VOOV</title>
     <link rel="shortcut icon" href="<?php echo themepath?>/favicon.png" type="image/x-icon">
     <!-- Proudly developed by Jehaann Manzanares - email me jehaann07carlos@gmail.com-->
-       <!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-53HX2LZ');
-		</script>
-	<!-- End Google Tag Manager -->
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '217068084278854');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=217068084278854&ev=PageView&noscript=1"
-    /></noscript>
-<!-- End Meta Pixel Code -->
-
-    <script type="text/javascript">
-        var templateUrl = '<?= get_bloginfo("template_url"); ?>';
-    </script>
-<!--Mailchimp -->
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1a35170dfe5ab57caa141e3c4/12944531c8a6d4ebce2806500.js");</script>        
-        <?php wp_head(); ?> 
+    <?php wp_head(); ?> 
 </head>
 <?php if(!is_front_page()):?>
 <style>
@@ -70,7 +39,7 @@
             <?php if(is_front_page()):?>
             <picture class="logo__container">
                     <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/VOOVLogo.webp">
-                    <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/VOOV_NIC_BRANDBOARD-04.webp" alt="VOOV Logo">
+                    <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/VOOVLogo.webp" alt="VOOV Logo">
             </picture>
             <?php endif?>
             </a>
@@ -85,13 +54,12 @@
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">
-                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Executive Associates</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/inside-sales-service">Inside Sales</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Real Estate Staffing Solutions</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">MarketingAgency</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Skill Cloud Staffing</a></li>
                         </ul>
                     </li>
-                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Blog</a></li>
+                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Company Resources</a></li>
                     <li class="item"><a href="<?php echo home_url();?>/contact" class="btn yellow">Contact Us</a></li>
                 </ul>
                 <button class="McButton" id="McButton"  aria-label="hambuerguer menu">
