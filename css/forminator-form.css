@@ -41,6 +41,7 @@ form .forminator-button-submit{
     border-radius: 15px!important;
     background-color: white!important;
 }
+<<<<<<< HEAD
 
 .forminator-ui#forminator-module-481.forminator-design--default .forminator-select2 + .forminator-select .selection .select2-selection--single[role="combobox"] {
     border-color: #777771;
@@ -48,4 +49,13 @@ form .forminator-button-submit{
     padding: .5rem;
     border-radius: 2rem;
 
+=======
+@media screen and (max-width:600px ) {
+    .forminator-ui.forminator-custom-form{
+        flex-direction: column!important;
+    }
+    .et-db #et-boc .et_pb_module .forminator-ui.forminator-custom-form[data-design=default] .forminator-button, .forminator-ui.forminator-custom-form[data-design=default] .forminator-button{
+        min-width:200px!important;
+    }
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
 }

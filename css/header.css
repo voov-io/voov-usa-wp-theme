@@ -1,8 +1,14 @@
 header{
-    position: absolute;
     width: 100%;
     z-index: 2;
     background-color: white;
+<<<<<<< HEAD
+=======
+}
+header .container{
+  padding-bottom:1rem ;
+  padding-top: 1rem;
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
 }
 .menu--items{
     gap: 3em;
@@ -12,8 +18,13 @@ header{
     font-weight: 700;
 
 }
+<<<<<<< HEAD
 .menu--items .item a,.menu--items .item{
     color: rgb(0, 0, 0);
+=======
+.menu--items .item a{
+    color: black;
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
 }
 
 .menu--items .item img{ 
@@ -72,6 +83,7 @@ header .item {
 
   .item.withsubitems{
     position: relative;
+    color: black;
   }
   .subitems-container{
     position: absolute;
@@ -106,7 +118,9 @@ header .item {
 
 
   @media screen and (max-width:806px) {
-
+    header .container.flex{
+     flex-direction: initial;
+    }
     .menu--items{
       display: none;
       position: absolute;

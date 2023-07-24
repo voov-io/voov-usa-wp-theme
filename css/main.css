@@ -2,9 +2,15 @@ main{
 
     position: relative;
     overflow: hidden;
+    height: 80vh;
+}
+main h1{
+   
+}
+main .container .copy-container p{
+    margin-bottom: 1em;
 }
 main .container{
-   padding-top: 10em;
    padding-bottom: 0;
 }
 
@@ -12,8 +18,7 @@ main .container{
  position: relative;
 }
 .img-container img{
-    position: absolute;
-    bottom: 0;
+
     width: 95%;
     right: 0;
 }
@@ -42,7 +47,7 @@ main .container{
 }
 .img-container .title p{
     font-size: 0.9rem;
-    color: black;
+    color: white;
     margin: 0;
 }
 main .container .copy-container{
@@ -56,9 +61,7 @@ main .container .copy-container p{
 main .container .copy-container .btn{
     display: inline-block;
 }
-main .container .copy-container p{
-    margin-bottom: 1em;
-}
+
 
 main .circle{
     position: absolute;

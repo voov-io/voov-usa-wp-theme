@@ -6,7 +6,11 @@
    }
    .services .container{
        gap: 2.5em;
+<<<<<<< HEAD
        grid-template-columns: repeat(auto-fill, minmax(20%,1fr ));
+=======
+       grid-template-columns: repeat(auto-fill, minmax(25%,1fr ));
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
        width: 100%;
    }
    .services .container h2, .services .container  p{

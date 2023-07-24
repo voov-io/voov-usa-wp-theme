@@ -14,10 +14,14 @@
     <title>VOOV</title>
     <link rel="shortcut icon" href="<?php echo themepath?>/favicon.png" type="image/x-icon">
     <!-- Proudly developed by Jehaann Manzanares - email me jehaann07carlos@gmail.com-->
+<<<<<<< HEAD
     <script type="text/javascript">
         var templateUrl = '<?= get_bloginfo("template_url"); ?>';
     </script>
 <?php wp_head(); ?> 
+=======
+    <?php wp_head(); ?> 
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
 </head>
 <?php if(!is_front_page()):?>
 <style>
@@ -40,7 +44,17 @@
                         <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/voov-marketing-agency-logo.webp">
                         <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/voov-marketing-agency-logo.webp" alt="VOOV Logo">
                 </picture>
+<<<<<<< HEAD
                 <?php endif?>
+=======
+            <?php endif?>
+            <?php if(is_front_page()):?>
+            <picture class="logo__container">
+                    <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/VOOVLogo.webp">
+                    <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/VOOVLogo.webp" alt="VOOV Logo">
+            </picture>
+            <?php endif?>
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
             </a>
             <nav class="menu__container " id="btns__menu">
                 <ul class="menu--items flex ">
@@ -53,14 +67,18 @@
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">
-                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Fractional Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">Marketing</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Executive Associates</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/inside-sales-service">Inside Sales</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Real Estate Staffing Solutions</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">MarketingAgency</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Skill Cloud Staffing</a></li>
                         </ul>
                     </li>
+<<<<<<< HEAD
                     <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Blog</a></li>
                     <li class="item"><a href="<?php echo home_url();?>/contact" class="btn red">Contact Us</a></li>
+=======
+                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Company Resources</a></li>
+                    <li class="item"><a href="<?php echo home_url();?>/contact" class="btn yellow">Contact Us</a></li>
+>>>>>>> d989a2a5e37685f9be05ebe2d73760bbe9608f36
                 </ul>
                 <button class="McButton" id="McButton"  aria-label="hambuerguer menu">
                             <b id="McBar1"></b>
