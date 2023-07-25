@@ -131,3 +131,32 @@ display: none!important;
     margin: auto 0;
     left: 0;
 }
+.Our-Clients{
+     
+}
+.testimonials-container{
+    grid-template-columns: repeat(auto-fill, minmax(18rem,1fr))!important;
+}
+.testimonial-container{
+    max-width: 20rem;
+    width: 85vw;
+}
+.testimonial-container h3{
+    margin-bottom: 0;
+}
+.testimonial-container hr{
+    margin: 1rem 0;
+}
+.testimonial-container img{
+    width: 100px;
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+.testimonial-container .flex{
+    align-items: center;
+}
+.testimonial-container .starts{
+    color: var(--colorYellow);
+    font-size: 1.2em;
+
+}

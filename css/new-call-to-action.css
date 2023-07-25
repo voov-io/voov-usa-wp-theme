@@ -9,7 +9,9 @@
 }
 
 .back-icon{
-    width: 19.15rem;
+    width: 100vw;
+    height: auto;
+    max-width: 19.15rem;
     position: absolute;
     top: -50%;
     left: 0;

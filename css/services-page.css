@@ -227,20 +227,22 @@
 }
 #contact-us input,#contact-us textarea,#contact-us ::placeholder,.forminator-checkbox-label{
     background-color: transparent!important;
-    border-color: white!important;
-    color: white!important;
+    border-color: #828282!important;
+    color: #21146F!important;
     
 }
-
+.call-to-action-new .forminator-ui#forminator-module-5.forminator-design--default .forminator-label{
+    display: none!important;
+}
 #contact-us .forminator-ui#forminator-module-116.forminator-design--default .forminator-label{
     display: block!important;
-    color: white;
+    color: 828282;
     margin-left: .5em;
     font-size: 1.1em;
 }
 
 #contact-us .forminator-checkbox-label{
-    color: white!important;
+    color: 828282!important;
 }
 
 .about-service .container-copy{
