@@ -3,10 +3,6 @@ header{
     z-index: 2;
     background-color: white;
 }
-header .container{
-  padding-bottom:1rem ;
-  padding-top: 1rem;
-}
 .menu--items{
     gap: 3em;
 }
@@ -15,8 +11,8 @@ header .container{
     font-weight: 700;
 
 }
-.menu--items .item a{
-    color: black;
+.menu--items .item a,.menu--items .item{
+    color: rgb(0, 0, 0);
 }
 
 .menu--items .item img{ 

@@ -1,0 +1,26 @@
+.features.greyColor.Testimonial {
+}
+.features.greyColor.Testimonial .container {
+
+}
+
+.features.greyColor.Testimonial .icon-user{
+    width: 76px;
+    height: 76px;
+    margin-right: 1.5rem;
+}
+
+.start-review{
+    color: var(--colorYellow);
+    font-size: 33px;
+}
+.copy-head{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    gap: 0!important;
+    justify-content: flex-start!important;
+}
+
+.copy-head .copy-name h3{
+    margin: 0;
+}

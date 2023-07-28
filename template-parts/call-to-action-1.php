@@ -11,7 +11,7 @@
                     <img width="50" height="50" loading="lazy" src="<?php echo IconsPath?>/Arrow 3.svg" alt="icon arrow"></a>
             </div>
             <picture class="img-container">
-                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/portrait-man-foding-his-hands-call-to-action.webp" alt="call to action images ">
+                <img width="370" height="450" loading="lazy" src="<?php echo ImagesPath?>/IMG_20230216_103636898_BURST000_COVER 2.webp" alt="call to action images ">
             </picture>
         </div>
    </section>

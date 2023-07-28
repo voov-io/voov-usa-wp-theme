@@ -1,0 +1,7 @@
+.Portfolio .container-features.grid.threeColumns{
+    place-items: center;
+}
+
+.Portfolio .feature.flex.colum .icon{
+    width: 20rem!important;
+}

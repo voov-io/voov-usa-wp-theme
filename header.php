@@ -14,7 +14,10 @@
     <title>VOOV</title>
     <link rel="shortcut icon" href="<?php echo themepath?>/favicon.png" type="image/x-icon">
     <!-- Proudly developed by Jehaann Manzanares - email me jehaann07carlos@gmail.com-->
-    <?php wp_head(); ?> 
+    <script type="text/javascript">
+        var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+    </script>
+<?php wp_head(); ?> 
 </head>
 <?php if(!is_front_page()):?>
 <style>
@@ -24,14 +27,15 @@
 </style>
 <?php endif?>
 <body  <?php body_class();?>>
-    <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53HX2LZ"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
      <header   <?php if(!is_front_page()):?> style="background-color:white;color:black!important;position:initial" <?php endif?>>
         <div class="container flex space-between">
             <a href="<?php echo home_url();?>">
-            <?php if(!is_front_page()):?>
+                <?php if(!is_front_page()):?>
+                    <picture class="logo__container">
+                        <img width="180" height="55" class="logo" src="<?php echo ImagesPath?>/voov-marketing-agency-logo.webp" alt="VOOV Logo">
+                    </picture>
+                <?php endif?>
+                <?php if(is_front_page()):?>
                 <picture class="logo__container">
                     <img width="180" height="55" class="logo" src="<?php echo ImagesPath?>/voov group logo.webp" alt="VOOV Group Logo">
                 </picture>
@@ -59,8 +63,8 @@
                             <li><a class="subitem" href="<?php echo home_url();?>/skill-cloud-staffing">Skill Cloud Staffing</a></li>
                         </ul>
                     </li>
-                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Company Resources</a></li>
-                    <li class="item"><a href="<?php echo home_url();?>/contact" class="btn yellow">Contact Us</a></li>
+                    <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Blog</a></li>
+                    <li class="item"><a href="<?php echo home_url();?>/contact" class="btn red">Contact Us</a></li>
                 </ul>
                 <button class="McButton" id="McButton"  aria-label="hambuerguer menu">
                             <b id="McBar1"></b>
