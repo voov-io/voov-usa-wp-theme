@@ -33,13 +33,13 @@
             <a href="<?php echo home_url();?>">
             <?php if(!is_front_page()):?>
                 <picture class="logo__container">
-                    <img width="180" height="55" class="logo" src="<?php echo ImagesPath?>/VOOVLogo.webp" alt="VOOV Logo">
+                    <img width="180" height="55" class="logo" src="<?php echo ImagesPath?>/voov group logo.webp" alt="VOOV Group Logo">
                 </picture>
             <?php endif?>
             <?php if(is_front_page()):?>
             <picture class="logo__container">
-                    <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/VOOVLogo.webp">
-                    <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/VOOVLogo.webp" alt="VOOV Logo">
+                    <source media="(min-width:575px)" srcset="<?php echo ImagesPath?>/voov group logo.webp">
+                    <img width="180" height="55"  class="logo" src="<?php echo ImagesPath?>/voov group logo.webp" alt="VOOV Group Logo">
             </picture>
             <?php endif?>
             </a>
@@ -54,9 +54,9 @@
                     <li class="item withsubitems" <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> >Services<img width="10" height="10" class="tringleicon" src="<?php echo IconsPath?>/triangle-menu.svg" alt="icon triangle">
                         
                         <ul class="subitems-container">
-                            <li><a class="subitem" href="<?php echo home_url();?>/fractional-marketing-solutions">Real Estate Staffing Solutions</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-specialist">MarketingAgency</a></li>
-                            <li><a class="subitem" href="<?php echo home_url();?>/executive-associates">Skill Cloud Staffing</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/real-estate-virtual-staffing/">Real Estate Staffing Solutions</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/marketing-agency">Marketing Agency</a></li>
+                            <li><a class="subitem" href="<?php echo home_url();?>/skill-cloud-staffing">Skill Cloud Staffing</a></li>
                         </ul>
                     </li>
                     <li class="item"><a  <?php if(!is_front_page()):?> style="color:black!important" <?php endif?> href="<?php echo home_url();?>/blog">Company Resources</a></li>

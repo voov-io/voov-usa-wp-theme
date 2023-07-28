@@ -25,18 +25,29 @@ form .forminator-field .forminator-input{
     padding: 1em!important;
     border-radius: 5em!important;
     margin-left: .5em!important;
-    background-color: white!important;
+    background-color: transparent!important;
+    border: 1px solid!important;
 }
-
+.call-to-action form .forminator-field .forminator-input{
+    border: 1px solid white!important;
+    color: white!important;
+}
+.call-to-action form .forminator-field .forminator-input::placeholder{
+    color: white!important;
+}
 /*submit button*/
 form .forminator-button-submit{
     border-radius: var(--borderRadius)!important;
     background-color: var(--colorRed)!important;
-    padding: 1em 3em!important;
+    padding: 1em!important;
     font-size: 1em!important;
     font-weight: 700!important;
+    width: 11rem!important;
 }
-
+.call-to-action form .forminator-button-submit{
+    background-color: var(--colorYellow)!important;
+    border-radius: 5rem!important;
+}
 .forminator-textarea{
     border-radius: 15px!important;
     background-color: white!important;

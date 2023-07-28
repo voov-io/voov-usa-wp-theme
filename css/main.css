@@ -2,7 +2,6 @@ main{
 
     position: relative;
     overflow: hidden;
-    height: 80vh;
 }
 main h1{
    
@@ -18,9 +17,9 @@ main .container{
  position: relative;
 }
 .img-container img{
-
-    width: 95%;
-    right: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 .img-container .title{
     position: absolute;
