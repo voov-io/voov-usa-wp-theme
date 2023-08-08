@@ -17,7 +17,7 @@
                     ?>
             </div>
             <picture class="img-container">
-                <img  width="640" height="360" src="<?php echo ImagesPath?>/voov group - team members.webp" alt="Kris Weaver - Chief Visionary Officer- VOOV & President of  Atlantic Sotheby's International, Virginia Beach">
+                <img class="img" width="640" height="360" src="<?php echo ImagesPath?>/voov group - team members.webp" alt="Kris Weaver - Chief Visionary Officer- VOOV & President of  Atlantic Sotheby's International, Virginia Beach">
             </picture>
         </div>
 </main>
@@ -25,20 +25,20 @@
     <div class="container grid center">
         <article class="service-container">
             <a class="flex center center" href="<?php echo home_url();?>/real-estate-virtual-staffing">
-                <img class="icon x2" src="<?php echo IconsPath?>/Telemarketing Services.svg" alt="icon service">
-                <h2>Real Estate<br> Staffing Solutions</h2>
+                <img class="img" src="<?php echo ImagesPath?>/VOOV Real Estate Staffing Logo.webp" alt="icon service">
+                <h2>In-office<br>Real Estate<br> Staffing Solutions</h2>
             </a>
         </article>
         <article class="service-container">
             <a class="flex center center" href="<?php echo home_url();?>/marketing-agency">
-                <img class="icon x2" src="<?php echo IconsPath?>/Marketing Services.svg" alt="icon service">
-                <h2>Marketing<br>Agency</h2>
+                <img class="" src="<?php echo ImagesPath?>/VOOV marketing Agency-logo.webp" alt="icon service">
+                <h2>Marketing <br>Services to elevate<br> your business</h2>
             </a>
         </article>
         <article class="service-container">
             <a class="flex center center" href="<?php echo home_url();?>/skill-cloud-staffing">
-                <img class="icon x2" src="<?php echo IconsPath?>/Cloud_1_.svg" alt="icon service">
-                <h2>Skill Cloud<br> Staffing</h2>
+                <img class="" src="<?php echo ImagesPath?>/SkillCloud Staffing-logo.webp" alt="icon service">
+                <h2>From-home<br>Virtual Staffing<br> Solutions</h2>
             </a>
         </article>
     </div>
@@ -53,7 +53,7 @@
         </div>
         <picture class="img-container-sect-3">
             <source media="(min-width:650px)" srcset="" sizes="">
-            <img width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/What is VOOV Group.webp" alt="young profesional women ">
+            <img class="img" width="500" height="600" loading="lazy" src="<?php echo ImagesPath?>/What is VOOV Group.webp" alt="young profesional women ">
         </picture>
     </div>
 </section>
@@ -62,7 +62,7 @@
         <h2 class="title">Our Lines of Businesses</h2>
         <div class="lines-container grid">
             <article class="line">
-                <img src="<?php echo ImagesPath?>/REAL ESTATE VIRTUAL STAFFING SOLUTIONS.webp" alt="voov - VIRTUAL MARKETING AGENCY">
+                <img src="<?php echo ImagesPath?>/REAL ESTATE VIRTUAL STAFFING SOLUTIONSnew.webp" alt="voov - VIRTUAL MARKETING AGENCY">
                 <div class="copy-services colorGreen">
                     <h3 class="title colorGreen">REAL ESTATE VIRTUAL STAFFING SOLUTIONS</h3>
                     <p class="white">Find new ways to grow middle-size to large real estate companies through upscale, virtual staffing in marketing, administrative and inside sales services.<br>
@@ -71,7 +71,7 @@
                 </div>
             </article>
             <article class="line">
-            <img src="<?php echo ImagesPath?>/voov - VIRTUAL MARKETING AGENCY (1).webp" alt="voov - VIRTUAL MARKETING AGENCY">
+            <img src="<?php echo ImagesPath?>/voov - VIRTUAL MARKETING AGENCY-new.webp" alt="voov - VIRTUAL MARKETING AGENCY">
                
                 <div class="copy-services colorYellow">
                     <h3 class="title colorYellow">VIRTUAL MARKETING AGENCY</h3>
@@ -81,7 +81,7 @@
                 </div>
             </article>
             <article class="line">
-            <img src="<?php echo ImagesPath?>/SKILLCLOUD - VIRTUAL STAFFING (1).webp" alt="voov - VIRTUAL MARKETING AGENCY">
+            <img src="<?php echo ImagesPath?>/SKILLCLOUD - VIRTUAL STAFFING-new.webp" alt="voov - VIRTUAL MARKETING AGENCY">
                 
                 <div class="copy-services colorBluesky">
                 <h3 class="title colorBluesky">SKILLCLOUD VIRTUAL STAFFING</h3>
